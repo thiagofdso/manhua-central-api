@@ -87,6 +87,9 @@ func main() {
 	streamer := proxy.NewStreamer(ssrfGuard)
 	readerHandler := handlers.NewReaderHandler(streamer, canonicalRepo)
 
+	batchService := service.NewBatchService(canonicalRepo, 5, nil)
+	batchHandler := handlers.NewBatchHandler(batchService)
+
 	ratingRepo := repository.NewPostgresRatingRepository(pgDB.DB, redisClient)
 	rankingService := service.NewRankingService(ratingRepo, canonicalRepo, redisClient)
 	rankingHandler := handlers.NewRankingHandler(rankingService)
@@ -121,6 +124,9 @@ func main() {
 
 	// Reader Endpoints
 	readerHandler.RegisterRoutes(mux)
+
+	// Batch Chapter Download Endpoints
+	batchHandler.RegisterRoutes(mux)
 
 	// Ranking & Ratings Endpoints
 	rankingHandler.RegisterRoutes(mux, authMiddleware)
