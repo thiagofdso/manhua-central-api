@@ -12,10 +12,12 @@ import (
 	"time"
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/auth"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/handlers"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/middleware"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/proxy"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/scheduler"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/migrations"
 )
@@ -94,6 +96,16 @@ func main() {
 	rankingService := service.NewRankingService(ratingRepo, canonicalRepo, redisClient)
 	rankingHandler := handlers.NewRankingHandler(rankingService)
 
+	notifRepo := repository.NewPostgresNotificationRepository(pgDB.DB)
+	sched := scheduler.NewScheduler(pgDB.DB, canonicalRepo, notifRepo, func(ctx context.Context, m *domain.CanonicalManhua) (int, error) {
+		current := 0
+		if m.LastChapter != nil {
+			current = *m.LastChapter
+		}
+		return current + 1, nil
+	})
+	notifHandler := handlers.NewNotificationsHandler(notifRepo, sched.RunRoutineCheck)
+
 	if redisClient != nil {
 		if err := rankingService.WarmUp(context.Background()); err != nil {
 			log.Printf("[WARN] Failed to warm up ranking cache: %v", err)
@@ -130,6 +142,9 @@ func main() {
 
 	// Ranking & Ratings Endpoints
 	rankingHandler.RegisterRoutes(mux, authMiddleware)
+
+	// Notifications & Routine Endpoints
+	notifHandler.RegisterRoutes(mux, authMiddleware)
 
 	// User Endpoints (Protected)
 	mux.Handle("/api/users/me", authMiddleware.RequireAuth(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
