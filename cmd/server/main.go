@@ -14,6 +14,7 @@ import (
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/auth"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/handlers"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/middleware"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/proxy"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/migrations"
@@ -82,6 +83,10 @@ func main() {
 	libraryService := service.NewLibraryService(libraryRepo, canonicalRepo)
 	libraryHandler := handlers.NewLibraryHandler(libraryService)
 
+	ssrfGuard := proxy.NewSSRFGuard(proxy.DefaultAllowedDomains)
+	streamer := proxy.NewStreamer(ssrfGuard)
+	readerHandler := handlers.NewReaderHandler(streamer, canonicalRepo)
+
 	mux := http.NewServeMux()
 
 	// Health check
@@ -102,6 +107,9 @@ func main() {
 
 	// Library Endpoints (Protected)
 	libraryHandler.RegisterRoutes(mux, authMiddleware)
+
+	// Reader Endpoints
+	readerHandler.RegisterRoutes(mux)
 
 	// User Endpoints (Protected)
 	mux.Handle("/api/users/me", authMiddleware.RequireAuth(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
