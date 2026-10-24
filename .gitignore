@@ -1,0 +1,23 @@
+# Binaries
+bin/
+/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+manhua-api
+
+# Test artifacts
+*.test
+*.out
+coverage.txt
+
+# Environment and secrets
+.env
+*.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp

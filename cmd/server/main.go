@@ -1,0 +1,162 @@
+package main
+
+import (
+	"context"
+	"flag"
+	"fmt"
+	"log"
+	"net/http"
+	"os"
+	"os/signal"
+	"syscall"
+	"time"
+
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/auth"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/handlers"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/middleware"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/migrations"
+)
+
+func main() {
+	healthcheckFlag := flag.Bool("healthcheck", false, "Execute health check probe and exit")
+	flag.Parse()
+
+	port := getEnv("PORT", "8080")
+
+	// If health check probe flag is set, ping /healthz and exit 0 (healthy) or 1 (unhealthy)
+	if *healthcheckFlag {
+		resp, err := http.Get(fmt.Sprintf("http://127.0.0.1:%s/healthz", port))
+		if err != nil || resp.StatusCode != http.StatusOK {
+			os.Exit(1)
+		}
+		os.Exit(0)
+	}
+
+	databaseURL := getEnv("DATABASE_URL", "postgres://manhua_user:manhua_secure_password_change_me@localhost:5432/manhua_pro?sslmode=disable")
+	redisURL := getEnv("REDIS_URL", "redis://:redis_secure_password_change_me@localhost:6379/0")
+	jwtSecret := getEnv("JWT_SECRET", "super_secret_jwt_hmac_sha256_minimum_32_characters_key")
+	refreshSecret := getEnv("REFRESH_SECRET", "super_secret_refresh_jwt_minimum_32_characters_key")
+	googleClientID := getEnv("GOOGLE_CLIENT_ID", "")
+
+	log.Println("[INFO] Initializing PostgreSQL connection pool...")
+	pgDB, err := repository.NewPostgresDB(databaseURL)
+	if err != nil {
+		log.Fatalf("[FATAL] Failed to connect to PostgreSQL: %v", err)
+	}
+	defer pgDB.Close()
+
+	log.Println("[INFO] Running embedded database migrations...")
+	if err := pgDB.RunMigrationsFS(migrations.FS, "."); err != nil {
+		log.Fatalf("[FATAL] Failed to run database migrations: %v", err)
+	}
+	log.Println("[INFO] Database migrations applied successfully.")
+
+	log.Println("[INFO] Initializing Redis connection pool...")
+	redisClient, err := repository.NewRedisClient(redisURL)
+	if err != nil {
+		log.Printf("[WARN] Failed to connect to Redis: %v (continuing with degraded leaderboard caching)", err)
+	} else {
+		defer redisClient.Close()
+		log.Println("[INFO] Redis connection pool active.")
+	}
+
+	// Initialize Services & Handlers
+	userRepo := repository.NewPostgresUserRepository(pgDB.DB)
+	canonicalRepo := repository.NewPostgresCanonicalRepository(pgDB.DB)
+
+	// Seed canonical manhuas if empty
+	if err := repository.SeedInitialCanonicalManhuas(context.Background(), canonicalRepo); err != nil {
+		log.Printf("[WARN] Failed to seed initial canonical manhuas: %v", err)
+	}
+
+	jwtService := auth.NewJWTService(jwtSecret, refreshSecret, 15*time.Minute, 7*24*time.Hour)
+	googleVerifier := auth.NewGoogleVerifier(googleClientID)
+	authService := auth.NewAuthService(userRepo, jwtService, googleVerifier)
+	authHandler := handlers.NewAuthHandler(authService)
+	authMiddleware := middleware.NewAuthMiddleware(jwtService)
+	catalogHandler := handlers.NewCatalogHandler(canonicalRepo)
+
+	mux := http.NewServeMux()
+
+	// Health check
+	mux.HandleFunc("/healthz", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write([]byte(`{"status":"ok","timestamp":"` + time.Now().UTC().Format(time.RFC3339) + `"}`))
+	})
+
+	// Auth Endpoints
+	mux.HandleFunc("/api/auth/register", authHandler.Register)
+	mux.HandleFunc("/api/auth/login", authHandler.Login)
+	mux.HandleFunc("/api/auth/google", authHandler.GoogleAuth)
+	mux.HandleFunc("/api/auth/refresh", authHandler.Refresh)
+
+	// Catalog Endpoints
+	catalogHandler.RegisterRoutes(mux)
+
+	// User Endpoints (Protected)
+	mux.Handle("/api/users/me", authMiddleware.RequireAuth(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		switch r.Method {
+		case http.MethodGet:
+			authHandler.GetCurrentUser(w, r)
+		case http.MethodDelete:
+			authHandler.DeleteCurrentUser(w, r)
+		default:
+			http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+		}
+	})))
+
+	handlerWithCORS := corsMiddleware(mux)
+
+	server := &http.Server{
+		Addr:         ":" + port,
+		Handler:      handlerWithCORS,
+		ReadTimeout:  15 * time.Second,
+		WriteTimeout: 30 * time.Second,
+		IdleTimeout:  60 * time.Second,
+	}
+
+	go func() {
+		log.Printf("[INFO] API Gateway server listening on port :%s", port)
+		if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+			log.Fatalf("[FATAL] HTTP server error: %v", err)
+		}
+	}()
+
+	quit := make(chan os.Signal, 1)
+	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
+	<-quit
+	log.Println("[INFO] Shutting down API Gateway gracefully...")
+
+	shutdownCtx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	if err := server.Shutdown(shutdownCtx); err != nil {
+		log.Fatalf("[ERROR] Server forced to shutdown: %v", err)
+	}
+
+	log.Println("[INFO] API Gateway exited cleanly.")
+}
+
+func corsMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With")
+
+		if r.Method == http.MethodOptions {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
+}
+
+func getEnv(key, defaultVal string) string {
+	if val, ok := os.LookupEnv(key); ok && val != "" {
+		return val
+	}
+	return defaultVal
+}
