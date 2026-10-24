@@ -8,6 +8,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/lib/pq"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 )
 
@@ -19,6 +20,7 @@ type CanonicalRepository interface {
 	Create(ctx context.Context, m *domain.CanonicalManhua) error
 	GetByID(ctx context.Context, id int64) (*domain.CanonicalManhua, error)
 	GetBySlug(ctx context.Context, slug string) (*domain.CanonicalManhua, error)
+	GetByIDs(ctx context.Context, ids []int64) ([]*domain.CanonicalManhua, error)
 	Update(ctx context.Context, m *domain.CanonicalManhua) error
 	List(ctx context.Context, filter domain.CatalogFilter) (*domain.CatalogSearchResult, error)
 	UpsertBatch(ctx context.Context, items []*domain.CanonicalManhua) error
@@ -113,6 +115,44 @@ func (r *PostgresCanonicalRepository) GetBySlug(ctx context.Context, slug string
 	`
 	row := r.db.QueryRowContext(ctx, query, slug)
 	return scanCanonical(row)
+}
+
+func (r *PostgresCanonicalRepository) GetByIDs(ctx context.Context, ids []int64) ([]*domain.CanonicalManhua, error) {
+	if len(ids) == 0 {
+		return []*domain.CanonicalManhua{}, nil
+	}
+
+	query := `
+		SELECT id, slug, title, alternative_titles, synopsis, cover_url,
+		       primary_domain, url_template, last_chapter, update_day,
+		       is_hiatus, bayesian_rating, total_votes, total_views, created_at, updated_at
+		FROM canonical_manhuas
+		WHERE id = ANY($1);
+	`
+	rows, err := r.db.QueryContext(ctx, query, pq.Array(ids))
+	if err != nil {
+		return nil, fmt.Errorf("failed to query canonical manhuas by ids: %w", err)
+	}
+	defer rows.Close()
+
+	itemsMap := make(map[int64]*domain.CanonicalManhua)
+	for rows.Next() {
+		m, err := scanCanonicalRows(rows)
+		if err != nil {
+			return nil, fmt.Errorf("failed to scan canonical row: %w", err)
+		}
+		itemsMap[m.ID] = m
+	}
+
+	// Preserve the exact order of the input `ids` slice
+	ordered := make([]*domain.CanonicalManhua, 0, len(ids))
+	for _, id := range ids {
+		if item, found := itemsMap[id]; found {
+			ordered = append(ordered, item)
+		}
+	}
+
+	return ordered, nil
 }
 
 func (r *PostgresCanonicalRepository) Update(ctx context.Context, m *domain.CanonicalManhua) error {

@@ -34,6 +34,13 @@ func (m *mockCanonicalReaderRepo) GetBySlug(ctx context.Context, slug string) (*
 	return nil, nil
 }
 
+func (m *mockCanonicalReaderRepo) GetByIDs(ctx context.Context, ids []int64) ([]*domain.CanonicalManhua, error) {
+	if m.manhua != nil {
+		return []*domain.CanonicalManhua{m.manhua}, nil
+	}
+	return []*domain.CanonicalManhua{}, nil
+}
+
 func (m *mockCanonicalReaderRepo) Update(ctx context.Context, item *domain.CanonicalManhua) error {
 	return nil
 }

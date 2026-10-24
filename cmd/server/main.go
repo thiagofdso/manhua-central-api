@@ -87,6 +87,17 @@ func main() {
 	streamer := proxy.NewStreamer(ssrfGuard)
 	readerHandler := handlers.NewReaderHandler(streamer, canonicalRepo)
 
+	ratingRepo := repository.NewPostgresRatingRepository(pgDB.DB, redisClient)
+	rankingService := service.NewRankingService(ratingRepo, canonicalRepo, redisClient)
+	rankingHandler := handlers.NewRankingHandler(rankingService)
+
+	if redisClient != nil {
+		if err := rankingService.WarmUp(context.Background()); err != nil {
+			log.Printf("[WARN] Failed to warm up ranking cache: %v", err)
+		}
+		rankingService.StartBackgroundSync(context.Background(), 15*time.Minute)
+	}
+
 	mux := http.NewServeMux()
 
 	// Health check
@@ -110,6 +121,9 @@ func main() {
 
 	// Reader Endpoints
 	readerHandler.RegisterRoutes(mux)
+
+	// Ranking & Ratings Endpoints
+	rankingHandler.RegisterRoutes(mux, authMiddleware)
 
 	// User Endpoints (Protected)
 	mux.Handle("/api/users/me", authMiddleware.RequireAuth(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

@@ -42,6 +42,19 @@ func (m *mockCanonicalRepo) GetBySlug(ctx context.Context, slug string) (*domain
 	return nil, repository.ErrCanonicalNotFound
 }
 
+func (m *mockCanonicalRepo) GetByIDs(ctx context.Context, ids []int64) ([]*domain.CanonicalManhua, error) {
+	var res []*domain.CanonicalManhua
+	for _, id := range ids {
+		for _, it := range m.items {
+			if it.ID == id {
+				res = append(res, it)
+				break
+			}
+		}
+	}
+	return res, nil
+}
+
 func (m *mockCanonicalRepo) Update(ctx context.Context, item *domain.CanonicalManhua) error {
 	for i, it := range m.items {
 		if it.ID == item.ID {
