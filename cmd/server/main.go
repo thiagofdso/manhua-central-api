@@ -15,6 +15,7 @@ import (
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/handlers"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/middleware"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/migrations"
 )
 
@@ -77,6 +78,10 @@ func main() {
 	authMiddleware := middleware.NewAuthMiddleware(jwtService)
 	catalogHandler := handlers.NewCatalogHandler(canonicalRepo)
 
+	libraryRepo := repository.NewPostgresLibraryRepository(pgDB.DB)
+	libraryService := service.NewLibraryService(libraryRepo, canonicalRepo)
+	libraryHandler := handlers.NewLibraryHandler(libraryService)
+
 	mux := http.NewServeMux()
 
 	// Health check
@@ -94,6 +99,9 @@ func main() {
 
 	// Catalog Endpoints
 	catalogHandler.RegisterRoutes(mux)
+
+	// Library Endpoints (Protected)
+	libraryHandler.RegisterRoutes(mux, authMiddleware)
 
 	// User Endpoints (Protected)
 	mux.Handle("/api/users/me", authMiddleware.RequireAuth(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
