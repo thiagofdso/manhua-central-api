@@ -3,10 +3,12 @@ name: CI & Quality — Backend Core (Go)
 on:
   push:
     branches:
+      - master
       - main
       - desenv
   pull_request:
     branches:
+      - master
       - main
       - desenv
 
