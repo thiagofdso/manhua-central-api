@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"os/signal"
 	"syscall"
@@ -85,11 +86,30 @@ func main() {
 	libraryService := service.NewLibraryService(libraryRepo, canonicalRepo)
 	libraryHandler := handlers.NewLibraryHandler(libraryService)
 
+	scraperWorkerURL := getEnv("SCRAPER_WORKER_URL", "http://localhost:50051")
+	extractorService := service.NewExtractorService(scraperWorkerURL, nil)
+
 	ssrfGuard := proxy.NewSSRFGuard(proxy.DefaultAllowedDomains)
 	streamer := proxy.NewStreamer(ssrfGuard)
-	readerHandler := handlers.NewReaderHandler(streamer, canonicalRepo)
+	readerHandler := handlers.NewReaderHandler(streamer, canonicalRepo, extractorService)
 
-	batchService := service.NewBatchService(canonicalRepo, 5, nil)
+	batchExtractor := func(ctx context.Context, m *domain.CanonicalManhua, chapter int) ([]domain.BatchChapterImage, error) {
+		urls, err := extractorService.ExtractChapterImages(ctx, m, chapter)
+		if err != nil {
+			log.Printf("[WARN] Batch extraction failed for %s ch %d: %v", m.Slug, chapter, err)
+			return nil, err
+		}
+		res := make([]domain.BatchChapterImage, len(urls))
+		for i, u := range urls {
+			res[i] = domain.BatchChapterImage{
+				Index:    i + 1,
+				URL:      u,
+				ProxyURL: "/api/reader/proxy-image?url=" + url.QueryEscape(u),
+			}
+		}
+		return res, nil
+	}
+	batchService := service.NewBatchService(canonicalRepo, 5, batchExtractor)
 	batchHandler := handlers.NewBatchHandler(batchService)
 
 	ratingRepo := repository.NewPostgresRatingRepository(pgDB.DB, redisClient)

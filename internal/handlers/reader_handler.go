@@ -9,6 +9,7 @@ import (
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/proxy"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 )
 
 type ChapterImage struct {
@@ -28,14 +29,22 @@ type ChapterImagesResponse struct {
 }
 
 type ReaderHandler struct {
-	streamer      *proxy.Streamer
-	canonicalRepo repository.CanonicalRepository
+	streamer         *proxy.Streamer
+	canonicalRepo    repository.CanonicalRepository
+	extractorService *service.ExtractorService
 }
 
-func NewReaderHandler(streamer *proxy.Streamer, canonicalRepo repository.CanonicalRepository) *ReaderHandler {
+func NewReaderHandler(streamer *proxy.Streamer, canonicalRepo repository.CanonicalRepository, extractorService ...*service.ExtractorService) *ReaderHandler {
+	var ext *service.ExtractorService
+	if len(extractorService) > 0 && extractorService[0] != nil {
+		ext = extractorService[0]
+	} else {
+		ext = service.NewExtractorService("", nil)
+	}
 	return &ReaderHandler{
-		streamer:      streamer,
-		canonicalRepo: canonicalRepo,
+		streamer:         streamer,
+		canonicalRepo:    canonicalRepo,
+		extractorService: ext,
 	}
 }
 
@@ -116,29 +125,42 @@ func (h *ReaderHandler) GetChapterImages(w http.ResponseWriter, r *http.Request)
 	manhua.TotalViews++
 	_ = h.canonicalRepo.Update(r.Context(), manhua)
 
-	// Generate high quality reader panels
-	// In production, when web scrapers extract from chapter pages, this builds proxied image URLs.
-	// For seeded and catalog items, high-res panels are provided via allowlisted image CDNs.
-	panelCount := 6
-	images := make([]ChapterImage, 0, panelCount)
-
-	panelTemplates := []string{
-		"https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?auto=format&fit=crop&w=1200&q=80",
+	// Extract real chapter images from upstream domain
+	var images []ChapterImage
+	if h.extractorService != nil && manhua.URLTemplate != "" {
+		extractedURLs, err := h.extractorService.ExtractChapterImages(r.Context(), manhua, chapter)
+		if err == nil && len(extractedURLs) > 0 {
+			images = make([]ChapterImage, 0, len(extractedURLs))
+			for i, imgURL := range extractedURLs {
+				proxyURL := "/api/reader/proxy-image?url=" + url.QueryEscape(imgURL)
+				images = append(images, ChapterImage{
+					Index:    i + 1,
+					URL:      imgURL,
+					ProxyURL: proxyURL,
+				})
+			}
+		}
 	}
 
-	for i := 1; i <= panelCount; i++ {
-		imgURL := panelTemplates[(i-1)%len(panelTemplates)]
-		proxyURL := "/api/reader/proxy-image?url=" + url.QueryEscape(imgURL)
-		images = append(images, ChapterImage{
-			Index:    i,
-			URL:      imgURL,
-			ProxyURL: proxyURL,
-		})
+	// Fallback for mock/test catalog items or if upstream extraction is unavailable
+	if len(images) == 0 {
+		panelTemplates := []string{
+			"https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+			"https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
+			"https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+			"https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
+			"https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+			"https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?auto=format&fit=crop&w=1200&q=80",
+		}
+		for i := 1; i <= len(panelTemplates); i++ {
+			imgURL := panelTemplates[(i-1)%len(panelTemplates)]
+			proxyURL := "/api/reader/proxy-image?url=" + url.QueryEscape(imgURL)
+			images = append(images, ChapterImage{
+				Index:    i,
+				URL:      imgURL,
+				ProxyURL: proxyURL,
+			})
+		}
 	}
 
 	resp := ChapterImagesResponse{
