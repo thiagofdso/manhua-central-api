@@ -16,6 +16,7 @@ import (
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/handlers"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/middleware"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/providers"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/proxy"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/scheduler"
@@ -126,6 +127,15 @@ func main() {
 	})
 	notifHandler := handlers.NewNotificationsHandler(notifRepo, sched.RunRoutineCheck)
 
+	providerReg := providers.NewProviderRegistry()
+	providerReg.Register(providers.NewAsuraScansScraper())
+	providerReg.Register(providers.NewRavenScansScraper())
+	providerReg.Register(providers.NewMangaKScraper())
+	providerReg.Register(providers.NewManhuaTopScraper())
+
+	importService := service.NewImportService(providerReg, redisClient, canonicalRepo, libraryService)
+	importHandler := handlers.NewImportHandler(importService, jwtService)
+
 	if redisClient != nil {
 		if err := rankingService.WarmUp(context.Background()); err != nil {
 			log.Printf("[WARN] Failed to warm up ranking cache: %v", err)
@@ -165,6 +175,9 @@ func main() {
 
 	// Notifications & Routine Endpoints
 	notifHandler.RegisterRoutes(mux, authMiddleware)
+
+	// Import Endpoints
+	importHandler.RegisterRoutes(mux, authMiddleware)
 
 	// User Endpoints (Protected)
 	mux.Handle("/api/users/me", authMiddleware.RequireAuth(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
