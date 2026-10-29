@@ -32,32 +32,31 @@ func main() {
 
 	repo := repository.NewPostgresCanonicalRepository(db)
 
-	reg := providers.NewProviderRegistry()
-	reg.Register(providers.NewAsuraScansScraper())
-	reg.Register(providers.NewRavenScansScraper())
-	reg.Register(providers.NewMangaKScraper())
-	reg.Register(providers.NewManhuaTopScraper())
+	reg := providers.NewDefaultProviderRegistry("")
 
 	log.Println("🚀 Iniciando sincronização do catálogo popular das plataformas...")
 
-	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
 	defer cancel()
 
 	totalIngested := 0
 
 	for _, d := range reg.ListDomains() {
+		if d.Domain == "all" {
+			continue
+		}
 		scraper, _ := reg.Get(d.Domain)
 		log.Printf("📥 Coletando obras populares de %s (%s)...", d.Name, d.Domain)
 
-		for page := 1; page <= 2; page++ {
+		for page := 1; ; page++ {
 			res, err := scraper.SearchOrBrowse(ctx, "", page)
 			if err != nil {
 				log.Printf("⚠️ Erro ao buscar página %d de %s: %v", page, d.Domain, err)
-				continue
+				break
 			}
 
 			if len(res.Items) == 0 {
-				continue
+				break
 			}
 
 			var batch []*domain.CanonicalManhua
@@ -80,12 +79,16 @@ func main() {
 
 			if err := repo.UpsertBatch(ctx, batch); err != nil {
 				log.Printf("⚠️ Erro no UpsertBatch da página %d de %s: %v", page, d.Domain, err)
-				continue
+				break
 			}
 
 			totalIngested += len(batch)
 			log.Printf("  ✅ Página %d: %d obras sincronizadas", page, len(batch))
-			time.Sleep(500 * time.Millisecond)
+
+			if page >= res.TotalPages {
+				break
+			}
+			time.Sleep(100 * time.Millisecond)
 		}
 	}
 

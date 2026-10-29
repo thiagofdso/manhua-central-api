@@ -1,0 +1,141 @@
+{
+  "timestamp": 1792722362.3924553,
+  "catalog": {
+    "": {
+      "1": [
+        {
+          "title": "Magic Emperor",
+          "urlTemplate": "https://manhuaus.com/manga/magic-emperor-0/chapter-{chapter}/",
+          "lastChapter": 925
+        },
+        {
+          "title": "My Disciples Are All Big Villains",
+          "urlTemplate": "https://manhuaus.com/manga/my-disciples-are-all-big-villains/chapter-{chapter}/",
+          "lastChapter": 570
+        },
+        {
+          "title": "Raising Villains the Right Way",
+          "urlTemplate": "https://manhuaus.com/manga/raising-villains-the-right-way/chapter-{chapter}/",
+          "lastChapter": 58
+        },
+        {
+          "title": "I Became a God Devouring Souls at the Crematorium",
+          "urlTemplate": "https://manhuaus.com/manga/i-became-a-god-devouring-souls-at-the-crematorium/chapter-{chapter}/",
+          "lastChapter": 33
+        },
+        {
+          "title": "The Lord of the Wheel of Destiny",
+          "urlTemplate": "https://manhuaus.com/manga/the-lord-of-the-wheel-of-destiny/chapter-{chapter}/",
+          "lastChapter": 275
+        },
+        {
+          "title": "I Really Don’t Want to Learn Forbidden Spells",
+          "urlTemplate": "https://manhuaus.com/manga/i-really-dont-want-to-learn-forbidden-spells/chapter-{chapter}/",
+          "lastChapter": 192
+        },
+        {
+          "title": "The Mysterious World’s Greatest Martial Artist Little Prince",
+          "urlTemplate": "https://manhuaus.com/manga/the-mysterious-worlds-greatest-martial-artist-little-prince/chapter-{chapter}/",
+          "lastChapter": 140
+        },
+        {
+          "title": "The SS-Rank Freshman at Dawn Academy",
+          "urlTemplate": "https://manhuaus.com/manga/the-ss-rank-freshman-at-dawn-academy/chapter-{chapter}/",
+          "lastChapter": 37
+        },
+        {
+          "title": "My Simulated Path to Immortality",
+          "urlTemplate": "https://manhuaus.com/manga/my-simulated-path-to-immortality/chapter-{chapter}/",
+          "lastChapter": 92
+        },
+        {
+          "title": "Reborn in Journey to the West: The Strongest White Bone Great Sage",
+          "urlTemplate": "https://manhuaus.com/manga/reborn-in-journey-to-the-west-the-strongest-white-bone-great-sage/chapter-{chapter}/",
+          "lastChapter": 24
+        },
+        {
+          "title": "Skills Without Cooldown? I Avatar into an Undead Calamity!",
+          "urlTemplate": "https://manhuaus.com/manga/skills-without-cooldown-i-avatar-into-an-undead-calamity/chapter-{chapter}/",
+          "lastChapter": 17
+        },
+        {
+          "title": "Global Job Change: Starting With the Hidden Class Necromancer Lord",
+          "urlTemplate": "https://manhuaus.com/manga/global-job-change-starting-with-the-hidden-class-necromancer-lord/chapter-{chapter}/",
+          "lastChapter": 15
+        }
+      ]
+    },
+    "dragon": {
+      "1": [
+        {
+          "title": "My Girlfriend Returned as a Dragon",
+          "urlTemplate": "https://manhuaus.com/manga/my-girlfriend-returned-as-a-dragon/chapter-{chapter}/",
+          "lastChapter": 10
+        },
+        {
+          "title": "My Slain Dragon Bride",
+          "urlTemplate": "https://manhuaus.com/manga/my-slain-dragon-bride/chapter-{chapter}/",
+          "lastChapter": 20
+        },
+        {
+          "title": "Kidnapped Dragons",
+          "urlTemplate": "https://manhuaus.com/manga/kidnapped-dragons/chapter-{chapter}/",
+          "lastChapter": 65
+        },
+        {
+          "title": "A Dragonslayer’s Peerless Regression",
+          "urlTemplate": "https://manhuaus.com/manga/a-dragonslayers-peerless-regression/chapter-{chapter}/",
+          "lastChapter": 107
+        },
+        {
+          "title": "Sword God Dragon",
+          "urlTemplate": "https://manhuaus.com/manga/sword-god-dragon/chapter-{chapter}/",
+          "lastChapter": 46
+        },
+        {
+          "title": "Shut Up, Evil Dragon! I don’t want to raise a child with you anymore",
+          "urlTemplate": "https://manhuaus.com/manga/shut-up-evil-dragon-i-dont-want-to-raise-a-child-with-you-anymore/chapter-{chapter}/",
+          "lastChapter": 115
+        },
+        {
+          "title": "Evolution from Carp to Divine Dragon",
+          "urlTemplate": "https://manhuaus.com/manga/evolution-from-carp-to-divine-dragon/chapter-{chapter}/",
+          "lastChapter": 45
+        },
+        {
+          "title": "Worthless Profession: Dragon Tamer",
+          "urlTemplate": "https://manhuaus.com/manga/worthless-profession-dragon-tamer/chapter-{chapter}/",
+          "lastChapter": 298
+        },
+        {
+          "title": "Starting as the Black Dragon BOSS",
+          "urlTemplate": "https://manhuaus.com/manga/starting-as-the-black-dragon-boss/chapter-{chapter}/",
+          "lastChapter": 100
+        },
+        {
+          "title": "I am the descendant of the Divine Dragon!",
+          "urlTemplate": "https://manhuaus.com/manga/i-am-the-descendant-of-the-divine-dragon/chapter-{chapter}/",
+          "lastChapter": 134
+        },
+        {
+          "title": "Dragon-Devouring Mage",
+          "urlTemplate": "https://manhuaus.com/manga/dragon-devouring-mage/chapter-{chapter}/",
+          "lastChapter": 138
+        },
+        {
+          "title": "Dragon Master of the Olden Days",
+          "urlTemplate": "https://manhuaus.com/manga/dragon-master-of-the-olden-days/chapter-{chapter}/",
+          "lastChapter": 100
+        }
+      ]
+    }
+  },
+  "totalPages": {
+    "": {
+      "1": 112
+    },
+    "dragon": {
+      "1": 2
+    }
+  }
+}

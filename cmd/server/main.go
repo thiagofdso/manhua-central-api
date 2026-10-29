@@ -127,11 +127,7 @@ func main() {
 	})
 	notifHandler := handlers.NewNotificationsHandler(notifRepo, sched.RunRoutineCheck)
 
-	providerReg := providers.NewProviderRegistry()
-	providerReg.Register(providers.NewAsuraScansScraper())
-	providerReg.Register(providers.NewRavenScansScraper())
-	providerReg.Register(providers.NewMangaKScraper())
-	providerReg.Register(providers.NewManhuaTopScraper())
+	providerReg := providers.NewDefaultProviderRegistry("")
 
 	importService := service.NewImportService(providerReg, redisClient, canonicalRepo, libraryService)
 	importHandler := handlers.NewImportHandler(importService, jwtService)

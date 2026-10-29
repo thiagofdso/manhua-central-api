@@ -30,8 +30,9 @@ WORKDIR /
 COPY --from=builder /usr/share/zoneinfo /usr/share/zoneinfo
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
-# Copy compiled binary
+# Copy compiled binary and cache assets
 COPY --from=builder /app/bin/manhua-api /manhua-api
+COPY --from=builder /app/.cache /.cache
 
 USER nonroot:nonroot
 

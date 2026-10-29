@@ -1,0 +1,317 @@
+{
+  "timestamp": 1792721526.3625052,
+  "catalog": {
+    "": {
+      "1": [
+        {
+          "title": "Mr. Zombie",
+          "urlTemplate": "https://comix.to/title/j1ye-mr-zombie/{chapter}",
+          "lastChapter": 196
+        },
+        {
+          "title": "A Regressor's Tale of Cultivation",
+          "urlTemplate": "https://comix.to/title/6exy0-a-regressors-tale-of-cultivation/{chapter}",
+          "lastChapter": 35
+        },
+        {
+          "title": "The Hashtag is First Love",
+          "urlTemplate": "https://comix.to/title/9dxdj-the-hashtag-is-first-love/{chapter}",
+          "lastChapter": 51
+        },
+        {
+          "title": "The Demon King Overrun by Heroes",
+          "urlTemplate": "https://comix.to/title/l9vj2-the-demon-king-overrun-by-heroes/{chapter}",
+          "lastChapter": 53
+        },
+        {
+          "title": "Bad Born Blood",
+          "urlTemplate": "https://comix.to/title/3nlg-bad-born-blood/{chapter}",
+          "lastChapter": 105
+        },
+        {
+          "title": "The Price Is Your Everything",
+          "urlTemplate": "https://comix.to/title/5glg-the-price-is-your-everything/{chapter}",
+          "lastChapter": 132
+        },
+        {
+          "title": "Magic Emperor",
+          "urlTemplate": "https://comix.to/title/3j50-magic-emperor/{chapter}",
+          "lastChapter": 925
+        },
+        {
+          "title": "The Extra's Academy Survival Guide",
+          "urlTemplate": "https://comix.to/title/nnl80-the-extras-academy-survival-guide/{chapter}",
+          "lastChapter": 129
+        },
+        {
+          "title": "Smoking Behind the Supermarket with You",
+          "urlTemplate": "https://comix.to/title/y5nn-smoking-behind-the-supermarket-with-you/{chapter}",
+          "lastChapter": 67
+        },
+        {
+          "title": "My New Girlfriend Is Not Human?",
+          "urlTemplate": "https://comix.to/title/kr2e6-my-new-girlfriend-is-not-human/{chapter}",
+          "lastChapter": 197
+        },
+        {
+          "title": "My Life Was but a Play",
+          "urlTemplate": "https://comix.to/title/vkd9n-my-life-was-but-a-play/{chapter}",
+          "lastChapter": 57
+        },
+        {
+          "title": "I Dare You",
+          "urlTemplate": "https://comix.to/title/rqj88-i-dare-you/{chapter}",
+          "lastChapter": 44
+        },
+        {
+          "title": "Lookism",
+          "urlTemplate": "https://comix.to/title/emrmx-lookism/{chapter}",
+          "lastChapter": 630
+        },
+        {
+          "title": "The Lord of the Wheel of Destiny",
+          "urlTemplate": "https://comix.to/title/w96g-the-lord-of-the-wheel-of-destiny/{chapter}",
+          "lastChapter": 275
+        },
+        {
+          "title": "Absolute Domination at Level 0 Using My Analysis Skill",
+          "urlTemplate": "https://comix.to/title/n9j2y-absolute-domination-at-level-0-using-my-analysis-skill/{chapter}",
+          "lastChapter": 63
+        },
+        {
+          "title": "All I Want is My Dream Home",
+          "urlTemplate": "https://comix.to/title/5r7m-all-i-want-is-my-dream-home/{chapter}",
+          "lastChapter": 70
+        },
+        {
+          "title": "Infinite Evolution Starting from Zero",
+          "urlTemplate": "https://comix.to/title/rd7d1-infinite-evolution-starting-from-zero/{chapter}",
+          "lastChapter": 137
+        },
+        {
+          "title": "Overlord of Insects",
+          "urlTemplate": "https://comix.to/title/dkd3-overlord-of-insects/{chapter}",
+          "lastChapter": 140
+        },
+        {
+          "title": "My Favorite Character Wants a Divorce",
+          "urlTemplate": "https://comix.to/title/dkgd8-my-favorite-character-wants-a-divorce/{chapter}",
+          "lastChapter": 47
+        },
+        {
+          "title": "Error Detected",
+          "urlTemplate": "https://comix.to/title/2rl3d-error-detected/{chapter}",
+          "lastChapter": 66
+        },
+        {
+          "title": "How to Survive the Horror Novel I Wrote",
+          "urlTemplate": "https://comix.to/title/d129g-how-to-survive-the-horror-novel-i-wrote/{chapter}",
+          "lastChapter": 12
+        },
+        {
+          "title": "Dare I Hope…",
+          "urlTemplate": "https://comix.to/title/3vxn0-dare-i-hope/{chapter}",
+          "lastChapter": 63
+        },
+        {
+          "title": "That's the Guy!",
+          "urlTemplate": "https://comix.to/title/55k2l-thats-the-guy/{chapter}",
+          "lastChapter": 73
+        },
+        {
+          "title": "Soul Land IV - The Ultimate Combat",
+          "urlTemplate": "https://comix.to/title/69lm8-soul-land-iv-the-ultimate-combat/{chapter}",
+          "lastChapter": 632
+        },
+        {
+          "title": "An Insincere Idol's Blank Slate",
+          "urlTemplate": "https://comix.to/title/6xlz-an-insincere-idols-blank-slate/{chapter}",
+          "lastChapter": 104
+        },
+        {
+          "title": "The Beginning After the End",
+          "urlTemplate": "https://comix.to/title/6e6jz-the-beginning-after-the-end/{chapter}",
+          "lastChapter": 258
+        },
+        {
+          "title": "Hitoribocchi no Isekai Kouryaku",
+          "urlTemplate": "https://comix.to/title/zq523-hitoribocchi-no-isekai-kouryaku/{chapter}",
+          "lastChapter": 337
+        },
+        {
+          "title": "All My Neighbors are Convinced the Female Knight from My Rice Field Is My Wife",
+          "urlTemplate": "https://comix.to/title/6d57-all-my-neighbors-are-convinced-the-female-knight-from-my-rice-field-is-my-wife/{chapter}",
+          "lastChapter": 81
+        },
+        {
+          "title": "A Toddler's Guide to Gentle Parenting a Villain",
+          "urlTemplate": "https://comix.to/title/dg18-a-toddlers-guide-to-gentle-parenting-a-villain/{chapter}",
+          "lastChapter": 58
+        },
+        {
+          "title": "Surviving as the Illegitimate Princess",
+          "urlTemplate": "https://comix.to/title/525g-surviving-as-the-illegitimate-princess/{chapter}",
+          "lastChapter": 134
+        }
+      ],
+      "2": [
+        {
+          "title": "Reincarnation of the Veteran Soldier",
+          "urlTemplate": "https://comix.to/title/w80n-reincarnation-of-the-veteran-soldier/{chapter}",
+          "lastChapter": 223
+        },
+        {
+          "title": "Only I Have an EX-Grade Summon",
+          "urlTemplate": "https://comix.to/title/j6x6m-only-i-have-an-ex-grade-summon/{chapter}",
+          "lastChapter": 44
+        },
+        {
+          "title": "Patron of Villains",
+          "urlTemplate": "https://comix.to/title/nk9re-patron-of-villains/{chapter}",
+          "lastChapter": 58
+        },
+        {
+          "title": "May I Cry Now?",
+          "urlTemplate": "https://comix.to/title/q9wkd-may-i-cry-now/{chapter}",
+          "lastChapter": 64
+        },
+        {
+          "title": "The Incognito Princess",
+          "urlTemplate": "https://comix.to/title/djd8-the-incognito-princess/{chapter}",
+          "lastChapter": 114
+        },
+        {
+          "title": "God-level Assassin, I'm the Shadow",
+          "urlTemplate": "https://comix.to/title/z0l20-god-level-assassin-im-the-shadow/{chapter}",
+          "lastChapter": 151
+        },
+        {
+          "title": "After the School Belle Dumped Me, I Became a Martial Arts God",
+          "urlTemplate": "https://comix.to/title/87dld-after-the-school-belle-dumped-me-i-became-a-martial-arts-god/{chapter}",
+          "lastChapter": 127
+        },
+        {
+          "title": "Super God System",
+          "urlTemplate": "https://comix.to/title/e08e8-super-god-system/{chapter}",
+          "lastChapter": 214
+        },
+        {
+          "title": "Undercover Butler to the Grand Duke",
+          "urlTemplate": "https://comix.to/title/30jk2-undercover-butler-to-the-grand-duke/{chapter}",
+          "lastChapter": 23
+        },
+        {
+          "title": "The Jobless Guy Who Has Come to Slay",
+          "urlTemplate": "https://comix.to/title/q8qxd-the-jobless-guy-who-has-come-to-slay/{chapter}",
+          "lastChapter": 237
+        },
+        {
+          "title": "Lout of Count's Family",
+          "urlTemplate": "https://comix.to/title/2veyn-lout-of-counts-family/{chapter}",
+          "lastChapter": 193
+        },
+        {
+          "title": "The Dark Magician Transmigrates After 66666 Years",
+          "urlTemplate": "https://comix.to/title/vkrnz-the-dark-magician-transmigrates-after-66666-years/{chapter}",
+          "lastChapter": 203
+        },
+        {
+          "title": "Debut or Die!",
+          "urlTemplate": "https://comix.to/title/jnke-debut-or-die/{chapter}",
+          "lastChapter": 120
+        },
+        {
+          "title": "A Wicked Husband",
+          "urlTemplate": "https://comix.to/title/yvkww-a-wicked-husband/{chapter}",
+          "lastChapter": 51
+        },
+        {
+          "title": "Time Healer Ceres",
+          "urlTemplate": "https://comix.to/title/80nqn-time-healer-ceres/{chapter}",
+          "lastChapter": 32
+        },
+        {
+          "title": "Roxana",
+          "urlTemplate": "https://comix.to/title/k1re-roxana/{chapter}",
+          "lastChapter": 44
+        },
+        {
+          "title": "Sister-in-law of the Heroine in a Childcare Novel",
+          "urlTemplate": "https://comix.to/title/l2n87-sister-in-law-of-the-heroine-in-a-childcare-novel/{chapter}",
+          "lastChapter": 36
+        },
+        {
+          "title": "My Disciples Are All Big Villains",
+          "urlTemplate": "https://comix.to/title/nn7xe-my-disciples-are-all-big-villains/{chapter}",
+          "lastChapter": 570
+        },
+        {
+          "title": "On Your Knees, Your Highness!",
+          "urlTemplate": "https://comix.to/title/zx86-on-your-knees-your-highness/{chapter}",
+          "lastChapter": 51
+        },
+        {
+          "title": "I've Become the Devil's Master",
+          "urlTemplate": "https://comix.to/title/vlxz-ive-become-the-devils-master/{chapter}",
+          "lastChapter": 103
+        },
+        {
+          "title": "The Villainess Captured the Grand Duke",
+          "urlTemplate": "https://comix.to/title/d780-the-villainess-captured-the-grand-duke/{chapter}",
+          "lastChapter": 125
+        },
+        {
+          "title": "Surviving the Game as a Barbarian",
+          "urlTemplate": "https://comix.to/title/39x0n-surviving-the-game-as-a-barbarian/{chapter}",
+          "lastChapter": 166
+        },
+        {
+          "title": "The Return of the Scorned Genius",
+          "urlTemplate": "https://comix.to/title/80km8-the-return-of-the-scorned-genius/{chapter}",
+          "lastChapter": 28
+        },
+        {
+          "title": "The Yellow-Haired Villain in the Female Main Character's Novel Wants Happiness",
+          "urlTemplate": "https://comix.to/title/70732-the-yellow-haired-villain-in-the-female-main-characters-novel-wants-happiness/{chapter}",
+          "lastChapter": 92
+        },
+        {
+          "title": "Chiikawa: Nanka Chiisakute Kawaii Yatsu (Webcomic Pages)",
+          "urlTemplate": "https://comix.to/title/xyy87-chiikawa-nanka-chiisakute-kawaii-yatsu-webcomic-pages/{chapter}",
+          "lastChapter": 1220
+        },
+        {
+          "title": "I'm Stuck on the Same Day for a Thousand Years",
+          "urlTemplate": "https://comix.to/title/nn7g3-im-stuck-on-the-same-day-for-a-thousand-years/{chapter}",
+          "lastChapter": 293
+        },
+        {
+          "title": "Return of the First Generation: The Strongest in History Reincarnates as His Descendant 1000 Years Later",
+          "urlTemplate": "https://comix.to/title/mnkmd-return-of-the-first-generation-the-strongest-in-history-reincarnates-as-his-descendant-1000-years-later/{chapter}",
+          "lastChapter": 62
+        },
+        {
+          "title": "The Fragrant Flower Blooms With Dignity",
+          "urlTemplate": "https://comix.to/title/kedxe-the-fragrant-flower-blooms-with-dignity/{chapter}",
+          "lastChapter": 205
+        },
+        {
+          "title": "Devious Son Of Heaven",
+          "urlTemplate": "https://comix.to/title/96v5-devious-son-of-heaven/{chapter}",
+          "lastChapter": 209
+        },
+        {
+          "title": "Full-Time Swordsman",
+          "urlTemplate": "https://comix.to/title/y70v-full-time-swordsman/{chapter}",
+          "lastChapter": 124
+        }
+      ]
+    }
+  },
+  "totalPages": {
+    "": {
+      "1": 24,
+      "2": 24
+    }
+  }
+}

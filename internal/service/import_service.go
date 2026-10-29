@@ -79,7 +79,7 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 		page = 1
 	}
 
-	cacheKey := fmt.Sprintf("import:cache:%s:%s:%d", cleanDomain, qClean, page)
+	cacheKey := fmt.Sprintf("import:cache:v2:%s:%s:%d", cleanDomain, qClean, page)
 
 	var scrapeRes domain.ScrapeResult
 
@@ -107,7 +107,14 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 		// Salvar no Redis com TTL de 7 dias
 		if s.redisClient != nil && s.redisClient.Client != nil && len(scrapeRes.Items) > 0 {
 			if bytes, err := json.Marshal(scrapeRes); err == nil {
-				_ = s.redisClient.Client.Set(ctx, cacheKey, string(bytes), 7*24*time.Hour).Err()
+				ttl := 7 * 24 * time.Hour
+				for _, item := range scrapeRes.Items {
+					if item.CoverURL == "" {
+						ttl = 10 * time.Minute
+						break
+					}
+				}
+				_ = s.redisClient.Client.Set(ctx, cacheKey, string(bytes), ttl).Err()
 			}
 		}
 	}

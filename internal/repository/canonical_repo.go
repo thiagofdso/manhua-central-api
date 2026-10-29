@@ -349,7 +349,7 @@ func (r *PostgresCanonicalRepository) UpsertBatch(ctx context.Context, items []*
 			title = EXCLUDED.title,
 			alternative_titles = COALESCE(EXCLUDED.alternative_titles, canonical_manhuas.alternative_titles),
 			synopsis = COALESCE(EXCLUDED.synopsis, canonical_manhuas.synopsis),
-			cover_url = COALESCE(EXCLUDED.cover_url, canonical_manhuas.cover_url),
+			cover_url = COALESCE(NULLIF(EXCLUDED.cover_url, ''), canonical_manhuas.cover_url),
 			url_template = EXCLUDED.url_template,
 			last_chapter = COALESCE(EXCLUDED.last_chapter, canonical_manhuas.last_chapter),
 			update_day = COALESCE(EXCLUDED.update_day, canonical_manhuas.update_day),
@@ -362,9 +362,10 @@ func (r *PostgresCanonicalRepository) UpsertBatch(ctx context.Context, items []*
 	}
 	defer stmt.Close()
 
-	for _, m := range items {
+	baseID := (time.Now().UnixNano() / 1e6) * 1000
+	for i, m := range items {
 		if m.ID == 0 {
-			m.ID = time.Now().UnixNano() / 1e6
+			m.ID = baseID + int64(i)
 		}
 
 		var altTitles, synopsis, coverURL sql.NullString

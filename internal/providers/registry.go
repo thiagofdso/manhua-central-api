@@ -2,6 +2,7 @@ package providers
 
 import (
 	"context"
+	"sort"
 	"strings"
 	"sync"
 
@@ -29,6 +30,32 @@ func NewProviderRegistry() *ProviderRegistry {
 	return &ProviderRegistry{
 		providers: make(map[string]DomainScraper),
 	}
+}
+
+func NewDefaultProviderRegistry(cacheDir string) *ProviderRegistry {
+	if cacheDir == "" {
+		cacheDir = GetDefaultCacheDir()
+	}
+
+	reg := NewProviderRegistry()
+
+	// 1. Agregador Geral "all"
+	reg.Register(NewCachedDomainScraper("all", "Todos (Geral)", cacheDir, nil))
+
+	// 2. Provedores com Scraper Nativo + Fallback Cache
+	reg.Register(NewCachedDomainScraper("asurascans.com", "Asura Scans", cacheDir, NewAsuraScansScraper()))
+	reg.Register(NewCachedDomainScraper("mangak.io", "MangaK", cacheDir, NewMangaKScraper()))
+	reg.Register(NewCachedDomainScraper("ravenscans.org", "RavenScans", cacheDir, NewRavenScansScraper()))
+	reg.Register(NewCachedDomainScraper("manhuatop.org", "ManhuaTop", cacheDir, NewManhuaTopScraper()))
+
+	// 3. Provedores com Cache Consolidado (Comix, MangaFire, ArenaScan, MGeko, ManhuaUS)
+	reg.Register(NewCachedDomainScraper("comix.to", "Comix", cacheDir, nil))
+	reg.Register(NewCachedDomainScraper("mangafire.to", "MangaFire", cacheDir, nil))
+	reg.Register(NewCachedDomainScraper("arenascan.com", "ArenaScan", cacheDir, nil))
+	reg.Register(NewCachedDomainScraper("mgeko.cc", "MGeko", cacheDir, nil))
+	reg.Register(NewCachedDomainScraper("manhuaus.com", "ManhuaUS", cacheDir, nil))
+
+	return reg
 }
 
 func (r *ProviderRegistry) Register(scraper DomainScraper) {
@@ -59,5 +86,17 @@ func (r *ProviderRegistry) ListDomains() []DomainInfo {
 			Supported: true,
 		})
 	}
+
+	// Ordena: "all" sempre no topo, depois alfabético por nome
+	sort.Slice(list, func(i, j int) bool {
+		if list[i].Domain == "all" {
+			return true
+		}
+		if list[j].Domain == "all" {
+			return false
+		}
+		return list[i].Name < list[j].Name
+	})
+
 	return list
 }

@@ -150,8 +150,14 @@ func (s *Streamer) applyDomainHeaders(req *http.Request, hostname string) {
 		req.Header.Set("Referer", "https://ravenscans.org/")
 	} else if strings.Contains(host, "mangafire.to") || strings.Contains(host, "mfcdn.net") {
 		req.Header.Set("Referer", "https://mangafire.to/")
-	} else if strings.Contains(host, "mangak.io") || strings.Contains(host, "qvzr") {
+	} else if strings.Contains(host, "mangak.io") || strings.Contains(host, "qvzr") || strings.Contains(host, "resmk") {
 		req.Header.Set("Referer", "https://mangak.io/")
+	} else if strings.Contains(host, "manhuatop.org") {
+		req.Header.Set("Referer", "https://manhuatop.org/")
+	} else if strings.Contains(host, "arenascan") {
+		req.Header.Set("Referer", "https://arenascan.com/")
+	} else if strings.Contains(host, "mgeko.cc") {
+		req.Header.Set("Referer", "https://mgeko.cc/")
 	} else if strings.Contains(host, "manhuaus.com") {
 		req.Header.Set("Referer", "https://manhuaus.com/")
 	} else if strings.Contains(host, "comix.to") {

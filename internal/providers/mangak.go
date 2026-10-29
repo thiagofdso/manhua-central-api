@@ -2,6 +2,7 @@ package providers
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"html"
 	"net/http"
@@ -17,6 +18,7 @@ import (
 
 var (
 	mangakChapterRegex = regexp.MustCompile(`(?i)(?:chapter|ch\.?)\s*(\d+)`)
+	nextDataRegex      = regexp.MustCompile(`<script id="__NEXT_DATA__" type="application/json">(.*?)</script>`)
 )
 
 type MangaKScraper struct {
@@ -54,7 +56,7 @@ func (s *MangaKScraper) SearchOrBrowse(ctx context.Context, query string, page i
 			targetURL = fmt.Sprintf("%s&page=%d", targetURL, page)
 		}
 	} else {
-		targetURL = fmt.Sprintf("%s/filter?page=%d", s.baseURL, page)
+		targetURL = fmt.Sprintf("%s/latest?page=%d&sort=latest", s.baseURL, page)
 	}
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, targetURL, nil)
@@ -64,6 +66,7 @@ func (s *MangaKScraper) SearchOrBrowse(ctx context.Context, query string, page i
 
 	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 	req.Header.Set("Referer", "https://mangak.io/")
+	req.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
 
 	resp, err := s.httpClient.Do(req)
 	if err != nil {
@@ -80,6 +83,89 @@ func (s *MangaKScraper) SearchOrBrowse(ctx context.Context, query string, page i
 		return nil, fmt.Errorf("failed to parse html: %w", err)
 	}
 
+	htmlContent, _ := doc.Html()
+
+	// 1. Tentar extrair de __NEXT_DATA__
+	if m := nextDataRegex.FindStringSubmatch(htmlContent); len(m) > 1 {
+		var nextPayload struct {
+			Props struct {
+				PageProps struct {
+					SsrItems []map[string]interface{} `json:"ssrItems"`
+					Items    []map[string]interface{} `json:"items"`
+				} `json:"pageProps"`
+			} `json:"props"`
+		}
+
+		if err := json.Unmarshal([]byte(m[1]), &nextPayload); err == nil {
+			rawList := nextPayload.Props.PageProps.SsrItems
+			if len(rawList) == 0 {
+				rawList = nextPayload.Props.PageProps.Items
+			}
+
+			if len(rawList) > 0 {
+				var items []domain.ScrapedItem
+				for _, it := range rawList {
+					name, _ := it["name"].(string)
+					slug, _ := it["slug"].(string)
+					if slug == "" {
+						slug, _ = it["url"].(string)
+					}
+					slug = strings.Trim(slug, "/")
+					if name == "" || slug == "" {
+						continue
+					}
+
+					cover, _ := it["cover"].(string)
+					if cover == "" {
+						cover, _ = it["poster"].(string)
+					}
+
+					var lastChapter *int
+					if latestChs, ok := it["latestChapters"].([]interface{}); ok && len(latestChs) > 0 {
+						if firstCh, ok := latestChs[0].(map[string]interface{}); ok {
+							chName, _ := firstCh["name"].(string)
+							if chName == "" {
+								chName, _ = firstCh["slug"].(string)
+							}
+							if matches := mangakChapterRegex.FindStringSubmatch(chName); len(matches) > 1 {
+								if ch, err := strconv.Atoi(matches[1]); err == nil {
+									lastChapter = &ch
+								}
+							}
+						}
+					}
+
+					if lastChapter == nil {
+						if stats, ok := it["stats"].(map[string]interface{}); ok {
+							if countFloat, ok := stats["chaptersCount"].(float64); ok && countFloat > 0 {
+								c := int(countFloat)
+								lastChapter = &c
+							}
+						}
+					}
+
+					items = append(items, domain.ScrapedItem{
+						Title:         html.UnescapeString(strings.TrimSpace(name)),
+						Slug:          slug,
+						URLTemplate:   fmt.Sprintf("https://mangak.io/%s/chapter-{chapter}", slug),
+						CoverURL:      cover,
+						LastChapter:   lastChapter,
+						PrimaryDomain: "mangak.io",
+					})
+				}
+
+				if len(items) > 0 {
+					return &domain.ScrapeResult{
+						Items:      items,
+						Page:       page,
+						TotalPages: 10,
+					}, nil
+				}
+			}
+		}
+	}
+
+	// 2. Fallback para DOM HTML
 	var items []domain.ScrapedItem
 	doc.Find("div.story-item, div.manga-item, .list-story-item").Each(func(i int, sel *goquery.Selection) {
 		link := sel.Find("a[href*='/manga/']").First()
@@ -97,7 +183,7 @@ func (s *MangaKScraper) SearchOrBrowse(ctx context.Context, query string, page i
 		}
 		title = html.UnescapeString(title)
 
-		coverURL := sel.Find("img").First().AttrOr("src", "")
+		coverURL := coverFromImage(sel.Find("img").First(), s.baseURL)
 		if strings.HasPrefix(coverURL, "//") {
 			coverURL = "https:" + coverURL
 		}

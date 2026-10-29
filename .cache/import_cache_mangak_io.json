@@ -1,0 +1,2088 @@
+{
+  "timestamp": 1792725619.0749881,
+  "catalog": {
+    "": {
+      "1": [
+        {
+          "title": "Oleander on the Moon",
+          "slug": "oleander-on-the-moon",
+          "urlTemplate": "https://mangak.io/oleander-on-the-moon/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/3753ea1e68e0.webp",
+          "lastChapter": 6,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Cherry Blossoms After Winter",
+          "slug": "cherry-blossoms-after-winter",
+          "urlTemplate": "https://mangak.io/cherry-blossoms-after-winter/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2334bdc93696.webp",
+          "lastChapter": 253,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Promise Me Nothing",
+          "slug": "promise-me-nothing",
+          "urlTemplate": "https://mangak.io/promise-me-nothing/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1819439dbe93.webp",
+          "lastChapter": 2,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Devely’s Healing Time",
+          "slug": "develys-healing-time",
+          "urlTemplate": "https://mangak.io/develys-healing-time/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/872793fc6701.webp",
+          "lastChapter": 34,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Contact Allowed Zone",
+          "slug": "contact-allowed-zone",
+          "urlTemplate": "https://mangak.io/contact-allowed-zone/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/456be64e17be.webp",
+          "lastChapter": 4,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Chan Zhi",
+          "slug": "chan-zhi",
+          "urlTemplate": "https://mangak.io/chan-zhi/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5678d075376d.webp",
+          "lastChapter": 69,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Conquering The Academy With Just A Sashimi Knife.",
+          "slug": "conquering-the-academy-with-just-a-sashimi-knife",
+          "urlTemplate": "https://mangak.io/conquering-the-academy-with-just-a-sashimi-knife/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d2fbad98b591.webp",
+          "lastChapter": 101,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Global Game: I Can Amplify Everything by a Hundred Times",
+          "slug": "global-game-i-can-amplify-everything-by-a-hundred-times",
+          "urlTemplate": "https://mangak.io/global-game-i-can-amplify-everything-by-a-hundred-times/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7f277a3b6a39.webp",
+          "lastChapter": 14,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Ruler Of Darkness",
+          "slug": "the-ruler-of-darkness",
+          "urlTemplate": "https://mangak.io/the-ruler-of-darkness/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/56553db66ed8.webp",
+          "lastChapter": 37,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Raising Villains the Right Way",
+          "slug": "raising-villains-the-right-way",
+          "urlTemplate": "https://mangak.io/raising-villains-the-right-way/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b30b0f9cbf2a.webp",
+          "lastChapter": 59,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Limit of Obsession",
+          "slug": "limit-of-obsession",
+          "urlTemplate": "https://mangak.io/limit-of-obsession/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/895e359bafe0.webp",
+          "lastChapter": 22,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Monsters Fight Monsters",
+          "slug": "monsters-fight-monsters",
+          "urlTemplate": "https://mangak.io/monsters-fight-monsters/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/4531f99a9f2f.webp",
+          "lastChapter": 48,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Isekai De Skill Wo Kaitai Shitara Cheat Na Yome Ga Zoushoku Shimashita: Gainen Kousa No Structure",
+          "slug": "isekai-de-skill-wo-kaitai-shitara-cheat-na-yome-ga-zoushoku-shimashita-gainen-kousa-no-structure",
+          "urlTemplate": "https://mangak.io/isekai-de-skill-wo-kaitai-shitara-cheat-na-yome-ga-zoushoku-shimashita-gainen-kousa-no-structure/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/47f3274b7542.webp",
+          "lastChapter": 90,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Dokusen Yoku ga Tsuyoi Honou Tei ni Shuuchaku Saretemasu",
+          "slug": "dokusen-yoku-ga-tsuyoi-honou-tei-ni-shuuchaku-saretemasu",
+          "urlTemplate": "https://mangak.io/dokusen-yoku-ga-tsuyoi-honou-tei-ni-shuuchaku-saretemasu/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2ca56080ce73.webp",
+          "lastChapter": 87,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Global Job Change: Starting With the Hidden Class Necromancer Lord",
+          "slug": "global-job-change-starting-with-the-hidden-class-necromancer-lord",
+          "urlTemplate": "https://mangak.io/global-job-change-starting-with-the-hidden-class-necromancer-lord/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d5dee521f188.webp",
+          "lastChapter": 16,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "In the Ice Emperor’s Birdcage",
+          "slug": "in-the-ice-emperors-birdcage",
+          "urlTemplate": "https://mangak.io/in-the-ice-emperors-birdcage/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/0c416b0aaa00.webp",
+          "lastChapter": 33,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I Am the Villain",
+          "slug": "i-am-the-villain",
+          "urlTemplate": "https://mangak.io/i-am-the-villain/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ef67437bc85e.webp",
+          "lastChapter": 107,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Siren: Becoming the Villain's Family",
+          "slug": "the-siren-becoming-the-villains-family",
+          "urlTemplate": "https://mangak.io/the-siren-becoming-the-villains-family/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/a8c39570a6a6.webp",
+          "lastChapter": 184,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "To the Brother of the Husband I Loved",
+          "slug": "to-the-brother-of-the-husband-i-loved",
+          "urlTemplate": "https://mangak.io/to-the-brother-of-the-husband-i-loved/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f4f129f711cb.webp",
+          "lastChapter": 48,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A heroine saves herself with her body",
+          "slug": "a-heroine-saves-herself-with-her-body",
+          "urlTemplate": "https://mangak.io/a-heroine-saves-herself-with-her-body/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/21b79c3c7d9d.webp",
+          "lastChapter": 55,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Ant Cave",
+          "slug": "ant-cave",
+          "urlTemplate": "https://mangak.io/ant-cave/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e7a43bc1ed72.webp",
+          "lastChapter": 41,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I Heard You Love Me",
+          "slug": "i-heard-you-love-me",
+          "urlTemplate": "https://mangak.io/i-heard-you-love-me/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/6a7f58802cdb.webp",
+          "lastChapter": 6,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Simulated Path to Immortality",
+          "slug": "my-simulated-path-to-immortality",
+          "urlTemplate": "https://mangak.io/my-simulated-path-to-immortality/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ffc456058e59.webp",
+          "lastChapter": 94,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Kimi wa Yotsuba no Clover",
+          "slug": "kimi-wa-yotsuba-no-clover",
+          "urlTemplate": "https://mangak.io/kimi-wa-yotsuba-no-clover/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/faa5623286f8.webp",
+          "lastChapter": 92,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "2": [
+        {
+          "title": "Yu Zhi Qing Tiao",
+          "slug": "yu-zhi-qing-tiao",
+          "urlTemplate": "https://mangak.io/yu-zhi-qing-tiao/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/a283596056c1.webp",
+          "lastChapter": 44,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Why Won’t the Young Master Fire His Secretary?",
+          "slug": "why-wont-the-young-master-fire-his-secretary",
+          "urlTemplate": "https://mangak.io/why-wont-the-young-master-fire-his-secretary/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9dac7fdf575c.webp",
+          "lastChapter": 4,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "First Kiss",
+          "slug": "first-kiss",
+          "urlTemplate": "https://mangak.io/first-kiss/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2d2eedd6db4f.webp",
+          "lastChapter": 21,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Defense Breaker",
+          "slug": "defense-breaker",
+          "urlTemplate": "https://mangak.io/defense-breaker/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ef54a31242b2.webp",
+          "lastChapter": 65,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Wet Sis 2: The Story after I Did Lewd Things with My Busty Older Sister.",
+          "slug": "wet-sis-2-the-story-after-i-did-lewd-things-with-my-busty-older-sister",
+          "urlTemplate": "https://mangak.io/wet-sis-2-the-story-after-i-did-lewd-things-with-my-busty-older-sister/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/0e6c6c461dc3.webp",
+          "lastChapter": 1,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Fast Kiss",
+          "slug": "fast-kiss",
+          "urlTemplate": "https://mangak.io/fast-kiss/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/308778edb1b9.webp",
+          "lastChapter": 21,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Fifth Morning",
+          "slug": "the-fifth-morning",
+          "urlTemplate": "https://mangak.io/the-fifth-morning/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/bb2f8e967877.webp",
+          "lastChapter": 11,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "First Love Hertz",
+          "slug": "first-love-hertz",
+          "urlTemplate": "https://mangak.io/first-love-hertz/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e05465e6aaeb.webp",
+          "lastChapter": 20,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Guy Friend Chronicles",
+          "slug": "the-guy-friend-chronicles",
+          "urlTemplate": "https://mangak.io/the-guy-friend-chronicles/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/20ceb5cbe104.webp",
+          "lastChapter": 8,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Mount Fuji's Great Eruption",
+          "slug": "mount-fujis-great-eruption",
+          "urlTemplate": "https://mangak.io/mount-fujis-great-eruption/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b65d8dc36eda.webp",
+          "lastChapter": 3,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Against All Odds",
+          "slug": "against-all-odds",
+          "urlTemplate": "https://mangak.io/against-all-odds/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/35f1c6b91704.webp",
+          "lastChapter": 69,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Red Docking Love",
+          "slug": "red-docking-love",
+          "urlTemplate": "https://mangak.io/red-docking-love/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/627566058ebf.webp",
+          "lastChapter": 5,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I Became a God Devouring Souls at the Crematorium",
+          "slug": "i-became-a-god-devouring-souls-at-the-crematorium",
+          "urlTemplate": "https://mangak.io/i-became-a-god-devouring-souls-at-the-crematorium/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/10dc6e70ee1f.webp",
+          "lastChapter": 36,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Even If You Run Away, You",
+          "slug": "even-if-you-run-away-you",
+          "urlTemplate": "https://mangak.io/even-if-you-run-away-you/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/91608518dfb5.webp",
+          "lastChapter": 37,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Husband Never Wanted a Child",
+          "slug": "my-husband-never-wanted-a-child",
+          "urlTemplate": "https://mangak.io/my-husband-never-wanted-a-child/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7c10de856423.webp",
+          "lastChapter": 33,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A Business Kiss",
+          "slug": "a-business-kiss",
+          "urlTemplate": "https://mangak.io/a-business-kiss/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/77b76e253872.webp",
+          "lastChapter": 15,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Surviving as the Wife of a Serial Killer",
+          "slug": "surviving-as-the-wife-of-a-serial-killer",
+          "urlTemplate": "https://mangak.io/surviving-as-the-wife-of-a-serial-killer/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f7ddcf54d0d0.webp",
+          "lastChapter": 16,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Anxious Boyfriend and the Insecure Girlfriend",
+          "slug": "the-anxious-boyfriend-and-the-insecure-girlfriend",
+          "urlTemplate": "https://mangak.io/the-anxious-boyfriend-and-the-insecure-girlfriend/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5eead8cffefd.webp",
+          "lastChapter": 6,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Why Doesn",
+          "slug": "why-doesn",
+          "urlTemplate": "https://mangak.io/why-doesn/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/3b978dad1de6.webp",
+          "lastChapter": 4,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Ghost Tactic",
+          "slug": "ghost-tactic",
+          "urlTemplate": "https://mangak.io/ghost-tactic/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9b7486ae8d5b.webp",
+          "lastChapter": 48,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "With a No-Cooldown Cheat, I Can Transform into an Undead Calamity!",
+          "slug": "with-a-no-cooldown-cheat-i-can-transform-into-an-undead-calamity",
+          "urlTemplate": "https://mangak.io/with-a-no-cooldown-cheat-i-can-transform-into-an-undead-calamity/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5266d126fc7f.webp",
+          "lastChapter": 19,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Fog Land",
+          "slug": "fog-land",
+          "urlTemplate": "https://mangak.io/fog-land/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/282d8f5befbd.webp",
+          "lastChapter": 62,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Home Plate Villain",
+          "slug": "home-plate-villain",
+          "urlTemplate": "https://mangak.io/home-plate-villain/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e4abc9d1f294.webp",
+          "lastChapter": 227,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Dragon King's Favor",
+          "slug": "the-dragon-kings-favor",
+          "urlTemplate": "https://mangak.io/the-dragon-kings-favor/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9aa6e951abe0.webp",
+          "lastChapter": 8,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "3": [
+        {
+          "title": "Super Magic Academy's SS Rank Freshman",
+          "slug": "super-magic-academys-ss-rank-freshman",
+          "urlTemplate": "https://mangak.io/super-magic-academys-ss-rank-freshman/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/095933cbdb7c.webp",
+          "lastChapter": 38,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Rise of The Soul-Devouring God",
+          "slug": "rise-of-the-soul-devouring-god",
+          "urlTemplate": "https://mangak.io/rise-of-the-soul-devouring-god/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/74ac3a26101f.webp",
+          "lastChapter": 34,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Swallow You Whole",
+          "slug": "swallow-you-whole",
+          "urlTemplate": "https://mangak.io/swallow-you-whole/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2b3dcb3e38cb.webp",
+          "lastChapter": 86,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Roommate I Don't Know About",
+          "slug": "roommate-i-dont-know-about",
+          "urlTemplate": "https://mangak.io/roommate-i-dont-know-about/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f7d3ee0b7f39.webp",
+          "lastChapter": 25,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Irregular of the Royal Academy of Magic",
+          "slug": "the-irregular-of-the-royal-academy-of-magic",
+          "urlTemplate": "https://mangak.io/the-irregular-of-the-royal-academy-of-magic/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/a1ef3187804c.webp",
+          "lastChapter": 162,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Marriage Gap",
+          "slug": "marriage-gap",
+          "urlTemplate": "https://mangak.io/marriage-gap/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/0726d88eda54.webp",
+          "lastChapter": 47,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A Crown of Thorns",
+          "slug": "a-crown-of-thorns",
+          "urlTemplate": "https://mangak.io/a-crown-of-thorns/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/fa3502cc2658.webp",
+          "lastChapter": 46,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I Declare Vengeance!",
+          "slug": "i-declare-vengeance",
+          "urlTemplate": "https://mangak.io/i-declare-vengeance/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/bf2174ee55f7.webp",
+          "lastChapter": 37,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Legendary Assassin Reincarnated as the Beloved Youngest Daughter of a Royal Family",
+          "slug": "the-legendary-assassin-reincarnated-as-the-beloved-youngest-daughter-of-a-royal-family",
+          "urlTemplate": "https://mangak.io/the-legendary-assassin-reincarnated-as-the-beloved-youngest-daughter-of-a-royal-family/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1f8842f0d9e1.webp",
+          "lastChapter": 117,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Very Slightly Psycho",
+          "slug": "very-slightly-psycho",
+          "urlTemplate": "https://mangak.io/very-slightly-psycho/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b49191a97d5e.webp",
+          "lastChapter": 6,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "One Bell, Two Knocks",
+          "slug": "one-bell-two-knocks",
+          "urlTemplate": "https://mangak.io/one-bell-two-knocks/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1ad81c84cc85.webp",
+          "lastChapter": 6,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Cheotsarang Hertz",
+          "slug": "cheotsarang-hertz",
+          "urlTemplate": "https://mangak.io/cheotsarang-hertz/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1b805a467f41.webp",
+          "lastChapter": 19,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Can Even a Stalker Be Recycled?",
+          "slug": "can-even-a-stalker-be-recycled",
+          "urlTemplate": "https://mangak.io/can-even-a-stalker-be-recycled/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/a092fc942461.webp",
+          "lastChapter": 8,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Tales of a Harem in Another World",
+          "slug": "tales-of-a-harem-in-another-world",
+          "urlTemplate": "https://mangak.io/tales-of-a-harem-in-another-world/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b08a6fc103c7.webp",
+          "lastChapter": 9,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Tinder Box",
+          "slug": "tinder-box",
+          "urlTemplate": "https://mangak.io/tinder-box/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/6d0449deefb7.webp",
+          "lastChapter": 23,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The SS-Rank Freshman at Dawn Academy",
+          "slug": "the-ss-rank-freshman-at-dawn-academy",
+          "urlTemplate": "https://mangak.io/the-ss-rank-freshman-at-dawn-academy/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/78798442ce43.webp",
+          "lastChapter": 38,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "How to Survive as the Monster Duke’s Wife",
+          "slug": "how-to-survive-as-the-monster-dukes-wife",
+          "urlTemplate": "https://mangak.io/how-to-survive-as-the-monster-dukes-wife/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1c26d3b4f499.webp",
+          "lastChapter": 42,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Autumn Chili",
+          "slug": "autumn-chili",
+          "urlTemplate": "https://mangak.io/autumn-chili/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/da162e75d420.webp",
+          "lastChapter": 15,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Pet Rat is an S-Class Awakener",
+          "slug": "my-pet-rat-is-an-s-class-awakener",
+          "urlTemplate": "https://mangak.io/my-pet-rat-is-an-s-class-awakener/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d559c48aaa94.webp",
+          "lastChapter": 44,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Snow Plum Blossom",
+          "slug": "snow-plum-blossom",
+          "urlTemplate": "https://mangak.io/snow-plum-blossom/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/c5052da9d3cb.webp",
+          "lastChapter": 16,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Disciples Are All Big Villains",
+          "slug": "my-disciples-are-all-big-villains",
+          "urlTemplate": "https://mangak.io/my-disciples-are-all-big-villains/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/55018e67c1d8.webp",
+          "lastChapter": 573,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Yama, Kaimashita ~Isekai Gurashi mo Warukunai~",
+          "slug": "yama-kaimashita-isekai-gurashi-mo-warukunai",
+          "urlTemplate": "https://mangak.io/yama-kaimashita-isekai-gurashi-mo-warukunai/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2a953630b04e.webp",
+          "lastChapter": 24,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Chaegwi (Collateral Soul)",
+          "slug": "chaegwi-collateral-soul",
+          "urlTemplate": "https://mangak.io/chaegwi-collateral-soul/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b712badcabf1.webp",
+          "lastChapter": 46,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Girl and Science",
+          "slug": "girl-and-science",
+          "urlTemplate": "https://mangak.io/girl-and-science/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7bd23d6a2e49.webp",
+          "lastChapter": 1589,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "4": [
+        {
+          "title": "I was more overpowered than the hero, so I hid my power!",
+          "slug": "i-was-more-overpowered-than-the-hero-so-i-hid-my-power",
+          "urlTemplate": "https://mangak.io/i-was-more-overpowered-than-the-hero-so-i-hid-my-power/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d613937222c4.webp",
+          "lastChapter": 145,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Roommate Only I Don’t Know",
+          "slug": "the-roommate-only-i-dont-know",
+          "urlTemplate": "https://mangak.io/the-roommate-only-i-dont-know/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/72d27306013c.webp",
+          "lastChapter": 24,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Incomplete Combustion",
+          "slug": "incomplete-combustion",
+          "urlTemplate": "https://mangak.io/incomplete-combustion/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/0396257200b6.webp",
+          "lastChapter": 44,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Error Detected",
+          "slug": "error-detected",
+          "urlTemplate": "https://mangak.io/error-detected/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5da1309767d9.webp",
+          "lastChapter": 67,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Lookism",
+          "slug": "lookism",
+          "urlTemplate": "https://mangak.io/lookism/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/248c4e5f8aef.webp",
+          "lastChapter": 631,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Monopolizing All Opportunities",
+          "slug": "monopolizing-all-opportunities",
+          "urlTemplate": "https://mangak.io/monopolizing-all-opportunities/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/431462c892eb.webp",
+          "lastChapter": 67,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Cunning Fox's Bold Circumstances",
+          "slug": "the-cunning-foxs-bold-circumstances",
+          "urlTemplate": "https://mangak.io/the-cunning-foxs-bold-circumstances/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/a30bc27f5929.webp",
+          "lastChapter": 5,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A Golden Fate That Transcends Time",
+          "slug": "a-golden-fate-that-transcends-time",
+          "urlTemplate": "https://mangak.io/a-golden-fate-that-transcends-time/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/6de4a32fbc59.webp",
+          "lastChapter": 117,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I Became The Duke’s Male Servant",
+          "slug": "i-became-the-dukes-male-servant",
+          "urlTemplate": "https://mangak.io/i-became-the-dukes-male-servant/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/aa948b3f9786.webp",
+          "lastChapter": 90,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Face Genius: Top Star from Age 0",
+          "slug": "face-genius-top-star-from-age-0",
+          "urlTemplate": "https://mangak.io/face-genius-top-star-from-age-0/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b448bb1a9bdf.webp",
+          "lastChapter": 75,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Kamigami no Kago de Seisan Kakumei ~Isekai no Katasumi de Mattari Slow Life Shi Tetara, Naze ka Tasaina Jinzai ga Atsumatte Saikyou Kokka ga Dekitemashita~",
+          "slug": "kamigami-no-kago-de-seisan-kakumei-isekai-no-katasumi-de-mattari-slow-life-shi-tetara-naze-ka-tasaina-jinzai-ga-atsumatte-saikyou-kokka-ga-dekitemashita",
+          "urlTemplate": "https://mangak.io/kamigami-no-kago-de-seisan-kakumei-isekai-no-katasumi-de-mattari-slow-life-shi-tetara-naze-ka-tasaina-jinzai-ga-atsumatte-saikyou-kokka-ga-dekitemashita/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e2f3391755b1.webp",
+          "lastChapter": 38,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Creatures that We Are",
+          "slug": "the-creatures-that-we-are",
+          "urlTemplate": "https://mangak.io/the-creatures-that-we-are/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/455e0abe203a.webp",
+          "lastChapter": 55,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Datenshi Koumori-kun no Junai",
+          "slug": "datenshi-koumori-kun-no-junai",
+          "urlTemplate": "https://mangak.io/datenshi-koumori-kun-no-junai/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/85a2141b8e39.webp",
+          "lastChapter": 9,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Ever After",
+          "slug": "ever-after",
+          "urlTemplate": "https://mangak.io/ever-after/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/06caaf8b7470.webp",
+          "lastChapter": 26,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Yuusha Izoku",
+          "slug": "yuusha-izoku",
+          "urlTemplate": "https://mangak.io/yuusha-izoku/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/236bdef937ff.webp",
+          "lastChapter": 36,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Surviving as the Illegitimate Princess",
+          "slug": "surviving-as-the-illegitimate-princess",
+          "urlTemplate": "https://mangak.io/surviving-as-the-illegitimate-princess/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/93303e5fea01.webp",
+          "lastChapter": 135,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Incognito Princess",
+          "slug": "the-incognito-princess",
+          "urlTemplate": "https://mangak.io/the-incognito-princess/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/15a9d37ee92a.webp",
+          "lastChapter": 115,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A Wicked Husband",
+          "slug": "a-wicked-husband",
+          "urlTemplate": "https://mangak.io/a-wicked-husband/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/689fe164ad3f.webp",
+          "lastChapter": 52,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "After My Death, My Little Groom",
+          "slug": "after-my-death-my-little-groom",
+          "urlTemplate": "https://mangak.io/after-my-death-my-little-groom/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/314f1a29d3cc.webp",
+          "lastChapter": 53,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Misunderstanding blind date",
+          "slug": "misunderstanding-blind-date",
+          "urlTemplate": "https://mangak.io/misunderstanding-blind-date/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/8d2a6a3c672c.webp",
+          "lastChapter": 29,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Longing And Lies",
+          "slug": "longing-and-lies",
+          "urlTemplate": "https://mangak.io/longing-and-lies/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/bd2a4806cee1.webp",
+          "lastChapter": 42,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Lv999 No Murabito",
+          "slug": "lv999-no-murabito",
+          "urlTemplate": "https://mangak.io/lv999-no-murabito/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/47b7c3c60949.webp",
+          "lastChapter": 113,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Scene Stealer",
+          "slug": "scene-stealer",
+          "urlTemplate": "https://mangak.io/scene-stealer/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2f153c659cbf.webp",
+          "lastChapter": 9,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "About Mind",
+          "slug": "about-mind",
+          "urlTemplate": "https://mangak.io/about-mind/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b701371dbea5.webp",
+          "lastChapter": 3,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "5": [
+        {
+          "title": "Alpine",
+          "slug": "alpine",
+          "urlTemplate": "https://mangak.io/alpine/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ae133a3f607f.webp",
+          "lastChapter": 30,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Save the Sunfish Princess!",
+          "slug": "save-the-sunfish-princess",
+          "urlTemplate": "https://mangak.io/save-the-sunfish-princess/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/773843194f5e.webp",
+          "lastChapter": 5,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Can a Stalker be Recycled?",
+          "slug": "can-a-stalker-be-recycled",
+          "urlTemplate": "https://mangak.io/can-a-stalker-be-recycled/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/aa2440fa0eac.webp",
+          "lastChapter": 8,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Through the Laurel Branches",
+          "slug": "through-the-laurel-branches",
+          "urlTemplate": "https://mangak.io/through-the-laurel-branches/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/62c1860620c6.webp",
+          "lastChapter": 21,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Unrequited Love Mentoring",
+          "slug": "unrequited-love-mentoring",
+          "urlTemplate": "https://mangak.io/unrequited-love-mentoring/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/54c4ca40034c.webp",
+          "lastChapter": 12,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Watchful Protector",
+          "slug": "my-watchful-protector",
+          "urlTemplate": "https://mangak.io/my-watchful-protector/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/141d40f4bb80.webp",
+          "lastChapter": 17,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Color Point",
+          "slug": "color-point",
+          "urlTemplate": "https://mangak.io/color-point/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/c83c5290a37c.webp",
+          "lastChapter": 22,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Even If You Run Away, You Are Still Mine",
+          "slug": "even-if-you-run-away-you-are-still-mine",
+          "urlTemplate": "https://mangak.io/even-if-you-run-away-you-are-still-mine/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/913b427cddaf.webp",
+          "lastChapter": 38,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Dark and Light Martial Emperor",
+          "slug": "dark-and-light-martial-emperor",
+          "urlTemplate": "https://mangak.io/dark-and-light-martial-emperor/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f9d22a1edc36.webp",
+          "lastChapter": 74,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Genius Archer’s Streaming",
+          "slug": "genius-archers-streaming",
+          "urlTemplate": "https://mangak.io/genius-archers-streaming/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/22ab653e6512.webp",
+          "lastChapter": 115,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Leveling Up with Monsters: Shadow Sovereign",
+          "slug": "leveling-up-with-monsters-shadow-sovereign",
+          "urlTemplate": "https://mangak.io/leveling-up-with-monsters-shadow-sovereign/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7eee44f1a608.webp",
+          "lastChapter": 29,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Fake Master Who Accidentally Became the Strongest",
+          "slug": "the-fake-master-who-accidentally-became-the-strongest",
+          "urlTemplate": "https://mangak.io/the-fake-master-who-accidentally-became-the-strongest/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ce4bf4304aed.webp",
+          "lastChapter": 53,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Talker",
+          "slug": "talker",
+          "urlTemplate": "https://mangak.io/talker/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/52c89169d0e8.webp",
+          "lastChapter": 8,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Chronicles of the Taoist Masters",
+          "slug": "chronicles-of-the-taoist-masters",
+          "urlTemplate": "https://mangak.io/chronicles-of-the-taoist-masters/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/0a12823458d2.webp",
+          "lastChapter": 20,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Destiny Unchain Online",
+          "slug": "destiny-unchain-online",
+          "urlTemplate": "https://mangak.io/destiny-unchain-online/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/cef43dd0ce47.webp",
+          "lastChapter": 124,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Remarriage Contract",
+          "slug": "remarriage-contract",
+          "urlTemplate": "https://mangak.io/remarriage-contract/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/fd8bcc464b2f.webp",
+          "lastChapter": 41,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "After Being Expelled, I Awakened a Barrier Skill and Became Unmatched",
+          "slug": "after-being-expelled-i-awakened-a-barrier-skill-and-became-unmatched",
+          "urlTemplate": "https://mangak.io/after-being-expelled-i-awakened-a-barrier-skill-and-became-unmatched/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/cc416ac98e60.webp",
+          "lastChapter": 26,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Crossing Destiny's Veil",
+          "slug": "crossing-destinys-veil",
+          "urlTemplate": "https://mangak.io/crossing-destinys-veil/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7556c0773a9a.webp",
+          "lastChapter": 111,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "First-Time Scammer, Bearly Holding On",
+          "slug": "first-time-scammer-bearly-holding-on",
+          "urlTemplate": "https://mangak.io/first-time-scammer-bearly-holding-on/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9354f3466a23.webp",
+          "lastChapter": 11,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Golden Martial God",
+          "slug": "golden-martial-god",
+          "urlTemplate": "https://mangak.io/golden-martial-god/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/c751fc94acd4.webp",
+          "lastChapter": 38,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Father Is the Number One Under Heaven",
+          "slug": "my-father-is-the-number-one-under-heaven",
+          "urlTemplate": "https://mangak.io/my-father-is-the-number-one-under-heaven/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ac351b928553.webp",
+          "lastChapter": 34,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "BUTLER",
+          "slug": "butler",
+          "urlTemplate": "https://mangak.io/butler/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f9d5db2924c0.webp",
+          "lastChapter": 91,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Feasting Lord in Another World",
+          "slug": "feasting-lord-in-another-world",
+          "urlTemplate": "https://mangak.io/feasting-lord-in-another-world/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9f01e5d95282.webp",
+          "lastChapter": 40,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Only I Have an EX-Grade Summon",
+          "slug": "only-i-have-an-ex-grade-summon",
+          "urlTemplate": "https://mangak.io/only-i-have-an-ex-grade-summon/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2085cc6e5c46.webp",
+          "lastChapter": 45,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "6": [
+        {
+          "title": "Superstar From Age 0",
+          "slug": "superstar-from-age-0",
+          "urlTemplate": "https://mangak.io/superstar-from-age-0/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/36f34a1d0f08.webp",
+          "lastChapter": 108,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Rat Is An S-Class Awakener",
+          "slug": "my-rat-is-an-s-class-awakener",
+          "urlTemplate": "https://mangak.io/my-rat-is-an-s-class-awakener/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/848672dfa028.webp",
+          "lastChapter": 44,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Half Line",
+          "slug": "half-line",
+          "urlTemplate": "https://mangak.io/half-line/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/30cf515643cf.webp",
+          "lastChapter": 40,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Weight of Accumulated Snow",
+          "slug": "the-weight-of-accumulated-snow",
+          "urlTemplate": "https://mangak.io/the-weight-of-accumulated-snow/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7779307e9875.webp",
+          "lastChapter": 33,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Even a lonely squirrel has its own burrow",
+          "slug": "even-a-lonely-squirrel-has-its-own-burrow",
+          "urlTemplate": "https://mangak.io/even-a-lonely-squirrel-has-its-own-burrow/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/44e3a0444fca.webp",
+          "lastChapter": 21,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "There's Something Off About My Girlfriend",
+          "slug": "theres-something-off-about-my-girlfriend",
+          "urlTemplate": "https://mangak.io/theres-something-off-about-my-girlfriend/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/58f4d0e149bf.webp",
+          "lastChapter": 17,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Sekitou Elergy",
+          "slug": "sekitou-elergy",
+          "urlTemplate": "https://mangak.io/sekitou-elergy/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/21db28999704.webp",
+          "lastChapter": 101,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Postman Walking Through the Apocalypse",
+          "slug": "the-postman-walking-through-the-apocalypse",
+          "urlTemplate": "https://mangak.io/the-postman-walking-through-the-apocalypse/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7eceff954020.webp",
+          "lastChapter": 43,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Starting The Villainess Life With 0 Gold",
+          "slug": "starting-the-villainess-life-with-0-gold",
+          "urlTemplate": "https://mangak.io/starting-the-villainess-life-with-0-gold/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/88147a4f2bb7.webp",
+          "lastChapter": 0,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Why Is Our Professor Like That?",
+          "slug": "why-is-our-professor-like-that",
+          "urlTemplate": "https://mangak.io/why-is-our-professor-like-that/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/cb66200b7834.webp",
+          "lastChapter": 0,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "How to Live As the Vampire Lord",
+          "slug": "how-to-live-as-the-vampire-lord",
+          "urlTemplate": "https://mangak.io/how-to-live-as-the-vampire-lord/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/0a131105e89f.webp",
+          "lastChapter": 67,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Even The Demon King, One Step At A Time",
+          "slug": "even-the-demon-king-one-step-at-a-time",
+          "urlTemplate": "https://mangak.io/even-the-demon-king-one-step-at-a-time/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d36f1e87bbcf.webp",
+          "lastChapter": 206,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Dawn That Twists Your Neck",
+          "slug": "the-dawn-that-twists-your-neck",
+          "urlTemplate": "https://mangak.io/the-dawn-that-twists-your-neck/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/20ef4145f29a.webp",
+          "lastChapter": 69,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Drawing: Saikyou Mangaka wa Oekaki Skill de Isekai Musou Suru",
+          "slug": "drawing-saikyou-mangaka-wa-oekaki-skill-de-isekai-musou-suru",
+          "urlTemplate": "https://mangak.io/drawing-saikyou-mangaka-wa-oekaki-skill-de-isekai-musou-suru/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/6fe35d89c216.webp",
+          "lastChapter": 208,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "One Step to Being Dark Lord",
+          "slug": "one-step-to-being-dark-lord",
+          "urlTemplate": "https://mangak.io/one-step-to-being-dark-lord/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/bd4ae5ee4ebf.webp",
+          "lastChapter": 206,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Villain Baby Makes a Prophecy",
+          "slug": "the-villain-baby-makes-a-prophecy",
+          "urlTemplate": "https://mangak.io/the-villain-baby-makes-a-prophecy/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/db9639bf26d8.webp",
+          "lastChapter": 36,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Tomb Raider King: Endline",
+          "slug": "tomb-raider-king-endline",
+          "urlTemplate": "https://mangak.io/tomb-raider-king-endline/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/241e508a474f.webp",
+          "lastChapter": 32,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Ghost of Wakefield",
+          "slug": "the-ghost-of-wakefield",
+          "urlTemplate": "https://mangak.io/the-ghost-of-wakefield/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/807ad0aa734d.webp",
+          "lastChapter": 0,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "For My Lifetime!",
+          "slug": "for-my-lifetime",
+          "urlTemplate": "https://mangak.io/for-my-lifetime/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7536d8cbcd93.webp",
+          "lastChapter": 0,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Attach a Name Tag",
+          "slug": "attach-a-name-tag",
+          "urlTemplate": "https://mangak.io/attach-a-name-tag/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/8699db266748.webp",
+          "lastChapter": 2,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Sign In The Mystery Box To Dominate The World Of Cultivation",
+          "slug": "sign-in-the-mystery-box-to-dominate-the-world-of-cultivation",
+          "urlTemplate": "https://mangak.io/sign-in-the-mystery-box-to-dominate-the-world-of-cultivation/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/26102716a9ab.webp",
+          "lastChapter": 80,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Hi Mommy",
+          "slug": "hi-mommy",
+          "urlTemplate": "https://mangak.io/hi-mommy/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e031dccf7774.webp",
+          "lastChapter": 28,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Fresh Meat",
+          "slug": "fresh-meat",
+          "urlTemplate": "https://mangak.io/fresh-meat/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/45d5bac7eccf.webp",
+          "lastChapter": 0,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Subject To Contract",
+          "slug": "subject-to-contract",
+          "urlTemplate": "https://mangak.io/subject-to-contract/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1f04c23df1fc.webp",
+          "lastChapter": 12,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "7": [
+        {
+          "title": "Two Guys and Pocky",
+          "slug": "two-guys-and-pocky",
+          "urlTemplate": "https://mangak.io/two-guys-and-pocky/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/28435618d091.webp",
+          "lastChapter": 2,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Dark Fall",
+          "slug": "dark-fall",
+          "urlTemplate": "https://mangak.io/dark-fall/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/63cebacbfd5e.webp",
+          "lastChapter": 89,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Clothing Bin of Love",
+          "slug": "clothing-bin-of-love",
+          "urlTemplate": "https://mangak.io/clothing-bin-of-love/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d4c3c147301f.webp",
+          "lastChapter": 55,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "24 Hour Handsome Man",
+          "slug": "24-hour-handsome-man",
+          "urlTemplate": "https://mangak.io/24-hour-handsome-man/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e38e8de44660.webp",
+          "lastChapter": 20,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Max Level Player",
+          "slug": "max-level-player",
+          "urlTemplate": "https://mangak.io/max-level-player/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/fd6523bc3af7.webp",
+          "lastChapter": 159,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Misfit of the Martial World",
+          "slug": "the-misfit-of-the-martial-world",
+          "urlTemplate": "https://mangak.io/the-misfit-of-the-martial-world/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9410c8855c96.webp",
+          "lastChapter": 45,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Honmono No Kanojo Ni Shitakunaru Made, Watashi De Tameshite Ii Yo.",
+          "slug": "honmono-no-kanojo-ni-shitakunaru-made-watashi-de-tameshite-ii-yo",
+          "urlTemplate": "https://mangak.io/honmono-no-kanojo-ni-shitakunaru-made-watashi-de-tameshite-ii-yo/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1198daf0a129.webp",
+          "lastChapter": 11,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Rejoice In Your Enemies",
+          "slug": "rejoice-in-your-enemies",
+          "urlTemplate": "https://mangak.io/rejoice-in-your-enemies/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2681724a7ea2.webp",
+          "lastChapter": 111,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Daughters",
+          "slug": "daughters",
+          "urlTemplate": "https://mangak.io/daughters/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/15d49ba1a741.webp",
+          "lastChapter": 27,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Even if You Don't Have One Third",
+          "slug": "even-if-you-dont-have-one-third",
+          "urlTemplate": "https://mangak.io/even-if-you-dont-have-one-third/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/569b656697ed.webp",
+          "lastChapter": 62,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "She Is Wearing a Mask",
+          "slug": "she-is-wearing-a-mask",
+          "urlTemplate": "https://mangak.io/she-is-wearing-a-mask/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/fab3ef975ed3.webp",
+          "lastChapter": 33,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Cardcaptor Sakura - Clear Card Arc",
+          "slug": "cardcaptor-sakura-clear-card-arc",
+          "urlTemplate": "https://mangak.io/cardcaptor-sakura-clear-card-arc/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/8983a9dca9bf.webp",
+          "lastChapter": 81,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I Became a Millionaire’s daughter",
+          "slug": "i-became-a-millionaires-daughter",
+          "urlTemplate": "https://mangak.io/i-became-a-millionaires-daughter/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/c0eac200cf3b.webp",
+          "lastChapter": 65,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "1St Kiss",
+          "slug": "1st-kiss",
+          "urlTemplate": "https://mangak.io/1st-kiss/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5203874dd0b9.webp",
+          "lastChapter": 44,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Zero Sense",
+          "slug": "zero-sense",
+          "urlTemplate": "https://mangak.io/zero-sense/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/6793181443da.webp",
+          "lastChapter": 46,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Love Diary",
+          "slug": "love-diary",
+          "urlTemplate": "https://mangak.io/love-diary/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/6db5e4ab3974.webp",
+          "lastChapter": 62,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Raising a Child Who Will Kill Me",
+          "slug": "raising-a-child-who-will-kill-me",
+          "urlTemplate": "https://mangak.io/raising-a-child-who-will-kill-me/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5589edb7ffda.webp",
+          "lastChapter": 35,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I Reincarnated as the Princess of a Country That Is Going to Destroyed by Male Protagonist",
+          "slug": "i-reincarnated-as-the-princess-of-a-country-that-is-going-to-destroyed-by-male-protagonist",
+          "urlTemplate": "https://mangak.io/i-reincarnated-as-the-princess-of-a-country-that-is-going-to-destroyed-by-male-protagonist/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f400309440b4.webp",
+          "lastChapter": 37,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Dahuoji Yu Gongzhu Qun",
+          "slug": "dahuoji-yu-gongzhu-qun",
+          "urlTemplate": "https://mangak.io/dahuoji-yu-gongzhu-qun/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/05c071645028.webp",
+          "lastChapter": 98,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A Tale of the Temptation of My Friend's Stepmom and Sister",
+          "slug": "a-tale-of-the-temptation-of-my-friends-stepmom-and-sister",
+          "urlTemplate": "https://mangak.io/a-tale-of-the-temptation-of-my-friends-stepmom-and-sister/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/4029d0115aab.webp",
+          "lastChapter": 2,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Reincarnated Assassin is a Genius Swordsman",
+          "slug": "the-reincarnated-assassin-is-a-genius-swordsman",
+          "urlTemplate": "https://mangak.io/the-reincarnated-assassin-is-a-genius-swordsman/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/0a40a0213a9a.webp",
+          "lastChapter": 99,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "This is a Fap Book ft. a widow in her mourning dress",
+          "slug": "this-is-a-fap-book-ft-a-widow-in-her-mourning-dress",
+          "urlTemplate": "https://mangak.io/this-is-a-fap-book-ft-a-widow-in-her-mourning-dress/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b9780ce193d8.webp",
+          "lastChapter": 1,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Debby the Corsifa is Emulous",
+          "slug": "debby-the-corsifa-is-emulous",
+          "urlTemplate": "https://mangak.io/debby-the-corsifa-is-emulous/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/48d465a05d8e.webp",
+          "lastChapter": 66,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Joseon prince went to America and didn’t return",
+          "slug": "the-joseon-prince-went-to-america-and-didnt-return",
+          "urlTemplate": "https://mangak.io/the-joseon-prince-went-to-america-and-didnt-return/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/4d48f7f50284.webp",
+          "lastChapter": 81,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "8": [
+        {
+          "title": "Gender-Swap at the Delinquent Academy -He's Trying to Get My First Time!-",
+          "slug": "gender-swap-at-the-delinquent-academy-hes-trying-to-get-my-first-time",
+          "urlTemplate": "https://mangak.io/gender-swap-at-the-delinquent-academy-hes-trying-to-get-my-first-time/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/83d4b6cfa064.webp",
+          "lastChapter": 110,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Assassin X Dragon",
+          "slug": "assassin-x-dragon",
+          "urlTemplate": "https://mangak.io/assassin-x-dragon/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/4aecfe53ba00.webp",
+          "lastChapter": 27,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Lost City of Alien Beasts",
+          "slug": "the-lost-city-of-alien-beasts",
+          "urlTemplate": "https://mangak.io/the-lost-city-of-alien-beasts/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f63c56485c55.webp",
+          "lastChapter": 55,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Ghost Story Market",
+          "slug": "ghost-story-market",
+          "urlTemplate": "https://mangak.io/ghost-story-market/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ee8da749f543.webp",
+          "lastChapter": 7,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Happy Together",
+          "slug": "happy-together",
+          "urlTemplate": "https://mangak.io/happy-together/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5fe12564ffaf.webp",
+          "lastChapter": 38,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Alpha Agenda",
+          "slug": "the-alpha-agenda",
+          "urlTemplate": "https://mangak.io/the-alpha-agenda/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/59162131251c.webp",
+          "lastChapter": 65,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Bimyou ni Yasashii Ijimekko",
+          "slug": "bimyou-ni-yasashii-ijimekko",
+          "urlTemplate": "https://mangak.io/bimyou-ni-yasashii-ijimekko/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/3294d4b376f1.webp",
+          "lastChapter": 118,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Count's Beloved Contract Young Lady",
+          "slug": "the-counts-beloved-contract-young-lady",
+          "urlTemplate": "https://mangak.io/the-counts-beloved-contract-young-lady/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/1cf037cfb3e3.webp",
+          "lastChapter": 51,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Star Next Door",
+          "slug": "the-star-next-door",
+          "urlTemplate": "https://mangak.io/the-star-next-door/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/868c8b4d43b4.webp",
+          "lastChapter": 39,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I May Be a Beginner, but I’m Actually a Level 99 Overpowered Player",
+          "slug": "i-may-be-a-beginner-but-im-actually-a-level-99-overpowered-player",
+          "urlTemplate": "https://mangak.io/i-may-be-a-beginner-but-im-actually-a-level-99-overpowered-player/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e1a706ac86dc.webp",
+          "lastChapter": 33,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Ordinary Lawyer's Subspace",
+          "slug": "the-ordinary-lawyers-subspace",
+          "urlTemplate": "https://mangak.io/the-ordinary-lawyers-subspace/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9e807d8b29f5.webp",
+          "lastChapter": 49,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Reincarnation of the Veteran Soldier",
+          "slug": "reincarnation-of-the-veteran-soldier",
+          "urlTemplate": "https://mangak.io/reincarnation-of-the-veteran-soldier/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/806f26023058.webp",
+          "lastChapter": 224,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A Dragon Lives in Kunlun",
+          "slug": "a-dragon-lives-in-kunlun",
+          "urlTemplate": "https://mangak.io/a-dragon-lives-in-kunlun/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/927d9401690f.webp",
+          "lastChapter": 19,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Postman of the Apocalypse",
+          "slug": "the-postman-of-the-apocalypse",
+          "urlTemplate": "https://mangak.io/the-postman-of-the-apocalypse/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/c210e08aeaf7.webp",
+          "lastChapter": 43,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "My Multiple Personality Girlfriend",
+          "slug": "my-multiple-personality-girlfriend",
+          "urlTemplate": "https://mangak.io/my-multiple-personality-girlfriend/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/bdc9e66cb9f0.webp",
+          "lastChapter": 17,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Agnes Kamen",
+          "slug": "agnes-kamen",
+          "urlTemplate": "https://mangak.io/agnes-kamen/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/39cfc1de47f0.webp",
+          "lastChapter": 49,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Chounin A wa Akuyaku Reijou wo Doushitemo Sukuitai ~Dobu to Sora to Koori no Himegimi~",
+          "slug": "chounin-a-wa-akuyaku-reijou-wo-doushitemo-sukuitai-dobu-to-sora-to-koori-no-himegimi",
+          "urlTemplate": "https://mangak.io/chounin-a-wa-akuyaku-reijou-wo-doushitemo-sukuitai-dobu-to-sora-to-koori-no-himegimi/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2ca56f212dbe.webp",
+          "lastChapter": 52,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Looks Can Be Deceiving",
+          "slug": "looks-can-be-deceiving",
+          "urlTemplate": "https://mangak.io/looks-can-be-deceiving/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/3c0f5f9100c4.webp",
+          "lastChapter": 13,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Daily Chaldea",
+          "slug": "daily-chaldea",
+          "urlTemplate": "https://mangak.io/daily-chaldea/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/567473988ead.webp",
+          "lastChapter": 2738,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Band",
+          "slug": "the-band",
+          "urlTemplate": "https://mangak.io/the-band/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b2b1f00f7209.webp",
+          "lastChapter": 22,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Chaos Heavenly Emperor",
+          "slug": "chaos-heavenly-emperor",
+          "urlTemplate": "https://mangak.io/chaos-heavenly-emperor/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/11f9c55362b7.webp",
+          "lastChapter": 158,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Another World Harem Founding Story",
+          "slug": "another-world-harem-founding-story",
+          "urlTemplate": "https://mangak.io/another-world-harem-founding-story/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/26f0ff570e96.webp",
+          "lastChapter": 25,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Simple yet sexy",
+          "slug": "simple-yet-sexy",
+          "urlTemplate": "https://mangak.io/simple-yet-sexy/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/bc888effa529.webp",
+          "lastChapter": 144,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Welcome to the Adult Entertainment Complex: Nonstop Harem Sex After 2 AM!",
+          "slug": "welcome-to-the-adult-entertainment-complex-nonstop-harem-sex-after-2-am",
+          "urlTemplate": "https://mangak.io/welcome-to-the-adult-entertainment-complex-nonstop-harem-sex-after-2-am/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/94d3756a237c.webp",
+          "lastChapter": 9,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "9": [
+        {
+          "title": "My Brother’s Slipped Inside Me in The Bathtub",
+          "slug": "my-brothers-slipped-inside-me-in-the-bathtub",
+          "urlTemplate": "https://mangak.io/my-brothers-slipped-inside-me-in-the-bathtub/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/c7f6b056372c.webp",
+          "lastChapter": 159,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Reincarnated as a Mediocre Member of a Prestigious Family, I Used to Be the Strongest",
+          "slug": "reincarnated-as-a-mediocre-member-of-a-prestigious-family-i-used-to-be-the-strongest",
+          "urlTemplate": "https://mangak.io/reincarnated-as-a-mediocre-member-of-a-prestigious-family-i-used-to-be-the-strongest/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/75525dd6992d.webp",
+          "lastChapter": 31,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "All My Old Classmates Are Hookers",
+          "slug": "all-my-old-classmates-are-hookers",
+          "urlTemplate": "https://mangak.io/all-my-old-classmates-are-hookers/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/12d3ba08addc.webp",
+          "lastChapter": 54,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Return of the Scorned Genius",
+          "slug": "the-return-of-the-scorned-genius",
+          "urlTemplate": "https://mangak.io/the-return-of-the-scorned-genius/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/15813cbc6f6c.webp",
+          "lastChapter": 29,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Quiet Girl's Erogenous Zone - She Doesn't Moan, but Her Body is Honest, She is Wet",
+          "slug": "the-quiet-girls-erogenous-zone-she-doesnt-moan-but-her-body-is-honest-she-is-wet",
+          "urlTemplate": "https://mangak.io/the-quiet-girls-erogenous-zone-she-doesnt-moan-but-her-body-is-honest-she-is-wet/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5b662079acaa.webp",
+          "lastChapter": 90,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Missing Pepper Case",
+          "slug": "missing-pepper-case",
+          "urlTemplate": "https://mangak.io/missing-pepper-case/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/df3771e75966.webp",
+          "lastChapter": 52,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "A Studio Apartment Will Suffice",
+          "slug": "a-studio-apartment-will-suffice",
+          "urlTemplate": "https://mangak.io/a-studio-apartment-will-suffice/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/a3b7c7f24668.webp",
+          "lastChapter": 11,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Infinite Breakthrough",
+          "slug": "infinite-breakthrough",
+          "urlTemplate": "https://mangak.io/infinite-breakthrough/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5200b852f4e2.webp",
+          "lastChapter": 25,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "All the Heroes Are My Enemies: The ‘Useless’ Class Dropout Overpowers Everyone With His Barrier Skill and Takes Revenge",
+          "slug": "all-the-heroes-are-my-enemies-the-useless-class-dropout-overpowers-everyone-with-his-barrier-skill-and-takes-revenge",
+          "urlTemplate": "https://mangak.io/all-the-heroes-are-my-enemies-the-useless-class-dropout-overpowers-everyone-with-his-barrier-skill-and-takes-revenge/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d62509c3e107.webp",
+          "lastChapter": 26,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Nippon Sangoku",
+          "slug": "nippon-sangoku",
+          "urlTemplate": "https://mangak.io/nippon-sangoku/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/69b3462a613b.webp",
+          "lastChapter": 42,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Fei Ren Zai",
+          "slug": "fei-ren-zai",
+          "urlTemplate": "https://mangak.io/fei-ren-zai/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9c3b577c28a3.webp",
+          "lastChapter": 584,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Hadacamera",
+          "slug": "hadacamera",
+          "urlTemplate": "https://mangak.io/hadacamera/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/5a0b5e7a0f02.webp",
+          "lastChapter": 73,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I'm Mortal",
+          "slug": "im-mortal",
+          "urlTemplate": "https://mangak.io/im-mortal/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/50830eb38f52.webp",
+          "lastChapter": 164,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Gamer ga Isekai Konten Shite Harem Jinsei e Continue suru Sou desu",
+          "slug": "gamer-ga-isekai-konten-shite-harem-jinsei-e-continue-suru-sou-desu",
+          "urlTemplate": "https://mangak.io/gamer-ga-isekai-konten-shite-harem-jinsei-e-continue-suru-sou-desu/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/ce1079e72bb2.webp",
+          "lastChapter": 15,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Naked Camera",
+          "slug": "naked-camera",
+          "urlTemplate": "https://mangak.io/naked-camera/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f957ca829670.webp",
+          "lastChapter": 73,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Alpha, Disqualified",
+          "slug": "alpha-disqualified",
+          "urlTemplate": "https://mangak.io/alpha-disqualified/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/a6f4bb348d56.webp",
+          "lastChapter": 24,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Caregiving Alliance",
+          "slug": "caregiving-alliance",
+          "urlTemplate": "https://mangak.io/caregiving-alliance/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f439599e787f.webp",
+          "lastChapter": 26,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Secret of Netsy",
+          "slug": "the-secret-of-netsy",
+          "urlTemplate": "https://mangak.io/the-secret-of-netsy/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/93d968f64cb6.webp",
+          "lastChapter": 33,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Snail Bride",
+          "slug": "the-snail-bride",
+          "urlTemplate": "https://mangak.io/the-snail-bride/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d3c831721a3f.webp",
+          "lastChapter": 3,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Pitiful Consort of the Inner Palace: After Reincarnating, I'm Being Doted on Like a 'Cat' by the Emperor",
+          "slug": "the-pitiful-consort-of-the-inner-palace-after-reincarnating-im-being-doted-on-like-a-cat-by-the-emperor",
+          "urlTemplate": "https://mangak.io/the-pitiful-consort-of-the-inner-palace-after-reincarnating-im-being-doted-on-like-a-cat-by-the-emperor/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/106ba0899cbf.webp",
+          "lastChapter": 1,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Not Bad",
+          "slug": "not-bad",
+          "urlTemplate": "https://mangak.io/not-bad/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/cf1ba5e50b09.webp",
+          "lastChapter": 49,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Simon Says",
+          "slug": "simon-says",
+          "urlTemplate": "https://mangak.io/simon-says/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7f0934066bf4.webp",
+          "lastChapter": 16,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Wall Street Genius's Time-Limited Investment Method",
+          "slug": "wall-street-geniuss-time-limited-investment-method",
+          "urlTemplate": "https://mangak.io/wall-street-geniuss-time-limited-investment-method/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/c9f8b57f120d.webp",
+          "lastChapter": 16,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Dark Magician Transmigrates After 66666 Years",
+          "slug": "the-dark-magician-transmigrates-after-66666-years",
+          "urlTemplate": "https://mangak.io/the-dark-magician-transmigrates-after-66666-years/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/df1fd05d2803.webp",
+          "lastChapter": 204,
+          "primaryDomain": "mangak.io"
+        }
+      ],
+      "10": [
+        {
+          "title": "Lost Man",
+          "slug": "lost-man",
+          "urlTemplate": "https://mangak.io/lost-man/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/15d6c60310a9.webp",
+          "lastChapter": 124,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Vegetative Boss Can't Keep Pretending",
+          "slug": "vegetative-boss-cant-keep-pretending",
+          "urlTemplate": "https://mangak.io/vegetative-boss-cant-keep-pretending/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/fe954123fe4b.webp",
+          "lastChapter": 68,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Prince Sun Wants to be a Wife",
+          "slug": "prince-sun-wants-to-be-a-wife",
+          "urlTemplate": "https://mangak.io/prince-sun-wants-to-be-a-wife/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/f1712af6072e.webp",
+          "lastChapter": 12,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Real",
+          "slug": "real",
+          "urlTemplate": "https://mangak.io/real/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/89ceea87e35f.webp",
+          "lastChapter": 106,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Transmigrated Into the Tyrant’s Beloved",
+          "slug": "transmigrated-into-the-tyrants-beloved",
+          "urlTemplate": "https://mangak.io/transmigrated-into-the-tyrants-beloved/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9237b201278b.webp",
+          "lastChapter": 16,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Bossy President Can't Defy Me",
+          "slug": "the-bossy-president-cant-defy-me",
+          "urlTemplate": "https://mangak.io/the-bossy-president-cant-defy-me/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/be0f5d2130dc.webp",
+          "lastChapter": 44,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "After relinquishing my talent, I became a favorite of the wizarding world",
+          "slug": "after-relinquishing-my-talent-i-became-a-favorite-of-the-wizarding-world",
+          "urlTemplate": "https://mangak.io/after-relinquishing-my-talent-i-became-a-favorite-of-the-wizarding-world/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/04c2af22b652.webp",
+          "lastChapter": 84,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Bending the Rules Over",
+          "slug": "bending-the-rules-over",
+          "urlTemplate": "https://mangak.io/bending-the-rules-over/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/8a7ba3ec195d.webp",
+          "lastChapter": 3,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "How Dare You",
+          "slug": "how-dare-you",
+          "urlTemplate": "https://mangak.io/how-dare-you/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e7ef9f1fc835.webp",
+          "lastChapter": 58,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Dear My Rude Darling With Multiple Personalities",
+          "slug": "dear-my-rude-darling-with-multiple-personalities",
+          "urlTemplate": "https://mangak.io/dear-my-rude-darling-with-multiple-personalities/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/485c0ef5848e.webp",
+          "lastChapter": 81,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Gimme That Pacifier!",
+          "slug": "gimme-that-pacifier",
+          "urlTemplate": "https://mangak.io/gimme-that-pacifier/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/e027549328e4.webp",
+          "lastChapter": 144,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Timid Lady of the Frontier Won't Give Up on Revenge",
+          "slug": "the-timid-lady-of-the-frontier-wont-give-up-on-revenge",
+          "urlTemplate": "https://mangak.io/the-timid-lady-of-the-frontier-wont-give-up-on-revenge/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/868dfdce6b06.webp",
+          "lastChapter": 28,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Baby Dragon",
+          "slug": "baby-dragon",
+          "urlTemplate": "https://mangak.io/baby-dragon/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/d65b9622c2a5.webp",
+          "lastChapter": 46,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Shadow Moon",
+          "slug": "shadow-moon",
+          "urlTemplate": "https://mangak.io/shadow-moon/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b9636054f40f.webp",
+          "lastChapter": 36,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "I've Become the Devil's Master",
+          "slug": "ive-become-the-devils-master",
+          "urlTemplate": "https://mangak.io/ive-become-the-devils-master/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2b7612adf4f6.webp",
+          "lastChapter": 104,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Low-Level Civil Servant Wants to Climb the Social Ladder",
+          "slug": "low-level-civil-servant-wants-to-climb-the-social-ladder",
+          "urlTemplate": "https://mangak.io/low-level-civil-servant-wants-to-climb-the-social-ladder/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9860e7444c4a.webp",
+          "lastChapter": 78,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Villain’s Daughter in law is Inherently Powerful",
+          "slug": "the-villains-daughter-in-law-is-inherently-powerful",
+          "urlTemplate": "https://mangak.io/the-villains-daughter-in-law-is-inherently-powerful/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/de9cfa4134b7.webp",
+          "lastChapter": 73,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Marked as the Tyrant's Daughter-in-law",
+          "slug": "marked-as-the-tyrants-daughter-in-law",
+          "urlTemplate": "https://mangak.io/marked-as-the-tyrants-daughter-in-law/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/b70a797f3815.webp",
+          "lastChapter": 30,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Their Trap",
+          "slug": "their-trap",
+          "urlTemplate": "https://mangak.io/their-trap/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/9c87d92ea32c.webp",
+          "lastChapter": 53,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "The Maid Holds the Leash of the Tyrant",
+          "slug": "the-maid-holds-the-leash-of-the-tyrant",
+          "urlTemplate": "https://mangak.io/the-maid-holds-the-leash-of-the-tyrant/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/7b04c78ff865.webp",
+          "lastChapter": 78,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Seduce Her",
+          "slug": "seduce-her",
+          "urlTemplate": "https://mangak.io/seduce-her/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/3f1b9ec76e24.webp",
+          "lastChapter": 56,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "To my many obnoxious personalities",
+          "slug": "to-my-many-obnoxious-personalities",
+          "urlTemplate": "https://mangak.io/to-my-many-obnoxious-personalities/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/2f198c819e25.webp",
+          "lastChapter": 81,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Does a Hero Need Work Benefits Too?",
+          "slug": "does-a-hero-need-work-benefits-too",
+          "urlTemplate": "https://mangak.io/does-a-hero-need-work-benefits-too/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/35177649c7b3.webp",
+          "lastChapter": 44,
+          "primaryDomain": "mangak.io"
+        },
+        {
+          "title": "Beloved Contract Lady of the County",
+          "slug": "beloved-contract-lady-of-the-county",
+          "urlTemplate": "https://mangak.io/beloved-contract-lady-of-the-county/chapter-{chapter}",
+          "coverUrl": "https://rx.resmk.org/covers/debc9caee0d3.webp",
+          "lastChapter": 51,
+          "primaryDomain": "mangak.io"
+        }
+      ]
+    },
+    "frozen": {
+      "1": [
+        {
+          "title": "Frozen Hearts",
+          "urlTemplate": "https://mangak.io/frozen-hearts/chapter-{chapter}",
+          "lastChapter": 89
+        },
+        {
+          "title": "Frozen Boy",
+          "urlTemplate": "https://mangak.io/frozen-boy/chapter-{chapter}",
+          "lastChapter": 7
+        },
+        {
+          "title": "Frozen Warrior",
+          "urlTemplate": "https://mangak.io/frozen-warrior/chapter-{chapter}",
+          "lastChapter": 49
+        },
+        {
+          "title": "Frozen Heart",
+          "urlTemplate": "https://mangak.io/frozen-heart/chapter-{chapter}",
+          "lastChapter": 11
+        },
+        {
+          "title": "Frozen Apple",
+          "urlTemplate": "https://mangak.io/frozen-apple/chapter-{chapter}",
+          "lastChapter": 6
+        },
+        {
+          "title": "Snowman - Frozen Heart",
+          "urlTemplate": "https://mangak.io/snowman-frozen-heart/chapter-{chapter}",
+          "lastChapter": 64
+        },
+        {
+          "title": "Ice Flower Knight",
+          "urlTemplate": "https://mangak.io/ice-flower-knight/chapter-{chapter}",
+          "lastChapter": 88
+        },
+        {
+          "title": "Frozen Wolf, Fire Dragon",
+          "urlTemplate": "https://mangak.io/frozen-wolf-fire-dragon/chapter-{chapter}",
+          "lastChapter": 112
+        },
+        {
+          "title": "The Frozen Player Returns",
+          "urlTemplate": "https://mangak.io/the-frozen-player-returns/chapter-{chapter}",
+          "lastChapter": 230
+        },
+        {
+          "title": "Ice Lord",
+          "urlTemplate": "https://mangak.io/ice-lord/chapter-{chapter}",
+          "lastChapter": 65
+        },
+        {
+          "title": "Tohai",
+          "urlTemplate": "https://mangak.io/tohai/chapter-{chapter}",
+          "lastChapter": 43
+        },
+        {
+          "title": "Return Of The Frozen Player",
+          "urlTemplate": "https://mangak.io/return-of-the-frozen-player/chapter-{chapter}",
+          "lastChapter": 230
+        },
+        {
+          "title": "After the Frozen Heart Melts",
+          "urlTemplate": "https://mangak.io/after-the-frozen-heart-melts/chapter-{chapter}",
+          "lastChapter": 79
+        },
+        {
+          "title": "Frozen Wolf, Fire Dragon (Whalemanga)",
+          "urlTemplate": "https://mangak.io/frozen-wolf-fire-dragon-whalemanga/chapter-{chapter}",
+          "lastChapter": 74
+        },
+        {
+          "title": "When the Frozen Heart Thaws",
+          "urlTemplate": "https://mangak.io/when-the-frozen-heart-thaws/chapter-{chapter}",
+          "lastChapter": 3
+        },
+        {
+          "title": "Knight of the Frozen Flower",
+          "urlTemplate": "https://mangak.io/knight-of-the-frozen-flower/chapter-{chapter}",
+          "lastChapter": 88
+        },
+        {
+          "title": "To Melt Your Frozen Heart",
+          "urlTemplate": "https://mangak.io/to-melt-your-frozen-heart/chapter-{chapter}",
+          "lastChapter": 52
+        },
+        {
+          "title": "Dawn of the Frozen Wastelands",
+          "urlTemplate": "https://mangak.io/dawn-of-the-frozen-wastelands/chapter-{chapter}",
+          "lastChapter": 71
+        },
+        {
+          "title": "Sweet 16",
+          "urlTemplate": "https://mangak.io/sweet-16/chapter-{chapter}",
+          "lastChapter": 6
+        },
+        {
+          "title": "Frozen Apocalypse: No Chance of Survival",
+          "urlTemplate": "https://mangak.io/frozen-apocalypse-no-chance-of-survival/chapter-{chapter}",
+          "lastChapter": 74
+        },
+        {
+          "title": "Frozen Guardian of the Mountain Realm",
+          "urlTemplate": "https://mangak.io/frozen-guardian-of-the-mountain-realm/chapter-{chapter}",
+          "lastChapter": 5
+        },
+        {
+          "title": "Arctic King",
+          "urlTemplate": "https://mangak.io/arctic-king/chapter-{chapter}",
+          "lastChapter": 79
+        },
+        {
+          "title": "Frozen Apocalypse: I Stockpiled 100 Billion Supplies",
+          "urlTemplate": "https://mangak.io/frozen-apocalypse-i-stockpiled-100-billion-supplies/chapter-{chapter}",
+          "lastChapter": 73
+        },
+        {
+          "title": "The Heroine Wants Me As Her Sister-in-Law",
+          "urlTemplate": "https://mangak.io/the-heroine-wants-me-as-her-sister-in-law/chapter-{chapter}",
+          "lastChapter": 109
+        }
+      ]
+    }
+  },
+  "totalPages": {
+    "": {
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10,
+      "5": 10,
+      "6": 10,
+      "7": 10,
+      "8": 10,
+      "9": 10,
+      "10": 10
+    },
+    "frozen": {
+      "1": 11
+    }
+  }
+}
