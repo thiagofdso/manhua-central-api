@@ -152,6 +152,17 @@ func main() {
 		_, _ = w.Write([]byte(`{"status":"ok","timestamp":"` + time.Now().UTC().Format(time.RFC3339) + `"}`))
 	})
 
+	// Root welcome / status
+	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path != "/" {
+			http.NotFound(w, r)
+			return
+		}
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write([]byte(`{"app":"Manhua Central API","status":"online","version":"1.0.0"}`))
+	})
+
 	// Auth Endpoints
 	mux.HandleFunc("/api/auth/register", authHandler.Register)
 	mux.HandleFunc("/api/auth/login", authHandler.Login)

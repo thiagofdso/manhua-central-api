@@ -7,7 +7,7 @@ bin/
 *.so
 *.dylib
 manhua-api
-server
+/server
 
 # Test artifacts
 *.test
