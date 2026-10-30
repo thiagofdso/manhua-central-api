@@ -8,10 +8,16 @@ import (
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 )
 
 type CatalogHandler struct {
-	repo repository.CanonicalRepository
+	collection *service.CatalogCollection
+	repo       repository.CanonicalRepository
+}
+
+func (h *CatalogHandler) SetCollection(collection *service.CatalogCollection) {
+	h.collection = collection
 }
 
 func NewCatalogHandler(repo repository.CanonicalRepository) *CatalogHandler {
@@ -70,6 +76,9 @@ func (h *CatalogHandler) List(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	if h.collection != nil {
+		h.collection.PrioritizeCovers(r.Context(), res.Items)
+	}
 	sendJSON(w, http.StatusOK, res)
 }
 

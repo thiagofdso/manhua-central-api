@@ -2,6 +2,7 @@ package providers
 
 import (
 	"context"
+	"errors"
 	"time"
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
@@ -33,13 +34,16 @@ func (s *CachedDomainScraper) Name() string {
 
 func (s *CachedDomainScraper) SearchOrBrowse(ctx context.Context, query string, page int) (result *domain.ScrapeResult, resultErr error) {
 	defer func() {
-		if result != nil {
+		if result != nil && s.domain != "manhuaus.com" && s.domain != "ravenscans.org" {
 			coverCtx, cancel := context.WithTimeout(ctx, 8*time.Second)
 			defer cancel()
 			fillMissingCovers(coverCtx, result.Items)
 		}
 	}()
-	cachedRes, _ := LoadCachedDomainItems(s.cacheDir, s.domain, query, page)
+	cachedRes, cacheErr := LoadCachedDomainItems(s.cacheDir, s.domain, query, page)
+	if errors.Is(cacheErr, ErrCachedPageMissing) {
+		return nil, cacheErr
+	}
 
 	// Se tiver um scraper nativo/ao vivo, tenta executar primeiro
 	if s.fallback != nil {

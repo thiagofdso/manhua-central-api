@@ -54,3 +54,14 @@ func TestImportService_Browse(t *testing.T) {
 		t.Errorf("expected AlreadyInCatalog to be false without repo")
 	}
 }
+
+func TestImportServiceCollectionDoesNotChangeOtherDomains(t *testing.T) {
+	reg := providers.NewProviderRegistry()
+	reg.Register(&mockScraper{domain: "test.com", name: "Test"})
+	svc := service.NewImportService(reg, nil, nil, nil)
+	svc.SetCollection(service.NewCatalogCollection(nil, reg, nil, nil))
+	res, err := svc.Browse(context.Background(), "test.com", "", 1, nil)
+	if err != nil || len(res.Items) != 1 || res.Syncing {
+		t.Fatalf("existing provider flow changed: result=%+v error=%v", res, err)
+	}
+}

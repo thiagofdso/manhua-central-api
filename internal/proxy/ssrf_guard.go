@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net"
 	"net/url"
+	"path/filepath"
 	"strings"
 )
 
@@ -22,26 +23,46 @@ var DefaultAllowedDomains = []string{
 	"cdn.asurascans.com",
 	"ravenscans.org",
 	"*.ravenscans.org",
+	"cdn*.ravenscans.org",
 	"mangafire.to",
 	"*.mangafire.to",
 	"*.mfcdn.net",
+	"*mfcdn*.*",
+	"*.mfcdn*.xyz",
+	"*.mfcdn.nl",
 	"mangak.io",
 	"*.mangak.io",
 	"*.qvzr*.org",
+	"*qvzr*.org",
 	"resmk.org",
 	"*.resmk.org",
+	"*resmk*.org",
 	"manhuaus.com",
 	"*.manhuaus.com",
 	"comix.to",
 	"*.comix.to",
+	"*.site",
 	"arenascan.com",
 	"*.arenascan.com",
 	"arenascans.com",
 	"*.arenascans.com",
+	"cdn.arenascan.com",
 	"manhuatop.org",
 	"*.manhuatop.org",
+	"*.wp.com",
 	"mgeko.cc",
 	"*.mgeko.cc",
+	"www.mgeko.cc",
+	"*imgsrv*.com",
+	"*.imgsrv*.com",
+	"levelingwithgods.com",
+	"*.levelingwithgods.com",
+	"pickmeupgacha.com",
+	"*.pickmeupgacha.com",
+	"abyssrift.com",
+	"*.abyssrift.com",
+	"magicemperor.online",
+	"*.magicemperor.online",
 	"images.unsplash.com",
 	"*.unsplash.com",
 }
@@ -129,7 +150,7 @@ func (g *SSRFGuard) IsDomainAllowed(hostname string) bool {
 	}
 
 	for _, pattern := range g.allowedDomains {
-		p := strings.ToLower(pattern)
+		p := strings.ToLower(strings.TrimSpace(pattern))
 		if p == host {
 			return true
 		}
@@ -141,11 +162,16 @@ func (g *SSRFGuard) IsDomainAllowed(hostname string) bool {
 			}
 		}
 
-		// Handle wildcards like *.qvzr*.org
+		// Handle wildcards using filepath.Match (e.g. *.qvzr*.org, *imgsrv*.com)
 		if strings.Contains(p, "*") {
-			parts := strings.Split(p, "*")
-			if len(parts) == 2 && strings.HasPrefix(host, parts[0]) && strings.HasSuffix(host, parts[1]) {
+			if matched, _ := filepath.Match(p, host); matched {
 				return true
+			}
+			if strings.HasPrefix(p, "*.") {
+				baseDomain := strings.TrimPrefix(p, "*.")
+				if matched, _ := filepath.Match(baseDomain, host); matched {
+					return true
+				}
 			}
 		}
 	}

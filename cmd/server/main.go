@@ -9,6 +9,8 @@ import (
 	"net/url"
 	"os"
 	"os/signal"
+	"strconv"
+	"strings"
 	"syscall"
 	"time"
 
@@ -92,6 +94,26 @@ func main() {
 
 	ssrfGuard := proxy.NewSSRFGuard(proxy.DefaultAllowedDomains)
 	streamer := proxy.NewStreamer(ssrfGuard)
+	streamer.SetWorkerURL(scraperWorkerURL)
+	coverLimit, err := strconv.ParseInt(getEnv("COVERS_MAX_BYTES", "8388608"), 10, 64)
+	if err != nil || coverLimit < 1024 || coverLimit > 8<<20 {
+		log.Fatal("COVERS_MAX_BYTES must be between 1024 and 8388608")
+	}
+	coverStore, err := service.NewCoverStore(getEnv("COVERS_DIR", "/data/covers"), coverLimit, streamer)
+	if err != nil {
+		log.Fatalf("cover storage: %v", err)
+	}
+	coverWorkerURL := getEnv("CATALOG_COLLECTOR_URL", scraperWorkerURL)
+	if !strings.HasPrefix(coverWorkerURL, "http://") && !strings.HasPrefix(coverWorkerURL, "https://") {
+		coverWorkerURL = "http://" + coverWorkerURL
+	}
+	coverStore.SetWorkerURL(strings.TrimRight(coverWorkerURL, "/"))
+	collectorToken := os.Getenv("CATALOG_COLLECTOR_TOKEN")
+	coverStore.SetWorkerToken(collectorToken)
+	if collectorURL := os.Getenv("CATALOG_COLLECTOR_URL"); collectorURL != "" {
+		extractorService.SetHostCollector(collectorURL, collectorToken)
+		streamer.SetHostCollector(collectorURL, collectorToken)
+	}
 	readerHandler := handlers.NewReaderHandler(streamer, canonicalRepo, extractorService)
 
 	batchExtractor := func(ctx context.Context, m *domain.CanonicalManhua, chapter int) ([]domain.BatchChapterImage, error) {
@@ -130,6 +152,12 @@ func main() {
 	providerReg := providers.NewDefaultProviderRegistry("")
 
 	importService := service.NewImportService(providerReg, redisClient, canonicalRepo, libraryService)
+	collection := service.NewCatalogCollection(pgDB.DB, providerReg, canonicalRepo, coverStore)
+	collectionCtx, stopCollection := context.WithCancel(context.Background())
+	defer func() { stopCollection(); collection.Wait() }()
+	collection.Start(collectionCtx)
+	importService.SetCollection(collection)
+	catalogHandler.SetCollection(collection)
 	importHandler := handlers.NewImportHandler(importService, jwtService)
 
 	if redisClient != nil {
@@ -140,6 +168,7 @@ func main() {
 	}
 
 	mux := http.NewServeMux()
+	mux.Handle("GET /api/media/covers/{key...}", coverStore)
 
 	// Health check
 	mux.HandleFunc("/healthz", func(w http.ResponseWriter, r *http.Request) {
@@ -219,6 +248,7 @@ func main() {
 	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
 	<-quit
 	log.Println("[INFO] Shutting down API Gateway gracefully...")
+	stopCollection()
 
 	shutdownCtx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()

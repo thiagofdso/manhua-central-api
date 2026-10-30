@@ -13,6 +13,7 @@ import (
 )
 
 type ImportAnnotatedItem struct {
+	CoverState       string `json:"coverState,omitempty"`
 	Title            string `json:"title"`
 	Slug             string `json:"slug"`
 	URLTemplate      string `json:"urlTemplate"`
@@ -25,6 +26,8 @@ type ImportAnnotatedItem struct {
 }
 
 type ImportBrowseResult struct {
+	Syncing    bool                  `json:"syncing"`
+	Warning    string                `json:"warning,omitempty"`
 	Domain     string                `json:"domain"`
 	Page       int                   `json:"page"`
 	TotalPages int                   `json:"totalPages"`
@@ -48,11 +51,14 @@ type ImportResult struct {
 }
 
 type ImportService struct {
+	collection    *CatalogCollection
 	registry      *providers.ProviderRegistry
 	redisClient   *repository.RedisClient
 	canonicalRepo repository.CanonicalRepository
 	librarySvc    *LibraryService
 }
+
+func (s *ImportService) SetCollection(collection *CatalogCollection) { s.collection = collection }
 
 func NewImportService(
 	registry *providers.ProviderRegistry,
@@ -82,9 +88,19 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 	cacheKey := fmt.Sprintf("import:cache:v2:%s:%s:%d", cleanDomain, qClean, page)
 
 	var scrapeRes domain.ScrapeResult
+	syncing := false
+	useCollection := s.collection != nil && (cleanDomain == "manhuaus.com" || cleanDomain == "ravenscans.org")
+	if useCollection {
+		result, pending, err := s.collection.Browse(ctx, cleanDomain, qClean, page)
+		if err != nil {
+			return nil, err
+		}
+		scrapeRes = *result
+		syncing = pending
+	}
 
 	// 1. Tentar ler do Redis
-	if s.redisClient != nil && s.redisClient.Client != nil {
+	if !useCollection && s.redisClient != nil && s.redisClient.Client != nil {
 		cachedStr, err := s.redisClient.Client.Get(ctx, cacheKey).Result()
 		if err == nil && cachedStr != "" {
 			_ = json.Unmarshal([]byte(cachedStr), &scrapeRes)
@@ -92,7 +108,7 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 	}
 
 	// 2. Se não estiver no cache, chamar o scraper
-	if len(scrapeRes.Items) == 0 {
+	if !useCollection && len(scrapeRes.Items) == 0 {
 		scraper, exists := s.registry.Get(cleanDomain)
 		if !exists {
 			return nil, fmt.Errorf("domínio '%s' não suportado para importação", domainName)
@@ -133,6 +149,10 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 	}
 
 	for _, it := range scrapeRes.Items {
+		persistentCover := it.PrimaryDomain == "manhuaus.com" || it.PrimaryDomain == "ravenscans.org"
+		if persistentCover {
+			it.CoverURL = localCoverURL(it.CoverURL)
+		}
 		slug := it.Slug
 		if slug == "" {
 			slug = strings.ToLower(strings.ReplaceAll(it.Title, " ", "-"))
@@ -143,6 +163,9 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 
 		if s.canonicalRepo != nil {
 			if existing, _ := s.canonicalRepo.GetBySlug(ctx, slug); existing != nil {
+				if persistentCover && existing.PrimaryDomain == it.PrimaryDomain && existing.URLTemplate == it.URLTemplate && existing.CoverURL != nil {
+					it.CoverURL = localCoverURL(*existing.CoverURL)
+				}
 				inCatalog = true
 				if userLibMap[existing.ID] {
 					inLibrary = true
@@ -151,6 +174,7 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 		}
 
 		annotated = append(annotated, ImportAnnotatedItem{
+			CoverState:       it.CoverState,
 			Title:            it.Title,
 			Slug:             slug,
 			URLTemplate:      it.URLTemplate,
@@ -163,6 +187,8 @@ func (s *ImportService) Browse(ctx context.Context, domainName, query string, pa
 	}
 
 	return &ImportBrowseResult{
+		Syncing:    syncing,
+		Warning:    scrapeRes.Warning,
 		Domain:     domainName,
 		Page:       scrapeRes.Page,
 		TotalPages: scrapeRes.TotalPages,
@@ -181,9 +207,17 @@ func (s *ImportService) ImportWorks(ctx context.Context, userID string, items []
 		if slug == "" {
 			slug = strings.ToLower(strings.ReplaceAll(it.Title, " ", "-"))
 		}
+		if s.canonicalRepo != nil && (it.PrimaryDomain == "manhuaus.com" || it.PrimaryDomain == "ravenscans.org") {
+			if existing, err := s.canonicalRepo.GetBySlug(ctx, slug); err == nil && existing != nil && (existing.PrimaryDomain != it.PrimaryDomain || existing.URLTemplate != it.URLTemplate) {
+				return nil, fmt.Errorf("source does not match catalog entry: %s", slug)
+			}
+		}
 
 		syn := it.Synopsis
 		cov := it.CoverURL
+		if it.PrimaryDomain == "manhuaus.com" || it.PrimaryDomain == "ravenscans.org" {
+			cov = localCoverURL(cov)
+		}
 
 		canonicalItems = append(canonicalItems, &domain.CanonicalManhua{
 			Slug:          slug,

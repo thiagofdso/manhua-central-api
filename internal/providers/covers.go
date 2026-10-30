@@ -124,6 +124,14 @@ type coverEntry struct {
 var coverCache sync.Map
 var coverClient = &http.Client{Timeout: 4 * time.Second}
 
+func ResolveCover(ctx context.Context, item domain.ScrapedItem) string {
+	items := []domain.ScrapedItem{item}
+	fillMissingCovers(ctx, items)
+	return items[0].CoverURL
+}
+
+func CoverPage(item domain.ScrapedItem) string { return coverPage(item) }
+
 func fillMissingCovers(ctx context.Context, items []domain.ScrapedItem) {
 	var group sync.WaitGroup
 	slots := make(chan struct{}, 6)

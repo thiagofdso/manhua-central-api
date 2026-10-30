@@ -58,15 +58,7 @@ func TestSSRFGuard_PrivateIPs(t *testing.T) {
 }
 
 func TestSSRFGuard_DomainAllowlist(t *testing.T) {
-	guard := NewSSRFGuard([]string{
-		"asurascans.com",
-		"*.asurascans.com",
-		"ravenscans.org",
-		"*.ravenscans.org",
-		"mangafire.to",
-		"*.mangafire.to",
-		"images.unsplash.com",
-	})
+	guard := NewSSRFGuard(nil) // Use DefaultAllowedDomains
 
 	allowedDomains := []string{
 		"asurascans.com",
@@ -74,7 +66,26 @@ func TestSSRFGuard_DomainAllowlist(t *testing.T) {
 		"img.sub.asurascans.com",
 		"ravenscans.org",
 		"cdn.ravenscans.org",
+		"cdn1.ravenscans.org",
 		"mangafire.to",
+		"q73.mfcdn2.xyz",
+		"l1n.mfcdn1.xyz",
+		"s.mfcdn.nl",
+		"mangak.io",
+		"rx.qvzrc.org",
+		"rx.qvzrd.org",
+		"cdn.resmk.org",
+		"mgeko.cc",
+		"www.mgeko.cc",
+		"imgsrv5.com",
+		"cdn.imgsrv1.com",
+		"arenascan.com",
+		"cdn.arenascan.com",
+		"w14.levelingwithgods.com",
+		"abyssrift.com",
+		"magicemperor.online",
+		"manhuaus.com",
+		"comix.to",
 		"images.unsplash.com",
 	}
 

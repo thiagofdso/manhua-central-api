@@ -349,7 +349,7 @@ func (r *PostgresCanonicalRepository) UpsertBatch(ctx context.Context, items []*
 			title = EXCLUDED.title,
 			alternative_titles = COALESCE(EXCLUDED.alternative_titles, canonical_manhuas.alternative_titles),
 			synopsis = COALESCE(EXCLUDED.synopsis, canonical_manhuas.synopsis),
-			cover_url = COALESCE(NULLIF(EXCLUDED.cover_url, ''), canonical_manhuas.cover_url),
+			cover_url = CASE WHEN canonical_manhuas.cover_url LIKE '/api/media/covers/%' THEN canonical_manhuas.cover_url ELSE COALESCE(NULLIF(EXCLUDED.cover_url, ''), canonical_manhuas.cover_url) END,
 			url_template = EXCLUDED.url_template,
 			last_chapter = COALESCE(EXCLUDED.last_chapter, canonical_manhuas.last_chapter),
 			update_day = COALESCE(EXCLUDED.update_day, canonical_manhuas.update_day),

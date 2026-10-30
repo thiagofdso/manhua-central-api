@@ -14,6 +14,7 @@ COPY go.mod go.sum ./
 RUN go mod download
 
 COPY . .
+RUN mkdir -p /data/covers
 
 # Compile static binary with zero CGO
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build \
@@ -33,6 +34,7 @@ COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 # Copy compiled binary and cache assets
 COPY --from=builder /app/bin/manhua-api /manhua-api
 COPY --from=builder /app/.cache /.cache
+COPY --from=builder --chown=65532:65532 /data /data
 
 USER nonroot:nonroot
 

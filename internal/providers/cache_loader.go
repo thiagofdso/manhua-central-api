@@ -2,6 +2,7 @@ package providers
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"math"
 	"os"
@@ -27,6 +28,8 @@ var DomainFilenameMap = map[string]DomainInfo{
 }
 
 var nonAlphanumericRegex = regexp.MustCompile(`[^a-z0-9]+`)
+
+var ErrCachedPageMissing = errors.New("requested source page is not cached")
 
 func GenerateSlug(title string) string {
 	clean := strings.ToLower(strings.TrimSpace(title))
@@ -189,6 +192,10 @@ func LoadCachedDomainItems(cacheDir, domainName, query string, page int) (*domai
 				TotalPages: totalP,
 			}, nil
 		}
+	}
+
+	if cleanDomain == "manhuaus.com" || cleanDomain == "ravenscans.org" {
+		return nil, fmt.Errorf("%w: %s query=%q page=%d", ErrCachedPageMissing, cleanDomain, qClean, page)
 	}
 
 	var allItems []domain.ScrapedItem
