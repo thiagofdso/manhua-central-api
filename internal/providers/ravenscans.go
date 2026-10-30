@@ -122,7 +122,7 @@ func (s *RavenScansScraper) SearchOrBrowse(ctx context.Context, query string, pa
 		}
 		title := html.UnescapeString(rawTitle)
 
-		coverURL := sel.Find("img").First().AttrOr("src", "")
+		coverURL := coverFromImage(sel.Find("img").First(), s.baseURL)
 
 		var lastChapter *int
 		epxs := strings.TrimSpace(sel.Find(".epxs").First().Text())

@@ -1,0 +1,2975 @@
+{
+  "timestamp": 1792716933.3119173,
+  "catalog": {
+    "": {
+      "1": [
+        {
+          "title": "Blade of the Discarded",
+          "slug": "blade-of-the-discarded-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/blade-of-the-discarded-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/blade-of-the-discarded.590181-400.webp",
+          "lastChapter": 6,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Genius Knight of a Fallen Race",
+          "slug": "the-genius-knight-of-a-fallen-race-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-genius-knight-of-a-fallen-race-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-genius-knight-of-a-fallen-race.6b6fc4-400.webp",
+          "lastChapter": 6,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Crimson Reset",
+          "slug": "crimson-reset-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/crimson-reset-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/crimson-reset.a8cb99-400.webp",
+          "lastChapter": 67,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Only I Have an EX-Grade Summon",
+          "slug": "only-i-have-an-ex-grade-summon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/only-i-have-an-ex-grade-summon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/only-i-have-an-ex-grade-summon.b0a55d-400.webp",
+          "lastChapter": 45,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Genius Prismatic Mage",
+          "slug": "genius-prismatic-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/genius-prismatic-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-prismatic-mage.cd6e06-400.webp",
+          "lastChapter": 100,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Nano Machine",
+          "slug": "nano-machine-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/nano-machine-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb-400.webp",
+          "lastChapter": 336,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Dark Magician Transmigrates After 66666 Years",
+          "slug": "the-dark-magician-transmigrates-after-66666-years-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-dark-magician-transmigrates-after-66666-years-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-magician-transmigrates-after-66666-years.0800e8-400.webp",
+          "lastChapter": 204,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Surviving The Game as a Barbarian",
+          "slug": "surviving-the-game-as-a-barbarian-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/surviving-the-game-as-a-barbarian-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-the-game-as-a-barbarian.86af24-400.webp",
+          "lastChapter": 167,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Academy’s Sashimi Sword Master",
+          "slug": "the-academys-sashimi-sword-master-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-academys-sashimi-sword-master-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-academys-sashimi-sword-master.7f20f6-400.webp",
+          "lastChapter": 102,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Kidnapped Dragons",
+          "slug": "kidnapped-dragons-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/kidnapped-dragons-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/kidnapped-dragons.ec6fbb-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "War of Extinction",
+          "slug": "war-of-extinction-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/war-of-extinction-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/war-of-extinction.467ce4-400.webp",
+          "lastChapter": 15,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Hellogin",
+          "slug": "hellogin-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/hellogin-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/hellogin.c2a5e0-400.webp",
+          "lastChapter": 17,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Regressor Instruction Manual",
+          "slug": "regressor-instruction-manual-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/regressor-instruction-manual-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-instruction-manual.60f991-400.webp",
+          "lastChapter": 210,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Heavenly Demon Wants a Quiet Life",
+          "slug": "the-heavenly-demon-wants-a-quiet-life-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-heavenly-demon-wants-a-quiet-life-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demon-wants-a-quiet-life.b91da3-400.webp",
+          "lastChapter": 103,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return of the Disaster-Class Hero",
+          "slug": "return-of-the-disaster-class-hero-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-disaster-class-hero-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-disaster-class-hero.e23831-400.webp",
+          "lastChapter": 195,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Murim Psychopath",
+          "slug": "murim-psychopath-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/murim-psychopath-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-psychopath.60ee5d-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Pick Me Up, Infinite Gacha",
+          "slug": "pick-me-up-infinite-gacha-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/pick-me-up-infinite-gacha-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/pick-me-up-infinite-gacha.3ebe61-400.webp",
+          "lastChapter": 225,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Star-Embracing Swordmaster",
+          "slug": "star-embracing-swordmaster-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/star-embracing-swordmaster-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-embracing-swordmaster.6b1222-400.webp",
+          "lastChapter": 144,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return of the Mount Hua Sect",
+          "slug": "return-of-the-mount-hua-sect-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-mount-hua-sect-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-mount-hua-sect.c0cbf9-400.webp",
+          "lastChapter": 191,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Martial God Regressed to Level 2",
+          "slug": "martial-god-regressed-to-level-2-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/martial-god-regressed-to-level-2-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/martial-god-regressed-to-level-2.2a1f51-400.webp",
+          "lastChapter": 132,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "2": [
+        {
+          "title": "Villain To Kill",
+          "slug": "villain-to-kill-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/villain-to-kill-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/villain-to-kill.e7589f-400.webp",
+          "lastChapter": 259,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Tale of Cultivation and Demon Extermination",
+          "slug": "the-tale-of-cultivation-and-demon-extermination-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-tale-of-cultivation-and-demon-extermination-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tale-of-cultivation-and-demon-extermination.787d62-400.webp",
+          "lastChapter": 20,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Girlfriend Returned as a Dragon",
+          "slug": "my-dragon-girlfriends-return-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-dragon-girlfriends-return-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-dragon-girlfriends-return.5806b8-400.webp",
+          "lastChapter": 11,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Forgotten Field",
+          "slug": "the-forgotten-field-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-forgotten-field-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-forgotten-field.b8118d-400.webp",
+          "lastChapter": 39,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Is It Bad That the Main Character’s a Roleplayer?",
+          "slug": "is-it-bad-that-the-main-character-s-a-roleplayer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/is-it-bad-that-the-main-character-s-a-roleplayer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/is-it-bad-that-the-main-character-s-a-roleplayer.9ffb8a-400.webp",
+          "lastChapter": 37,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Immortal’s Way of Life",
+          "slug": "immortals-way-of-life-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/immortals-way-of-life-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/immortals-way-of-life.4b976f-400.webp",
+          "lastChapter": 36,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return of the Apocalypse-Class Death Knight",
+          "slug": "return-of-the-apocalypse-class-death-knight-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-apocalypse-class-death-knight-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-apocalypse-class-death-knight.805cf1-400.webp",
+          "lastChapter": 94,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Becoming the Cheon Clan's Mad Dog",
+          "slug": "becoming-the-cheon-clans-mad-dog-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/becoming-the-cheon-clans-mad-dog-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/becoming-the-cheon-clans-mad-dog.2c37f6-400.webp",
+          "lastChapter": 27,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Exclusive Tower Guide",
+          "slug": "my-exclusive-tower-guide-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-exclusive-tower-guide-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-exclusive-tower-guide.c61f55-400.webp",
+          "lastChapter": 143,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Breakers",
+          "slug": "breakers-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/breakers-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/breakers.7f8d96-400.webp",
+          "lastChapter": 126,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Youngest Scion of the Mages",
+          "slug": "youngest-scion-of-the-mages-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/youngest-scion-of-the-mages-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/youngest-scion-of-the-mages.2c9bc0-400.webp",
+          "lastChapter": 141,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Debtbound by Blood",
+          "slug": "debtbound-by-blood-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/debtbound-by-blood-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/debtbound-by-blood.1b8e5a-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Indomitable Martial King",
+          "slug": "the-indomitable-martial-king-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-indomitable-martial-king-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-indomitable-martial-king.17e0b7-400.webp",
+          "lastChapter": 157,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The World After The End",
+          "slug": "the-world-after-the-end-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-world-after-the-end-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp",
+          "lastChapter": 259,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Tang Clan Chronicles",
+          "slug": "the-tang-clan-chronicles-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-tang-clan-chronicles-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tang-clan-chronicles.ffb78e-400.webp",
+          "lastChapter": 67,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Regressor and the Blind Saint",
+          "slug": "the-regressor-and-the-blind-saint-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-regressor-and-the-blind-saint-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressor-and-the-blind-saint.7bee05-400.webp",
+          "lastChapter": 24,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Became the First Prince: Legend of Sword's Song",
+          "slug": "i-became-the-first-prince-legend-of-swords-song-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-became-the-first-prince-legend-of-swords-song-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-the-first-prince-legend-of-swords-song.460332-400.webp",
+          "lastChapter": 60,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Sword God's Livestream",
+          "slug": "sword-gods-livestream-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sword-gods-livestream-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-gods-livestream.1d9311-400.webp",
+          "lastChapter": 42,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Infinite Mage",
+          "slug": "infinite-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/infinite-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-mage.e79aed-400.webp",
+          "lastChapter": 192,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Solo Swordmaster",
+          "slug": "solo-swordmaster-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/solo-swordmaster-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-swordmaster.467196-400.webp",
+          "lastChapter": 24,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "3": [
+        {
+          "title": "Absolute Regression",
+          "slug": "absolute-regression-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/absolute-regression-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2-400.webp",
+          "lastChapter": 125,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Slain Dragon Bride",
+          "slug": "my-slain-dragon-bride-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-slain-dragon-bride-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-slain-dragon-bride.12027b-400.webp",
+          "lastChapter": 21,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Shepherd Wizard",
+          "slug": "the-shepherd-wizard-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-shepherd-wizard-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-shepherd-wizard.a5606e-400.webp",
+          "lastChapter": 42,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Max Level Hero has Returned!",
+          "slug": "the-max-level-hero-has-returned-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-max-level-hero-has-returned-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.9cc9f9-400.webp",
+          "lastChapter": 252,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Wandering Knight’s Survival Manual",
+          "slug": "the-wandering-knights-survival-manual-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-wandering-knights-survival-manual-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-wandering-knights-survival-manual.2c3f96-400.webp",
+          "lastChapter": 65,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Myst, Might, Mayhem",
+          "slug": "myst-might-mayhem-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/myst-might-mayhem-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/myst-might-mayhem.78970c-400.webp",
+          "lastChapter": 122,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Childhood Friend of the Zenith",
+          "slug": "childhood-friend-of-the-zenith-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/childhood-friend-of-the-zenith-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/childhood-friend-of-the-zenith.6c0f26-400.webp",
+          "lastChapter": 112,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Monster Streaming Star",
+          "slug": "monster-s-streamer-star-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/monster-s-streamer-star-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/monster-s-streamer-star.b7188f-400.webp",
+          "lastChapter": 9,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Regressed Mercenary's Machinations",
+          "slug": "the-regressed-mercenarys-machinations-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-regressed-mercenarys-machinations-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-mercenarys-machinations.3ba589-400.webp",
+          "lastChapter": 113,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Dark Mage's Return to Enlistment",
+          "slug": "the-dark-mages-return-to-enlistment-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-dark-mages-return-to-enlistment-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-mages-return-to-enlistment.a2b893-400.webp",
+          "lastChapter": 110,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Player Who Can't Level Up",
+          "slug": "player-who-cant-level-up-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/player-who-cant-level-up-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-cant-level-up.970ad4-400.webp",
+          "lastChapter": 249,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Novel’s Extra",
+          "slug": "the-novels-extra-remake-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-novels-extra-remake-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-novels-extra-remake.8d8ec7-400.webp",
+          "lastChapter": 177,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Limitless Predation",
+          "slug": "limitless-predation-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/limitless-predation-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/limitless-predation.928b00-400.webp",
+          "lastChapter": 28,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Heavenly Grand Archive's Young Master",
+          "slug": "heavenly-grand-archives-young-master-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/heavenly-grand-archives-young-master-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-grand-archives-young-master.6580bf-400.webp",
+          "lastChapter": 189,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Great Mage Returns After 4000 Years",
+          "slug": "the-great-mage-returns-after-4000-years-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-great-mage-returns-after-4000-years-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-great-mage-returns-after-4000-years.c5b622-400.webp",
+          "lastChapter": 280,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Emperor of Solo Play",
+          "slug": "emperor-of-solo-play-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/emperor-of-solo-play-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/emperor-of-solo-play.0d7530-400.webp",
+          "lastChapter": 90,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Am the Fated Villain",
+          "slug": "i-am-the-fated-villain-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-am-the-fated-villain-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-am-the-fated-villain.e8d6b3-400.webp",
+          "lastChapter": 366,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Demonic Cult Instructor Returns",
+          "slug": "the-demonic-cult-instructor-returns-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-demonic-cult-instructor-returns-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-demonic-cult-instructor-returns.3bde6c-400.webp",
+          "lastChapter": 73,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Youngest Son of the Eunhae Merchant Group",
+          "slug": "the-youngest-son-of-the-eunhae-merchant-group-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-youngest-son-of-the-eunhae-merchant-group-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-youngest-son-of-the-eunhae-merchant-group.f3d45e-400.webp",
+          "lastChapter": 82,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Margrave’s Bastard Son was The Emperor",
+          "slug": "margraves-bastard-son-was-the-emperor-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/margraves-bastard-son-was-the-emperor-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/margraves-bastard-son-was-the-emperor.190eca-400.webp",
+          "lastChapter": 131,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "4": [
+        {
+          "title": "A Wimp’s Strategy Guide to Conquer the Tower",
+          "slug": "a-wimps-strategy-guide-to-conquer-the-tower-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-wimps-strategy-guide-to-conquer-the-tower-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-wimps-strategy-guide-to-conquer-the-tower.075ebe-400.webp",
+          "lastChapter": 52,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reincarnator",
+          "slug": "reincarnator-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reincarnator-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnator.f10165-400.webp",
+          "lastChapter": 158,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Regression of the Yong Clan Heir",
+          "slug": "regression-of-the-yong-clan-heir-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/regression-of-the-yong-clan-heir-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regression-of-the-yong-clan-heir.5c57c2-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Tutorial is Too Hard",
+          "slug": "the-tutorial-is-too-hard-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-tutorial-is-too-hard-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-is-too-hard.11d4d4-400.webp",
+          "lastChapter": 295,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "30 Years Since the Prologue",
+          "slug": "30-years-since-the-prologue-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/30-years-since-the-prologue-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/30-years-since-the-prologue.fc1a93-400.webp",
+          "lastChapter": 22,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Chronicles of the Lazy Sovereign",
+          "slug": "chronicles-of-the-lazy-sovereign-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/chronicles-of-the-lazy-sovereign-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-lazy-sovereign.651b35-400.webp",
+          "lastChapter": 70,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Infinite Titles",
+          "slug": "infinite-titles-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/infinite-titles-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-titles.43dcd9-400.webp",
+          "lastChapter": 20,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Margrave’s Worthless Mage",
+          "slug": "the-margrave-s-worthless-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-margrave-s-worthless-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-margrave-s-worthless-mage.e8c0b1-400.webp",
+          "lastChapter": 34,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "World-Saving is a Skill",
+          "slug": "world-saving-is-a-skill-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/world-saving-is-a-skill-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/world-saving-is-a-skill.6a3c10-400.webp",
+          "lastChapter": 49,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Player Hides His Past",
+          "slug": "the-player-hides-his-past-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-player-hides-his-past-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-player-hides-his-past.2d550d-400.webp",
+          "lastChapter": 144,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Cadet Becomes a Prophet?!",
+          "slug": "a-cadet-becomes-a-prophet-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-cadet-becomes-a-prophet-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-cadet-becomes-a-prophet.104726-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Logging 10,000 Years into the Future",
+          "slug": "logging-10000-years-into-the-future-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/logging-10000-years-into-the-future-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/logging-10000-years-into-the-future.556a90-400.webp",
+          "lastChapter": 363,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Goblin Inc",
+          "slug": "goblin-inc-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/goblin-inc-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/goblin-inc.a8f075-400.webp",
+          "lastChapter": 19,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Surviving as a Genius on Borrowed Time",
+          "slug": "surviving-as-a-genius-on-borrowed-time-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/surviving-as-a-genius-on-borrowed-time-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-as-a-genius-on-borrowed-time.38738c-400.webp",
+          "lastChapter": 98,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Ultimate Shut-In",
+          "slug": "the-ultimate-shut-in-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-ultimate-shut-in-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-ultimate-shut-in.062072-400.webp",
+          "lastChapter": 102,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Demon King's Friend",
+          "slug": "the-demon-kings-friend-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-demon-kings-friend-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-demon-kings-friend.c79cf1-400.webp",
+          "lastChapter": 14,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Dark Swordsman Returns",
+          "slug": "the-dark-swordsman-returns-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-dark-swordsman-returns-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-swordsman-returns.b99d76-400.webp",
+          "lastChapter": 71,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Magic Tower's Problem Child",
+          "slug": "the-magic-towers-problem-child-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-magic-towers-problem-child-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-magic-towers-problem-child.8a924b-400.webp",
+          "lastChapter": 68,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Player Who Returned 10,000 Years Later",
+          "slug": "player-who-returned-10000-years-later-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/player-who-returned-10000-years-later-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-returned-10000-years-later.6f8776-400.webp",
+          "lastChapter": 164,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Sword-Devouring Swordmaster",
+          "slug": "sword-devouring-swordmaster-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sword-devouring-swordmaster-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-devouring-swordmaster.1b5fe5-400.webp",
+          "lastChapter": 52,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "5": [
+        {
+          "title": "Absolute Sword Sense",
+          "slug": "absolute-sword-sense-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/absolute-sword-sense-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-sword-sense.09c12f-400.webp",
+          "lastChapter": 207,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Got a Gallery in the Wild",
+          "slug": "got-a-gallery-in-the-wild-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/got-a-gallery-in-the-wild-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/got-a-gallery-in-the-wild.765736-400.webp",
+          "lastChapter": 12,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Star Instructor, Master Baek",
+          "slug": "star-instructor-master-baek-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/star-instructor-master-baek-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-instructor-master-baek.f79c8a-400.webp",
+          "lastChapter": 167,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reborn As The Heavenly Demon",
+          "slug": "reborn-as-the-heavenly-demon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reborn-as-the-heavenly-demon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242-400.webp",
+          "lastChapter": 147,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Regressed Son of a Duke is an Assassin",
+          "slug": "the-regressed-son-of-a-duke-is-an-assassin-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-regressed-son-of-a-duke-is-an-assassin-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-son-of-a-duke-is-an-assassin.b4385d-400.webp",
+          "lastChapter": 150,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Revenge of the Iron-Blooded Sword Hound",
+          "slug": "revenge-of-the-iron-blooded-sword-hound-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/revenge-of-the-iron-blooded-sword-hound-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/revenge-of-the-iron-blooded-sword-hound.41b6fb-400.webp",
+          "lastChapter": 186,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Newbie Civil Servant Hunts Villains Before Going Home",
+          "slug": "the-newbie-civil-servant-hunts-villains-before-goi-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-newbie-civil-servant-hunts-villains-before-goi-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-newbie-civil-servant-hunts-villains-before-goi.4d5914-400.webp",
+          "lastChapter": 7,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Academy's Genius Swordmaster",
+          "slug": "academys-genius-swordmaster-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/academys-genius-swordmaster-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-genius-swordmaster.1aecaa-400.webp",
+          "lastChapter": 160,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Dragonslayer's Peerless Regression",
+          "slug": "a-dragonslayers-peerless-regression-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-dragonslayers-peerless-regression-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-dragonslayers-peerless-regression.gif",
+          "lastChapter": 108,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Regressing with the King’s Power",
+          "slug": "regressing-with-the-kings-power-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/regressing-with-the-kings-power-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressing-with-the-kings-power.91b28f-400.webp",
+          "lastChapter": 164,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Noble Lady Reformation Guide",
+          "slug": "noble-lady-reformation-guide-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/noble-lady-reformation-guide-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/noble-lady-reformation-guide.585e8a-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reincarnation of the Fist King",
+          "slug": "reincarnation-of-the-fist-king-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reincarnation-of-the-fist-king-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-fist-king.8fbafd-400.webp",
+          "lastChapter": 75,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Hero Returns",
+          "slug": "the-hero-returns-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-hero-returns-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-returns.0d6e91-400.webp",
+          "lastChapter": 176,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Demonic Beast Hunter Survival Guide",
+          "slug": "demonic-beast-hunter-survival-guide-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/demonic-beast-hunter-survival-guide-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/demonic-beast-hunter-survival-guide.c2b1e8-400.webp",
+          "lastChapter": 41,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Martial Genius Who Remembers Everything",
+          "slug": "the-martial-genius-who-remembers-everything-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-martial-genius-who-remembers-everything-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-martial-genius-who-remembers-everything.996b6d-400.webp",
+          "lastChapter": 32,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return of The Unrivaled Spear Knight",
+          "slug": "return-of-the-unrivaled-spear-knight-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-unrivaled-spear-knight-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-unrivaled-spear-knight.f4e89f-400.webp",
+          "lastChapter": 221,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I'm Gonna Annihilate This Land",
+          "slug": "im-gonna-annihilate-this-land-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/im-gonna-annihilate-this-land-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-gonna-annihilate-this-land.5316fe-400.webp",
+          "lastChapter": 99,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Sichuan's Supreme King",
+          "slug": "sichuans-supreme-king-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sichuans-supreme-king-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sichuans-supreme-king.d60caa-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Doctor’s Rebirth",
+          "slug": "doctors-rebirth-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/doctors-rebirth-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/doctors-rebirth.283895-400.webp",
+          "lastChapter": 248,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Ode of the Brave",
+          "slug": "ode-of-the-brave-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/ode-of-the-brave-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ode-of-the-brave.a46ec2-400.webp",
+          "lastChapter": 15,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "6": [
+        {
+          "title": "Reincarnator’s Stream",
+          "slug": "reincarnators-stream-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reincarnators-stream-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnators-stream.c8c699-400.webp",
+          "lastChapter": 70,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Painter Who Draws Dungeons",
+          "slug": "a-painter-who-draws-dungeons-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-painter-who-draws-dungeons-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-painter-who-draws-dungeons.5276d7-400.webp",
+          "lastChapter": 30,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Regressor of the Fallen family",
+          "slug": "regressor-of-the-fallen-family-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/regressor-of-the-fallen-family-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-of-the-fallen-family.a4d950-400.webp",
+          "lastChapter": 157,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Divine Demon’s Grand Ascension",
+          "slug": "the-divine-demons-grand-ascension-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-divine-demons-grand-ascension-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-divine-demons-grand-ascension.306205-400.webp",
+          "lastChapter": 71,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Mr Devourer, Please Act Like a Final Boss",
+          "slug": "mr-devourer-please-act-like-a-final-boss-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/mr-devourer-please-act-like-a-final-boss-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mr-devourer-please-act-like-a-final-boss.0212f6-400.webp",
+          "lastChapter": 149,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Swordmaster’s Youngest Son",
+          "slug": "swordmasters-youngest-son-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/swordmasters-youngest-son-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/swordmasters-youngest-son.c550f1-400.webp",
+          "lastChapter": 218,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Killer Pietro",
+          "slug": "killer-pietro-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/killer-pietro-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/killer-pietro.391509-400.webp",
+          "lastChapter": 155,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Solo Farming In The Tower",
+          "slug": "solo-farming-in-the-tower-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/solo-farming-in-the-tower-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-farming-in-the-tower.d60872-400.webp",
+          "lastChapter": 149,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Seventh Prince Wants to Bail",
+          "slug": "the-seventh-prince-wants-to-bail-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-seventh-prince-wants-to-bail-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-seventh-prince-wants-to-bail.2640ad-400.webp",
+          "lastChapter": 27,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Helmut: The Forsaken Child",
+          "slug": "helmut-the-forsaken-child-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/helmut-the-forsaken-child-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/helmut-the-forsaken-child.7e9442-400.webp",
+          "lastChapter": 138,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reformation of the Deadbeat Noble",
+          "slug": "reformation-of-the-deadbeat-noble-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reformation-of-the-deadbeat-noble-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reformation-of-the-deadbeat-noble.214565-400.webp",
+          "lastChapter": 165,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Starting With 13 Hidden Traits",
+          "slug": "starting-with-13-hidden-traits-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/starting-with-13-hidden-traits-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/starting-with-13-hidden-traits.a5e26c-400.webp",
+          "lastChapter": 52,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Sword of the Undying",
+          "slug": "sword-of-the-undying-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sword-of-the-undying-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-of-the-undying.ff1731-400.webp",
+          "lastChapter": 33,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Chronicles of the Demon Faction",
+          "slug": "chronicles-of-the-demon-faction-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/chronicles-of-the-demon-faction-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-demon-faction.d4dcb8-400.webp",
+          "lastChapter": 194,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Genius Professor Wants to Take It Easy",
+          "slug": "the-genius-professor-wants-to-take-it-easy-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-genius-professor-wants-to-take-it-easy-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-genius-professor-wants-to-take-it-easy.139a21-400.webp",
+          "lastChapter": 25,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Overgeared",
+          "slug": "overgeared-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/overgeared-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp",
+          "lastChapter": 346,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Copying Skills with Affinity!",
+          "slug": "copying-skills-with-affinity-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/copying-skills-with-affinity-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/copying-skills-with-affinity.70e715-400.webp",
+          "lastChapter": 11,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Hero Cannot Rest",
+          "slug": "the-hero-cannot-rest-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-hero-cannot-rest-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-cannot-rest.4b4355-400.webp",
+          "lastChapter": 13,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Mercenary’s Rebirth Among Nobles",
+          "slug": "a-mercenarys-rebirth-among-nobles-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-mercenarys-rebirth-among-nobles-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-mercenarys-rebirth-among-nobles.393cb3-400.webp",
+          "lastChapter": 54,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Genius Archer’s Streaming",
+          "slug": "genius-archers-streaming-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/genius-archers-streaming-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-archers-streaming.fda7ec-400.webp",
+          "lastChapter": 114,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "7": [
+        {
+          "title": "Got Dropped into a Ghost Story, Still Gotta Work",
+          "slug": "got-dropped-into-a-ghost-story-still-gotta-work-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/got-dropped-into-a-ghost-story-still-gotta-work-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/got-dropped-into-a-ghost-story-still-gotta-work.6e77f5-400.webp",
+          "lastChapter": 43,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Whispers of a Scheming Demon",
+          "slug": "whispers-of-a-scheming-demon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/whispers-of-a-scheming-demon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/whispers-of-a-scheming-demon.88adc8-400.webp",
+          "lastChapter": 12,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Dungeon Odyssey",
+          "slug": "dungeon-odyssey-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/dungeon-odyssey-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-odyssey.f39586-400.webp",
+          "lastChapter": 174,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Raising Villains the Right Way",
+          "slug": "raising-villains-the-right-way-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/raising-villains-the-right-way-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/raising-villains-the-right-way.a524e2-400.webp",
+          "lastChapter": 58,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Necromancer Who Spares No Expense",
+          "slug": "the-necromancer-who-spares-no-expense-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-necromancer-who-spares-no-expense-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-necromancer-who-spares-no-expense.aaea23-400.webp",
+          "lastChapter": 21,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Trash of the Count’s Family",
+          "slug": "trash-of-the-counts-family-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/trash-of-the-counts-family-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.b543fa-400.webp",
+          "lastChapter": 194,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Sword Emperor’s Rise of Namgung",
+          "slug": "the-sword-emperor-s-rise-of-namgung-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-sword-emperor-s-rise-of-namgung-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-sword-emperor-s-rise-of-namgung.7cb978-400.webp",
+          "lastChapter": 32,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Solo Max-Level Newbie",
+          "slug": "solo-max-level-newbie-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/solo-max-level-newbie-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f-400.webp",
+          "lastChapter": 283,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Reincarnated Assassin is a Genius Swordsman",
+          "slug": "the-reincarnated-assassin-is-a-genius-swordsman-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-reincarnated-assassin-is-a-genius-swordsman-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-reincarnated-assassin-is-a-genius-swordsman.7b391a-400.webp",
+          "lastChapter": 98,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "What a Bountiful Harvest, Demon Lord!",
+          "slug": "what-a-bountiful-harvest-demon-lord-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/what-a-bountiful-harvest-demon-lord-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/what-a-bountiful-harvest-demon-lord.f2cc33-400.webp",
+          "lastChapter": 90,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Terminally-Ill Genius Dark Knight",
+          "slug": "terminally-ill-genius-dark-knight-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/terminally-ill-genius-dark-knight-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/terminally-ill-genius-dark-knight.a0e916-400.webp",
+          "lastChapter": 170,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Tomb Raider King — End Line",
+          "slug": "tomb-raider-kin-g-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/tomb-raider-kin-g-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/tomb-raider-kin-g.a97890-400.webp",
+          "lastChapter": 32,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Ruler Of Darkness",
+          "slug": "the-ruler-of-darkness-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-ruler-of-darkness-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-ruler-of-darkness.6449df-400.webp",
+          "lastChapter": 36,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Extra’s Academy Survival Guide",
+          "slug": "the-extras-academy-survival-guide-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-extras-academy-survival-guide-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-extras-academy-survival-guide.18d91e-400.webp",
+          "lastChapter": 130,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Executioner",
+          "slug": "the-executioner-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-executioner-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-executioner.9144ef-400.webp",
+          "lastChapter": 79,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Former Supreme",
+          "slug": "the-former-supreme-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-former-supreme-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-former-supreme.b011cb-400.webp",
+          "lastChapter": 21,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Regressor’s Tale of Cultivation",
+          "slug": "a-regressors-tale-of-cultivation-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-regressors-tale-of-cultivation-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-regressors-tale-of-cultivation.0f6de5-400.webp",
+          "lastChapter": 35,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Demon King Overrun by Heroes",
+          "slug": "the-demon-king-overrun-by-heroes-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-demon-king-overrun-by-heroes-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-demon-king-overrun-by-heroes.6abc35-400.webp",
+          "lastChapter": 53,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Bad Born Blood",
+          "slug": "bad-born-blood-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/bad-born-blood-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bad-born-blood.3008f6-400.webp",
+          "lastChapter": 106,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Shadow Slave",
+          "slug": "shadow-slave-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/shadow-slave-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/shadow-slave.aa19df-400.webp",
+          "lastChapter": 14,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "8": [
+        {
+          "title": "Echoes of the Reverse Planet",
+          "slug": "echoes-of-the-reverse-planet-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/echoes-of-the-reverse-planet-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/echoes-of-the-reverse-planet.682282-400.webp",
+          "lastChapter": 53,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "SSS-Class Suicide Hunter",
+          "slug": "sss-class-suicide-hunter-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sss-class-suicide-hunter-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sss-class-suicide-hunter.021e06-400.webp",
+          "lastChapter": 157,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Demon God",
+          "slug": "the-demon-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-demon-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-demon-god.ce1900-400.webp",
+          "lastChapter": 54,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Pick Up a Grimoire, Become a Mage",
+          "slug": "pick-up-a-grimoire-become-a-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/pick-up-a-grimoire-become-a-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/pick-up-a-grimoire-become-a-mage.5d4fcb-400.webp",
+          "lastChapter": 9,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Academy’s Weapon Replicator",
+          "slug": "the-academy-s-weapon-replicator-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-academy-s-weapon-replicator-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-academy-s-weapon-replicator.4e99d4-400.webp",
+          "lastChapter": 24,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Steel-Eating Player",
+          "slug": "steel-eating-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/steel-eating-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/steel-eating-player.411627-400.webp",
+          "lastChapter": 116,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The S-Classes That I Raised",
+          "slug": "the-s-classes-that-i-raised-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-s-classes-that-i-raised-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-s-classes-that-i-raised.494ef4-400.webp",
+          "lastChapter": 187,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Return of the Crazy Demon",
+          "slug": "the-return-of-the-crazy-demon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-return-of-the-crazy-demon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-crazy-demon.2a8522-400.webp",
+          "lastChapter": 219,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Sandmancer of the Scorched Desert",
+          "slug": "sandmancer-of-the-scorched-desert-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sandmancer-of-the-scorched-desert-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sandmancer-of-the-scorched-desert.f9966f-400.webp",
+          "lastChapter": 33,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Standard of Reincarnation",
+          "slug": "standard-of-reincarnation-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/standard-of-reincarnation-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/standard-of-reincarnation.32ce34-400.webp",
+          "lastChapter": 203,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Cold-Blooded Warrior",
+          "slug": "the-cold-blooded-warrior-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-cold-blooded-warrior-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-cold-blooded-warrior.334bcd-400.webp",
+          "lastChapter": 76,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Berserker's Second Playthrough",
+          "slug": "the-berserkers-second-playthrough-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-berserkers-second-playthrough-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-berserkers-second-playthrough.ab627c-400.webp",
+          "lastChapter": 43,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Knight King Who Returned with a God",
+          "slug": "the-knight-king-who-returned-with-a-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-knight-king-who-returned-with-a-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-knight-king-who-returned-with-a-god.04a2c1-400.webp",
+          "lastChapter": 186,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Genius Martial Arts Trainer",
+          "slug": "genius-martial-arts-trainer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/genius-martial-arts-trainer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-martial-arts-trainer.7a9f27-400.webp",
+          "lastChapter": 134,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Villain's Will to Survive",
+          "slug": "a-villains-will-to-survive-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-villains-will-to-survive-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-villains-will-to-survive.a6afc7-400.webp",
+          "lastChapter": 69,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Mount Hua Sect's Genius Phantom Swordsman",
+          "slug": "mount-hua-sects-genius-phantom-swordsman-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/mount-hua-sects-genius-phantom-swordsman-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mount-hua-sects-genius-phantom-swordsman.ff7339-400.webp",
+          "lastChapter": 84,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Regressor Can Make Them All",
+          "slug": "the-regressor-can-make-them-all-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-regressor-can-make-them-all-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressor-can-make-them-all.cc1d5f-400.webp",
+          "lastChapter": 41,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "To Hell With the Status Window",
+          "slug": "to-hell-with-the-status-window-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/to-hell-with-the-status-window-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/to-hell-with-the-status-window.d2aa62-400.webp",
+          "lastChapter": 40,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Children of the Rune",
+          "slug": "children-of-the-rune-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/children-of-the-rune-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/children-of-the-rune.fa7285-400.webp",
+          "lastChapter": 77,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Became the Successor of the Martial God",
+          "slug": "i-became-the-successor-of-the-martial-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-became-the-successor-of-the-martial-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-the-successor-of-the-martial-god.887421-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "9": [
+        {
+          "title": "Dukedom’s Legendary Prodigy",
+          "slug": "dukedoms-legendary-prodigy-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/dukedoms-legendary-prodigy-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dukedoms-legendary-prodigy.246bdf-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I'm Not That Kind of Talent",
+          "slug": "im-not-that-kind-of-talent-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/im-not-that-kind-of-talent-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-not-that-kind-of-talent.cfca35-400.webp",
+          "lastChapter": 127,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "After the Moonlight Falls",
+          "slug": "after-the-moonlight-falls-trial-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/after-the-moonlight-falls-trial-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/after-the-moonlight-falls-trial.6c9883-400.webp",
+          "lastChapter": 40,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Killed an Academy Player",
+          "slug": "i-killed-an-academy-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-killed-an-academy-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-killed-an-academy-player.9aa03c-400.webp",
+          "lastChapter": 140,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Ending Maker",
+          "slug": "ending-maker-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/ending-maker-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ending-maker.cfbf53-400.webp",
+          "lastChapter": 85,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Obtained a Mythic Item",
+          "slug": "i-obtained-a-mythic-item-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-obtained-a-mythic-item-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-obtained-a-mythic-item.64dea7-400.webp",
+          "lastChapter": 196,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Wandering Warrior of Wudang",
+          "slug": "wandering-warrior-of-wudang-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/wandering-warrior-of-wudang-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/wandering-warrior-of-wudang.9fb55b-400.webp",
+          "lastChapter": 174,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Initializing the Sect System",
+          "slug": "initializing-the-sect-system-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/initializing-the-sect-system-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/initializing-the-sect-system.77af05-400.webp",
+          "lastChapter": 52,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Artifact-Devouring Player",
+          "slug": "artifact-devouring-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/artifact-devouring-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/artifact-devouring-player.1f483f-400.webp",
+          "lastChapter": 53,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Worthless Regression",
+          "slug": "worthless-regression-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/worthless-regression-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worthless-regression.af1f85-400.webp",
+          "lastChapter": 107,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Chronicles Of The Martial God's Return",
+          "slug": "chronicles-of-the-martial-gods-return-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/chronicles-of-the-martial-gods-return-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-martial-gods-return.74ef01-400.webp",
+          "lastChapter": 170,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Rebirth of the Divine Demon",
+          "slug": "rebirth-of-the-divine-demon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/rebirth-of-the-divine-demon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/rebirth-of-the-divine-demon.6a931c-400.webp",
+          "lastChapter": 55,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Nebula's Civilization",
+          "slug": "the-nebulas-civilization-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-nebulas-civilization-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12-400.webp",
+          "lastChapter": 140,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Eternally Regressing Knight",
+          "slug": "eternally-regressing-knight-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/eternally-regressing-knight-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/eternally-regressing-knight.ef0006-400.webp",
+          "lastChapter": 116,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reborn on the Demonic Cult Battlefield",
+          "slug": "reborn-on-the-demonic-cult-battlefield-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reborn-on-the-demonic-cult-battlefield-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-on-the-demonic-cult-battlefield.7ed571-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return of the SSS-Class Ranker",
+          "slug": "return-of-the-sss-class-ranker-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-sss-class-ranker-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-sss-class-ranker.5c938f-400.webp",
+          "lastChapter": 200,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Heavenly Demon Can't Live a Normal Life",
+          "slug": "the-heavenly-demon-cant-live-a-normal-life-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-heavenly-demon-cant-live-a-normal-life-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demon-cant-live-a-normal-life.e3f13a-400.webp",
+          "lastChapter": 209,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Death Is the Only Ending for the Villainess",
+          "slug": "death-is-the-only-ending-for-the-villainess-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/death-is-the-only-ending-for-the-villainess-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/death-is-the-only-ending-for-the-villainess.af9ab0-400.webp",
+          "lastChapter": 214,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Max-Level Player's 100th Regression",
+          "slug": "the-max-level-players-100th-regression-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-max-level-players-100th-regression-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-players-100th-regression.8a12aa-400.webp",
+          "lastChapter": 90,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Level 999 Goblin",
+          "slug": "level-999-goblin-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/level-999-goblin-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/level-999-goblin.cb39f4-400.webp",
+          "lastChapter": 60,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "10": [
+        {
+          "title": "Talent-Swallowing Magician",
+          "slug": "talent-swallowing-magician-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/talent-swallowing-magician-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/talent-swallowing-magician.8d261c-400.webp",
+          "lastChapter": 149,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Hero Starts Over at the Academy",
+          "slug": "the-hero-starts-over-at-the-academy-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-hero-starts-over-at-the-academy-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-starts-over-at-the-academy.a5009b-400.webp",
+          "lastChapter": 60,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Rise of the Fallen Kingdom's Third Prince",
+          "slug": "rise-of-the-fallen-kingdoms-third-prince-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/rise-of-the-fallen-kingdoms-third-prince-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/rise-of-the-fallen-kingdoms-third-prince.99da8e-400.webp",
+          "lastChapter": 75,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "God-Tier Extra's Ultimate Guide",
+          "slug": "god-tier-extras-ultimate-guide-remake-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/god-tier-extras-ultimate-guide-remake-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/god-tier-extras-ultimate-guide-remake.1b3bc2-400.webp",
+          "lastChapter": 60,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Magic Academy's Genius Blinker",
+          "slug": "magic-academys-genius-blinker-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/magic-academys-genius-blinker-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/magic-academys-genius-blinker.bebbd0-400.webp",
+          "lastChapter": 100,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Limit-Breaking Genius Mage",
+          "slug": "limit-breaking-genius-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/limit-breaking-genius-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/limit-breaking-genius-mage.aa2813-400.webp",
+          "lastChapter": 64,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "World's Strongest Survivor",
+          "slug": "worlds-strongest-survivor-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/worlds-strongest-survivor-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worlds-strongest-survivor.e5453e-400.webp",
+          "lastChapter": 39,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Barbarian Quest",
+          "slug": "barbarian-quest-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/barbarian-quest-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/barbarian-quest.078924-400.webp",
+          "lastChapter": 100,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Omniscient Reader’s Viewpoint",
+          "slug": "omniscient-readers-viewpoint-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/omniscient-readers-viewpoint-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/omniscient-readers-viewpoint.c29ced-400.webp",
+          "lastChapter": 312,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Wife is the Demonic Cult Leader",
+          "slug": "my-wife-is-the-demonic-cult-leader-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-wife-is-the-demonic-cult-leader-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-wife-is-the-demonic-cult-leader.facbe2-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Academy’s Undercover Professor",
+          "slug": "academys-undercover-professor-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/academys-undercover-professor-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-undercover-professor.ee6a42-400.webp",
+          "lastChapter": 168,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Illegitimate Who Devours Weapons",
+          "slug": "the-illegitimate-who-devours-weapons-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-illegitimate-who-devours-weapons-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-illegitimate-who-devours-weapons.b82388-400.webp",
+          "lastChapter": 84,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Last Adventurer",
+          "slug": "the-last-adventurer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-last-adventurer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-last-adventurer.021ac2-400.webp",
+          "lastChapter": 121,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Trait Hoarder",
+          "slug": "trait-hoarder-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/trait-hoarder-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trait-hoarder.0f3cd3-400.webp",
+          "lastChapter": 88,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reaper of the Drifting Moon",
+          "slug": "reaper-of-the-drifting-moon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reaper-of-the-drifting-moon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reaper-of-the-drifting-moon.d67783-400.webp",
+          "lastChapter": 136,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Necromancer's Evolutionary Traits",
+          "slug": "necromancers-evolutionary-traits-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/necromancers-evolutionary-traits-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/necromancers-evolutionary-traits.3e1991-400.webp",
+          "lastChapter": 120,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Supreme Poison Demon Becomes a Pharma Chairman",
+          "slug": "the-supreme-poison-demon-becomes-a-pharma-chairman-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-supreme-poison-demon-becomes-a-pharma-chairman-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-supreme-poison-demon-becomes-a-pharma-chairman.fcc4a0-400.webp",
+          "lastChapter": 21,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Dungeon Architect",
+          "slug": "dungeon-architect-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/dungeon-architect-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-architect.681a91-400.webp",
+          "lastChapter": 74,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Dragon-Devouring Mage",
+          "slug": "dragon-devouring-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/dragon-devouring-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dragon-devouring-mage.83a703-400.webp",
+          "lastChapter": 138,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Greatest Estate Developer",
+          "slug": "the-greatest-estate-developer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-greatest-estate-developer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-greatest-estate-developer.ad682d-400.webp",
+          "lastChapter": 223,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "11": [
+        {
+          "title": "Boundless Necromancer",
+          "slug": "boundless-necromancer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/boundless-necromancer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/boundless-necromancer.a3e502-400.webp",
+          "lastChapter": 177,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Genius of the Unique Lineage",
+          "slug": "genius-of-the-unique-lineage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/genius-of-the-unique-lineage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-of-the-unique-lineage.25732d-400.webp",
+          "lastChapter": 153,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Playing the Perfect Fox-Eyed Villain",
+          "slug": "playing-the-perfect-fox-eyed-villain-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/playing-the-perfect-fox-eyed-villain-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/playing-the-perfect-fox-eyed-villain.a55b86-400.webp",
+          "lastChapter": 52,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Fated to Be Loved by Villains",
+          "slug": "fated-to-be-loved-by-villains-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/fated-to-be-loved-by-villains-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/fated-to-be-loved-by-villains.37cded-400.webp",
+          "lastChapter": 56,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Murim Login",
+          "slug": "murim-login-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/murim-login-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp",
+          "lastChapter": 251,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Insanely-Talented Player",
+          "slug": "insanely-talented-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/insanely-talented-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/insanely-talented-player.b6be28-400.webp",
+          "lastChapter": 113,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Terminally Ill Young Master of the Baek Clan",
+          "slug": "the-terminally-ill-young-master-of-the-baek-clan-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-terminally-ill-young-master-of-the-baek-clan-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-terminally-ill-young-master-of-the-baek-clan.337a5c-400.webp",
+          "lastChapter": 92,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Heavenly Inquisition Sword",
+          "slug": "heavenly-inquisition-sword-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/heavenly-inquisition-sword-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-inquisition-sword.4fa29b-400.webp",
+          "lastChapter": 153,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Fox-Eyed Villain of the Demon Academy",
+          "slug": "the-fox-eyed-villain-of-the-demon-academy-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-fox-eyed-villain-of-the-demon-academy-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-fox-eyed-villain-of-the-demon-academy.39cb4f-400.webp",
+          "lastChapter": 60,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Bloodhound's Regression Instinct",
+          "slug": "bloodhounds-regression-instinct-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/bloodhounds-regression-instinct-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bloodhounds-regression-instinct.e13bfc-400.webp",
+          "lastChapter": 100,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Solo Leveling: Ragnarok",
+          "slug": "solo-leveling-ragnarok-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/solo-leveling-ragnarok-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling-ragnarok.9ead3a-400.webp",
+          "lastChapter": 68,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Life of a Magic Academy Mage",
+          "slug": "life-of-a-magic-academy-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/life-of-a-magic-academy-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/life-of-a-magic-academy-mage.123b03-400.webp",
+          "lastChapter": 133,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Night of the Soulless Heathens",
+          "slug": "night-of-the-soulless-heathens-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/night-of-the-soulless-heathens-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/night-of-the-soulless-heathens.1ab35f-400.webp",
+          "lastChapter": 61,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Your Talent is Mine",
+          "slug": "your-talent-is-mine-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/your-talent-is-mine-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/your-talent-is-mine.81a813-400.webp",
+          "lastChapter": 107,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Legend of the Reincarnated Demon God",
+          "slug": "legend-of-the-reincarnated-demon-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/legend-of-the-reincarnated-demon-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legend-of-the-reincarnated-demon-god.a4fd75-400.webp",
+          "lastChapter": 58,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return From The Abyss",
+          "slug": "return-from-the-abyss-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-from-the-abyss-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-from-the-abyss.f9bc12-400.webp",
+          "lastChapter": 40,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Absolute Necromancer",
+          "slug": "absolute-necromancer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/absolute-necromancer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-necromancer.a758a2-400.webp",
+          "lastChapter": 96,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Demon Faction’s Return",
+          "slug": "the-demon-factions-return-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-demon-factions-return-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-demon-factions-return.15ac10-400.webp",
+          "lastChapter": 75,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Emperor of Steel",
+          "slug": "emperor-of-steel-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/emperor-of-steel-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/emperor-of-steel.922eaf-400.webp",
+          "lastChapter": 53,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Million-Sub Gym Influencer Becomes a Webtoon Loser?",
+          "slug": "a-million-sub-gym-influencer-becomes-a-webtoon-loser-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-million-sub-gym-influencer-becomes-a-webtoon-loser-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-million-sub-gym-influencer-becomes-a-webtoon-loser.59bbaf-400.webp",
+          "lastChapter": 16,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "12": [
+        {
+          "title": "Champion's Path to Murim",
+          "slug": "champions-path-to-murim-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/champions-path-to-murim-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/champions-path-to-murim.74b6c4-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "F-Class Destiny Hunter",
+          "slug": "f-class-destiny-hunter-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/f-class-destiny-hunter-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/f-class-destiny-hunter.72be9e-400.webp",
+          "lastChapter": 84,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Light of Arad: Forerunner",
+          "slug": "light-of-arad-forerunner-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/light-of-arad-forerunner-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/light-of-arad-forerunner.7f5812-400.webp",
+          "lastChapter": 53,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My School Life Pretending To Be a Worthless Person",
+          "slug": "my-school-life-pretending-to-be-a-worthless-person-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-school-life-pretending-to-be-a-worthless-person-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-school-life-pretending-to-be-a-worthless-person.42f2f3-400.webp",
+          "lastChapter": 113,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Somebody Stop the Pope",
+          "slug": "somebody-stop-the-pope-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/somebody-stop-the-pope-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/somebody-stop-the-pope.9cb010-400.webp",
+          "lastChapter": 42,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Love Letter From The Future",
+          "slug": "love-letter-from-the-future-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/love-letter-from-the-future-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/love-letter-from-the-future.88fe6f-400.webp",
+          "lastChapter": 33,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Overpowered Sword",
+          "slug": "overpowered-sword-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/overpowered-sword-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overpowered-sword.6a7fc2-400.webp",
+          "lastChapter": 144,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Weapon Maker",
+          "slug": "weapon-maker-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/weapon-maker-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/weapon-maker.c11dde-400.webp",
+          "lastChapter": 69,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Duke Pendragon",
+          "slug": "duke-pendragon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/duke-pendragon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/duke-pendragon.d42626-400.webp",
+          "lastChapter": 131,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Superhuman Battlefield",
+          "slug": "superhuman-battlefield-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/superhuman-battlefield-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/superhuman-battlefield.c8e9c9-400.webp",
+          "lastChapter": 151,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Bones",
+          "slug": "bones-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/bones-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bones.cf1b41-400.webp",
+          "lastChapter": 34,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reincarnation of the Suicidal Battle God",
+          "slug": "reincarnation-of-the-suicidal-battle-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reincarnation-of-the-suicidal-battle-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-suicidal-battle-god.773541-400.webp",
+          "lastChapter": 102,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Priest of Corruption",
+          "slug": "the-priest-of-corruption-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-priest-of-corruption-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-priest-of-corruption.b888c9-400.webp",
+          "lastChapter": 79,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reborn as the Enemy Prince",
+          "slug": "reborn-as-the-enemy-prince-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reborn-as-the-enemy-prince-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-enemy-prince.04538f-400.webp",
+          "lastChapter": 69,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Devil Returns To School Days",
+          "slug": "devil-returns-to-school-days-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/devil-returns-to-school-days-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/devil-returns-to-school-days.dae4b0-400.webp",
+          "lastChapter": 83,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Genius Assassin Who Takes it All",
+          "slug": "the-genius-assassin-who-takes-it-all-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-genius-assassin-who-takes-it-all-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-genius-assassin-who-takes-it-all.e563ed-400.webp",
+          "lastChapter": 70,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Dungeon Defense",
+          "slug": "dungeon-defense-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/dungeon-defense-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-defense.239d33-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Regressed Demon Lord is Kind",
+          "slug": "the-regressed-demon-lord-is-kind-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-regressed-demon-lord-is-kind-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-demon-lord-is-kind.7787a4-400.webp",
+          "lastChapter": 55,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Death King Karnak",
+          "slug": "death-king-karnak-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/death-king-karnak-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/death-king-karnak.269517-400.webp",
+          "lastChapter": 40,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reincarnated Escort Warrior",
+          "slug": "reincarnated-escort-warrior-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reincarnated-escort-warrior-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnated-escort-warrior.2b6f01-400.webp",
+          "lastChapter": 91,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "13": [
+        {
+          "title": "The Extra is Too Strong",
+          "slug": "the-extra-is-too-strong-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-extra-is-too-strong-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-extra-is-too-strong.d4dc49-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Crown Prince That Sells Medicine",
+          "slug": "the-crown-prince-that-sells-medicine-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-crown-prince-that-sells-medicine-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-crown-prince-that-sells-medicine.98e160-400.webp",
+          "lastChapter": 52,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Lord's Coins Aren't Decreasing?!",
+          "slug": "the-lords-coins-arent-decreasing-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-lords-coins-arent-decreasing-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-lords-coins-arent-decreasing.f13242-400.webp",
+          "lastChapter": 139,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I'll Retire After Saving the World",
+          "slug": "ill-retire-after-saving-the-world-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/ill-retire-after-saving-the-world-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ill-retire-after-saving-the-world.014a6a-400.webp",
+          "lastChapter": 39,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Awoke as a God After Auto Battling For a Million Years",
+          "slug": "i-awoke-as-a-god-after-auto-battling-for-a-million-years-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-awoke-as-a-god-after-auto-battling-for-a-million-years-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-awoke-as-a-god-after-auto-battling-for-a-million-years.619876-400.webp",
+          "lastChapter": 19,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Raising the Princess to Overcome Death",
+          "slug": "raising-the-princess-to-overcome-death-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/raising-the-princess-to-overcome-death-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/raising-the-princess-to-overcome-death.d013b6-400.webp",
+          "lastChapter": 56,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Demon King",
+          "slug": "demon-king-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/demon-king-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/demon-king.14ecf3-400.webp",
+          "lastChapter": 14,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Genius Corpse-Collecting Warrior",
+          "slug": "genius-corpse-collecting-warrior-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/genius-corpse-collecting-warrior-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-corpse-collecting-warrior.24f625-400.webp",
+          "lastChapter": 49,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I’m Not a Regressor",
+          "slug": "im-not-a-regressor-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/im-not-a-regressor-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-not-a-regressor.a0af01-400.webp",
+          "lastChapter": 55,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Sword Fanatic Wanders Through The Night",
+          "slug": "sword-fanatic-wanders-through-the-night-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sword-fanatic-wanders-through-the-night-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-fanatic-wanders-through-the-night.2ffbcd-400.webp",
+          "lastChapter": 131,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I’ll Be Taking A Break For Personal Reasons",
+          "slug": "ill-be-taking-a-break-for-personal-reasons-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/ill-be-taking-a-break-for-personal-reasons-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ill-be-taking-a-break-for-personal-reasons.2df5d4-400.webp",
+          "lastChapter": 121,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Updater",
+          "slug": "updater-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/updater-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/updater.046cd1-400.webp",
+          "lastChapter": 70,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Tutorial Tower of the Advanced Player",
+          "slug": "the-tutorial-tower-of-the-advanced-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-tutorial-tower-of-the-advanced-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-tower-of-the-advanced-player.82e053-400.webp",
+          "lastChapter": 177,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return Of The Shattered Constellation",
+          "slug": "return-of-the-shattered-constellation-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-shattered-constellation-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-shattered-constellation.61c903-400.webp",
+          "lastChapter": 120,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Solo Leveling",
+          "slug": "solo-leveling-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/solo-leveling-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling.c27830-400.webp",
+          "lastChapter": 201,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Main Characters That Only I Know",
+          "slug": "the-main-characters-that-only-i-know-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-main-characters-that-only-i-know-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-main-characters-that-only-i-know.711b4c-400.webp",
+          "lastChapter": 35,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Heavenly Demon's Descendant",
+          "slug": "the-heavenly-demons-descendant-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-heavenly-demons-descendant-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demons-descendant.a19071-400.webp",
+          "lastChapter": 38,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "King of Violence",
+          "slug": "king-of-violence-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/king-of-violence-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/king-of-violence.2e49fa-400.webp",
+          "lastChapter": 11,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "To Hell With Being A Saint, I'm A Doctor",
+          "slug": "to-hell-with-being-a-saint-im-a-doctor-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/to-hell-with-being-a-saint-im-a-doctor-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/to-hell-with-being-a-saint-im-a-doctor.e82ff3-400.webp",
+          "lastChapter": 87,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Constellation That Returned From Hell",
+          "slug": "the-constellation-that-returned-from-hell-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-constellation-that-returned-from-hell-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-constellation-that-returned-from-hell.2d73e8-400.webp",
+          "lastChapter": 161,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "14": [
+        {
+          "title": "Sleeping Ranker",
+          "slug": "sleeping-ranker-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sleeping-ranker-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sleeping-ranker.75d9e0-400.webp",
+          "lastChapter": 119,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Son's Retribution",
+          "slug": "sons-retribution-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sons-retribution-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sons-retribution.f60271-400.webp",
+          "lastChapter": 14,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Maxed Out Leveling",
+          "slug": "maxed-out-leveling-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/maxed-out-leveling-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/maxed-out-leveling.4c2a14-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Kill The Dragon",
+          "slug": "kill-the-dragon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/kill-the-dragon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/kill-the-dragon.b0ff28-400.webp",
+          "lastChapter": 115,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Archmage Transcending Through Regression",
+          "slug": "archmage-transcending-through-regression-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/archmage-transcending-through-regression-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/archmage-transcending-through-regression.b63f09-400.webp",
+          "lastChapter": 107,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Became a Renowned Family's Sword Prodigy",
+          "slug": "i-became-a-renowned-familys-sword-prodigy-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-became-a-renowned-familys-sword-prodigy-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-a-renowned-familys-sword-prodigy.e34982-400.webp",
+          "lastChapter": 116,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Daughter is the Final Boss",
+          "slug": "my-daughter-is-the-final-boss-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-daughter-is-the-final-boss-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-daughter-is-the-final-boss.7276ba-400.webp",
+          "lastChapter": 128,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Gods' Gambit",
+          "slug": "gods-gambit-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/gods-gambit-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/gods-gambit.8634e5-400.webp",
+          "lastChapter": 45,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Newbie is Too Strong",
+          "slug": "the-newbie-is-too-strong-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-newbie-is-too-strong-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-newbie-is-too-strong.9e5b6b-400.webp",
+          "lastChapter": 98,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Why I Quit Being the Demon King",
+          "slug": "why-i-quit-being-the-demon-king-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/why-i-quit-being-the-demon-king-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/why-i-quit-being-the-demon-king.dacdb0-400.webp",
+          "lastChapter": 22,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Regressed to My Ruined Family",
+          "slug": "i-regressed-to-my-ruined-family-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-regressed-to-my-ruined-family-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-regressed-to-my-ruined-family.7edb05-400.webp",
+          "lastChapter": 89,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Reincarnation Of The Strongest Sword God",
+          "slug": "reincarnation-of-the-strongest-sword-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/reincarnation-of-the-strongest-sword-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-strongest-sword-god.4b5305-400.webp",
+          "lastChapter": 75,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Reincarnated As The Crazed Heir",
+          "slug": "i-reincarnated-as-the-crazed-heir-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-reincarnated-as-the-crazed-heir-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-reincarnated-as-the-crazed-heir.1770cb-400.webp",
+          "lastChapter": 128,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Demon Lord's Martial Arts Ascension",
+          "slug": "demon-lords-martial-arts-ascension-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/demon-lords-martial-arts-ascension-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/demon-lords-martial-arts-ascension.ee4b41-400.webp",
+          "lastChapter": 70,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Time of the Terminally ill Extra",
+          "slug": "the-time-of-the-terminally-ill-extra-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-time-of-the-terminally-ill-extra-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-time-of-the-terminally-ill-extra.f7578f-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Returned as an FFF-Class Witch Doctor",
+          "slug": "i-returned-as-an-fff-class-witch-doctor-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-returned-as-an-fff-class-witch-doctor-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-returned-as-an-fff-class-witch-doctor.1ecfd1-400.webp",
+          "lastChapter": 62,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return of the Bloodthirsty Police",
+          "slug": "return-of-the-bloodthirsty-police-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-bloodthirsty-police-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-bloodthirsty-police.d77baf-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Spirit Farmer",
+          "slug": "spirit-farmer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/spirit-farmer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/spirit-farmer.6081c0-400.webp",
+          "lastChapter": 160,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Hoarding in Hell",
+          "slug": "hoarding-in-hell-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/hoarding-in-hell-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/hoarding-in-hell.b72a6e-400.webp",
+          "lastChapter": 61,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Relife Player",
+          "slug": "relife-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/relife-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/relife-player.1909db-400.webp",
+          "lastChapter": 65,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "15": [
+        {
+          "title": "Worn and Torn Newbie",
+          "slug": "worn-and-torn-newbie-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/worn-and-torn-newbie-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worn-and-torn-newbie.f39912-400.webp",
+          "lastChapter": 160,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Dr. Player",
+          "slug": "dr-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/dr-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dr-player.ee1a4a-400.webp",
+          "lastChapter": 65,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Second Coming of Gluttony",
+          "slug": "the-second-coming-of-gluttony-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-second-coming-of-gluttony-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-second-coming-of-gluttony.e4b752-400.webp",
+          "lastChapter": 109,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Game That I Came From",
+          "slug": "the-game-that-i-came-from-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-game-that-i-came-from-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-game-that-i-came-from.cf13e3-400.webp",
+          "lastChapter": 224,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Hero Has Returned",
+          "slug": "hero-has-returned-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/hero-has-returned-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/hero-has-returned.157b46-400.webp",
+          "lastChapter": 23,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Damn Reincarnation",
+          "slug": "damn-reincarnation-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/damn-reincarnation-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/damn-reincarnation.6735aa-400.webp",
+          "lastChapter": 81,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Legendary Youngest Son of the Marquis House",
+          "slug": "legendary-youngest-son-of-the-marquis-house-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/legendary-youngest-son-of-the-marquis-house-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legendary-youngest-son-of-the-marquis-house.e01086-400.webp",
+          "lastChapter": 92,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Otherworldly Skeleton Evolution",
+          "slug": "otherworldly-skeleton-evolution-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/otherworldly-skeleton-evolution-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/otherworldly-skeleton-evolution.10cd9c-400.webp",
+          "lastChapter": 13,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Of All Things, I Became a Crow",
+          "slug": "of-all-things-i-became-a-crow-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/of-all-things-i-became-a-crow-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/of-all-things-i-became-a-crow.2e439b-400.webp",
+          "lastChapter": 107,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Taming Master",
+          "slug": "taming-master-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/taming-master-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/taming-master.988f49-400.webp",
+          "lastChapter": 127,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "How To Live As a Villain",
+          "slug": "how-to-live-as-a-villain-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/how-to-live-as-a-villain-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/how-to-live-as-a-villain.24847b-400.webp",
+          "lastChapter": 112,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Golden Mage",
+          "slug": "golden-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/golden-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/golden-mage.ff6621-400.webp",
+          "lastChapter": 34,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Drug-Eating Genius Mage",
+          "slug": "drug-eating-genius-mage-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/drug-eating-genius-mage-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/drug-eating-genius-mage.8c490b-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Existence",
+          "slug": "existence-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/existence-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/existence.d74640-400.webp",
+          "lastChapter": 61,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "World's Strongest Troll",
+          "slug": "worlds-strongest-troll-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/worlds-strongest-troll-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worlds-strongest-troll.64cb3a-400.webp",
+          "lastChapter": 49,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return to Player",
+          "slug": "return-to-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-to-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp",
+          "lastChapter": 138,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Legendary Ranker's Comeback",
+          "slug": "legendary-rankers-comeback-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/legendary-rankers-comeback-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legendary-rankers-comeback.74eaa1-400.webp",
+          "lastChapter": 37,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Blood Knight's Villains",
+          "slug": "the-blood-knights-villains-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-blood-knights-villains-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-blood-knights-villains.1d3297-400.webp",
+          "lastChapter": 25,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Super Evolution",
+          "slug": "super-evolution-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/super-evolution-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/super-evolution.c0945c-400.webp",
+          "lastChapter": 117,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Live",
+          "slug": "the-live-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-live-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-live.30e95c-400.webp",
+          "lastChapter": 167,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "16": [
+        {
+          "title": "Shadowless Night",
+          "slug": "shadowless-night-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/shadowless-night-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/shadowless-night.045aad-400.webp",
+          "lastChapter": 63,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Everyone Else is A Returnee",
+          "slug": "everyone-else-is-a-returnee-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/everyone-else-is-a-returnee-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/everyone-else-is-a-returnee.c53ae7-400.webp",
+          "lastChapter": 47,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Never Die Extra",
+          "slug": "never-die-extra-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/never-die-extra-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/never-die-extra.004015-400.webp",
+          "lastChapter": 60,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Captured The Tyrant's Heart",
+          "slug": "i-captured-the-tyrants-heart-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-captured-the-tyrants-heart-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-captured-the-tyrants-heart.031faf-400.webp",
+          "lastChapter": 3,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Heavenly Demon Instructor",
+          "slug": "heavenly-demon-instructor-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/heavenly-demon-instructor-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-demon-instructor.88073a-400.webp",
+          "lastChapter": 105,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Poison-Eating Healer",
+          "slug": "poison-eating-healer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/poison-eating-healer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/poison-eating-healer.1cec99-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Grow Stronger By Eating!",
+          "slug": "i-grow-stronger-by-eating-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-grow-stronger-by-eating-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-grow-stronger-by-eating.3eafec-400.webp",
+          "lastChapter": 100,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Legend of Asura – The Venom Dragon",
+          "slug": "legend-of-asura-the-venom-dragon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/legend-of-asura-the-venom-dragon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legend-of-asura-the-venom-dragon.ee9db7-400.webp",
+          "lastChapter": 134,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Warrior High School - Dungeon Raid Department",
+          "slug": "warrior-high-school-dungeon-raid-department-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/warrior-high-school-dungeon-raid-department-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/warrior-high-school-dungeon-raid-department.9604cd-400.webp",
+          "lastChapter": 45,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Return of the Prodigious Swordmaster",
+          "slug": "the-return-of-the-prodigious-swordmaster-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-return-of-the-prodigious-swordmaster-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-prodigious-swordmaster.d7faf3-400.webp",
+          "lastChapter": 20,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Immortal Emperor Luo Wuji Has Returned",
+          "slug": "the-immortal-emperor-luo-wuji-has-returned-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-immortal-emperor-luo-wuji-has-returned-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-immortal-emperor-luo-wuji-has-returned.fb71f9-400.webp",
+          "lastChapter": 130,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Book of Lagier",
+          "slug": "the-book-of-lagier-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-book-of-lagier-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-book-of-lagier.38c2b0-400.webp",
+          "lastChapter": 65,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "SSS-Class Gacha Hunter",
+          "slug": "sss-class-gacha-hunter-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/sss-class-gacha-hunter-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sss-class-gacha-hunter.3a5c15-400.webp",
+          "lastChapter": 68,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Above the Heavens",
+          "slug": "above-the-heavens-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/above-the-heavens-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/above-the-heavens.27388f-400.webp",
+          "lastChapter": 17,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Return of the 8th Class Magician",
+          "slug": "return-of-the-8th-class-magician-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/return-of-the-8th-class-magician-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-8th-class-magician.3c03f3-400.webp",
+          "lastChapter": 81,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "On My Way to Kill God",
+          "slug": "on-my-way-to-kill-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/on-my-way-to-kill-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/on-my-way-to-kill-god.bc0599-400.webp",
+          "lastChapter": 43,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Rise From The Rubble",
+          "slug": "rise-from-the-rubble-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/rise-from-the-rubble-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/rise-from-the-rubble.ed89fc-400.webp",
+          "lastChapter": 158,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Dangerous Dungeon Escape",
+          "slug": "dangerous-dungeon-escape-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/dangerous-dungeon-escape-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dangerous-dungeon-escape.709c42-400.webp",
+          "lastChapter": 16,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Regressed As The Duke",
+          "slug": "i-regressed-as-the-duke-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-regressed-as-the-duke-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-regressed-as-the-duke.23b174-400.webp",
+          "lastChapter": 63,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Path to Killing Gods in Another World",
+          "slug": "my-path-to-killing-gods-in-another-world-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-path-to-killing-gods-in-another-world-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-path-to-killing-gods-in-another-world.43daa8-400.webp",
+          "lastChapter": 66,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "17": [
+        {
+          "title": "My Insanely Competent Underlings",
+          "slug": "my-insanely-competent-underlings-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-insanely-competent-underlings-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-insanely-competent-underlings.991e33-400.webp",
+          "lastChapter": 24,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Drug Devourer",
+          "slug": "drug-devourer-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/drug-devourer-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/drug-devourer.a06b7c-400.webp",
+          "lastChapter": 27,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Transmigrating to the Otherworld Once More",
+          "slug": "transmigrating-to-the-otherworld-once-more-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/transmigrating-to-the-otherworld-once-more-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/transmigrating-to-the-otherworld-once-more.7c6e7d-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Civil Servant Life Reborn in the Strange World",
+          "slug": "my-civil-servant-life-reborn-in-the-strange-world-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-civil-servant-life-reborn-in-the-strange-world-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-civil-servant-life-reborn-in-the-strange-world.e1a7b8-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Ultimate Devouring System",
+          "slug": "ultimate-devouring-system-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/ultimate-devouring-system-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ultimate-devouring-system.ade627-400.webp",
+          "lastChapter": 18,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Starting Today, I’m a Player",
+          "slug": "starting-today-im-a-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/starting-today-im-a-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/starting-today-im-a-player.549afe-400.webp",
+          "lastChapter": 74,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Rise of The Cheat User",
+          "slug": "rise-of-the-cheat-user-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/rise-of-the-cheat-user-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/rise-of-the-cheat-user.758744-400.webp",
+          "lastChapter": 21,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Daughter is a Dragon!",
+          "slug": "my-daughter-is-a-dragon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-daughter-is-a-dragon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-daughter-is-a-dragon.f0128e-400.webp",
+          "lastChapter": 41,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "King of the Mound",
+          "slug": "king-of-the-mound-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/king-of-the-mound-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/king-of-the-mound.930634-400.webp",
+          "lastChapter": 43,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Overbearing Tyrant",
+          "slug": "overbearing-tyrant-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/overbearing-tyrant-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overbearing-tyrant.a54d3c-400.webp",
+          "lastChapter": 53,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Heavenly Sword's Grand Saga",
+          "slug": "heavenly-swords-grand-saga-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/heavenly-swords-grand-saga-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-swords-grand-saga.e0c092-400.webp",
+          "lastChapter": 40,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Carnivorous Hunter",
+          "slug": "carnivorous-hunter-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/carnivorous-hunter-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/carnivorous-hunter.0cf4d9-400.webp",
+          "lastChapter": 50,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Demon in Mount Hua",
+          "slug": "demon-in-mount-hua-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/demon-in-mount-hua-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/demon-in-mount-hua.46b3bc-400.webp",
+          "lastChapter": 30,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "My Healing Game",
+          "slug": "my-healing-game-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/my-healing-game-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-healing-game.2f380d-400.webp",
+          "lastChapter": 12,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "A Comic Artist's Survival Guide",
+          "slug": "a-comic-artists-survival-guide-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/a-comic-artists-survival-guide-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-comic-artists-survival-guide.2bea14-400.webp",
+          "lastChapter": 25,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Challenger",
+          "slug": "the-challenger-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-challenger-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-challenger.4558b3-400.webp",
+          "lastChapter": 52,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Heavenly Martial God",
+          "slug": "heavenly-martial-god-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/heavenly-martial-god-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-martial-god.7dca20-400.webp",
+          "lastChapter": 65,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Ultra Alter",
+          "slug": "ultra-alter-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/ultra-alter-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ultra-alter.953764-400.webp",
+          "lastChapter": 45,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I Shall Live As a Prince",
+          "slug": "i-shall-live-as-a-prince-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/i-shall-live-as-a-prince-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-shall-live-as-a-prince.e666a1-400.webp",
+          "lastChapter": 88,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Frenzy Of Evolution",
+          "slug": "the-frenzy-of-evolution-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-frenzy-of-evolution-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-frenzy-of-evolution.b30779-400.webp",
+          "lastChapter": 40,
+          "primaryDomain": "asurascans.com"
+        }
+      ],
+      "18": [
+        {
+          "title": "I'm the Only One Loved by the Constellations!",
+          "slug": "im-the-only-one-loved-by-the-constellations-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/im-the-only-one-loved-by-the-constellations-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-the-only-one-loved-by-the-constellations.88d664-400.webp",
+          "lastChapter": 58,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "For My Forsaken Beloved",
+          "slug": "for-my-forsaken-beloved-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/for-my-forsaken-beloved-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/for-my-forsaken-beloved.f64119-400.webp",
+          "lastChapter": 9,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The King Of Bugs",
+          "slug": "the-king-of-bugs-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-king-of-bugs-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-king-of-bugs.c9d6d1-400.webp",
+          "lastChapter": 58,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Emperor’s Domination",
+          "slug": "emperors-domination-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/emperors-domination-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/emperors-domination.335594-400.webp",
+          "lastChapter": 19,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "King of Runes",
+          "slug": "king-of-runes-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/king-of-runes-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/king-of-runes.d8db5e-400.webp",
+          "lastChapter": 13,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Demonic Spirit King",
+          "slug": "demonic-spirit-king-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/demonic-spirit-king-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/demonic-spirit-king.498b4f-400.webp",
+          "lastChapter": 35,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Solo Bug Player",
+          "slug": "solo-bug-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/solo-bug-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-bug-player.e28bc2-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Solo Spell Caster",
+          "slug": "solo-spell-caster-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/solo-spell-caster-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-spell-caster.a3f315-400.webp",
+          "lastChapter": 87,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Star of a Supreme Ruler",
+          "slug": "the-star-of-a-supreme-ruler-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-star-of-a-supreme-ruler-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-star-of-a-supreme-ruler.7de318-400.webp",
+          "lastChapter": 29,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The Strongest Player",
+          "slug": "the-strongest-player-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-strongest-player-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-strongest-player.gif",
+          "lastChapter": 26,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Shenwu Tianzun",
+          "slug": "shenwu-tianzun-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/shenwu-tianzun-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/shenwu-tianzun.af90e0-400.webp",
+          "lastChapter": 215,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Legend of Mir: The Golden Armored Dragon",
+          "slug": "legend-of-mir-the-golden-armored-dragon-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/legend-of-mir-the-golden-armored-dragon-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legend-of-mir-the-golden-armored-dragon.12ff75-400.webp",
+          "lastChapter": 28,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Arcana Fantasy",
+          "slug": "arcana-fantasy-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/arcana-fantasy-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/arcana-fantasy.66a4a0-400.webp",
+          "lastChapter": 30,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Saving the Villain Who was Abandoned by the Female Lead",
+          "slug": "saving-the-villain-who-was-abandoned-by-the-female-lead-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/saving-the-villain-who-was-abandoned-by-the-female-lead-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/saving-the-villain-who-was-abandoned-by-the-female-lead.7b7e6f-400.webp",
+          "lastChapter": 21,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The King's Avatar",
+          "slug": "the-kings-avatar-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-kings-avatar-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-kings-avatar.be9bd6-400.webp",
+          "lastChapter": 9,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "I've Become the Villainous Empress of a Novel",
+          "slug": "ive-become-the-villainous-empress-of-a-novel-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/ive-become-the-villainous-empress-of-a-novel-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ive-become-the-villainous-empress-of-a-novel.32e614-400.webp",
+          "lastChapter": 34,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Max Level Returner",
+          "slug": "max-level-returner-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/max-level-returner-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/max-level-returner.226ded-400.webp",
+          "lastChapter": 118,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "Mookhyang The Origin",
+          "slug": "mookhyang-the-origin-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/mookhyang-the-origin-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mookhyang-the-origin.1f831b-400.webp",
+          "lastChapter": 48,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The God of Pro Wrestling",
+          "slug": "the-god-of-pro-wrestling-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-god-of-pro-wrestling-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-god-of-pro-wrestling.70b77f-400.webp",
+          "lastChapter": 42,
+          "primaryDomain": "asurascans.com"
+        },
+        {
+          "title": "The First Order",
+          "slug": "the-first-order-3ebcc5a9",
+          "urlTemplate": "https://asurascans.com/comics/the-first-order-3ebcc5a9/chapter/{chapter}",
+          "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-first-order.a711a9-400.webp",
+          "lastChapter": 29,
+          "primaryDomain": "asurascans.com"
+        }
+      ]
+    },
+    "tomb raider": {
+      "1": [
+        {
+          "title": "Tomb Raider King — End Line",
+          "urlTemplate": "https://asurascans.com/comics/tomb-raider-kin-g-11fe7da3/chapter/{chapter}",
+          "lastChapter": 32
+        }
+      ]
+    },
+    "overgeared": {
+      "1": [
+        {
+          "title": "Overgeared",
+          "urlTemplate": "https://asurascans.com/comics/overgeared-11fe7da3/chapter/{chapter}",
+          "lastChapter": 345
+        }
+      ]
+    },
+    "boruto": {
+      "1": []
+    }
+  },
+  "totalPages": {
+    "": {
+      "1": 18,
+      "2": 18,
+      "3": 18,
+      "4": 18,
+      "5": 18,
+      "6": 18,
+      "7": 18,
+      "8": 18,
+      "9": 18,
+      "10": 18,
+      "11": 18,
+      "12": 18,
+      "13": 18,
+      "14": 18,
+      "15": 18,
+      "16": 18,
+      "17": 18,
+      "18": 18
+    },
+    "tomb raider": {
+      "1": 1
+    },
+    "overgeared": {
+      "1": 1
+    },
+    "boruto": {
+      "1": 1
+    }
+  }
+}

@@ -8,6 +8,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/lib/pq"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 )
 
@@ -19,9 +20,11 @@ type CanonicalRepository interface {
 	Create(ctx context.Context, m *domain.CanonicalManhua) error
 	GetByID(ctx context.Context, id int64) (*domain.CanonicalManhua, error)
 	GetBySlug(ctx context.Context, slug string) (*domain.CanonicalManhua, error)
+	GetByIDs(ctx context.Context, ids []int64) ([]*domain.CanonicalManhua, error)
 	Update(ctx context.Context, m *domain.CanonicalManhua) error
 	List(ctx context.Context, filter domain.CatalogFilter) (*domain.CatalogSearchResult, error)
 	UpsertBatch(ctx context.Context, items []*domain.CanonicalManhua) error
+	ListDomains(ctx context.Context) ([]string, error)
 }
 
 type PostgresCanonicalRepository struct {
@@ -113,6 +116,44 @@ func (r *PostgresCanonicalRepository) GetBySlug(ctx context.Context, slug string
 	`
 	row := r.db.QueryRowContext(ctx, query, slug)
 	return scanCanonical(row)
+}
+
+func (r *PostgresCanonicalRepository) GetByIDs(ctx context.Context, ids []int64) ([]*domain.CanonicalManhua, error) {
+	if len(ids) == 0 {
+		return []*domain.CanonicalManhua{}, nil
+	}
+
+	query := `
+		SELECT id, slug, title, alternative_titles, synopsis, cover_url,
+		       primary_domain, url_template, last_chapter, update_day,
+		       is_hiatus, bayesian_rating, total_votes, total_views, created_at, updated_at
+		FROM canonical_manhuas
+		WHERE id = ANY($1);
+	`
+	rows, err := r.db.QueryContext(ctx, query, pq.Array(ids))
+	if err != nil {
+		return nil, fmt.Errorf("failed to query canonical manhuas by ids: %w", err)
+	}
+	defer rows.Close()
+
+	itemsMap := make(map[int64]*domain.CanonicalManhua)
+	for rows.Next() {
+		m, err := scanCanonicalRows(rows)
+		if err != nil {
+			return nil, fmt.Errorf("failed to scan canonical row: %w", err)
+		}
+		itemsMap[m.ID] = m
+	}
+
+	// Preserve the exact order of the input `ids` slice
+	ordered := make([]*domain.CanonicalManhua, 0, len(ids))
+	for _, id := range ids {
+		if item, found := itemsMap[id]; found {
+			ordered = append(ordered, item)
+		}
+	}
+
+	return ordered, nil
 }
 
 func (r *PostgresCanonicalRepository) Update(ctx context.Context, m *domain.CanonicalManhua) error {
@@ -309,7 +350,7 @@ func (r *PostgresCanonicalRepository) UpsertBatch(ctx context.Context, items []*
 			title = EXCLUDED.title,
 			alternative_titles = COALESCE(EXCLUDED.alternative_titles, canonical_manhuas.alternative_titles),
 			synopsis = COALESCE(EXCLUDED.synopsis, canonical_manhuas.synopsis),
-			cover_url = COALESCE(EXCLUDED.cover_url, canonical_manhuas.cover_url),
+			cover_url = CASE WHEN canonical_manhuas.cover_url LIKE '/api/media/covers/%' THEN canonical_manhuas.cover_url ELSE COALESCE(NULLIF(EXCLUDED.cover_url, ''), canonical_manhuas.cover_url) END,
 			url_template = EXCLUDED.url_template,
 			last_chapter = COALESCE(EXCLUDED.last_chapter, canonical_manhuas.last_chapter),
 			update_day = COALESCE(EXCLUDED.update_day, canonical_manhuas.update_day),
@@ -322,9 +363,10 @@ func (r *PostgresCanonicalRepository) UpsertBatch(ctx context.Context, items []*
 	}
 	defer stmt.Close()
 
-	for _, m := range items {
+	baseID := (time.Now().UnixNano() / 1e6) * 1000
+	for i, m := range items {
 		if m.ID == 0 {
-			m.ID = time.Now().UnixNano() / 1e6
+			m.ID = baseID + int64(i)
 		}
 
 		var altTitles, synopsis, coverURL sql.NullString
@@ -432,4 +474,23 @@ func scanCanonical(s scannable) (*domain.CanonicalManhua, error) {
 
 func scanCanonicalRows(rows *sql.Rows) (*domain.CanonicalManhua, error) {
 	return scanCanonical(rows)
+}
+
+func (r *PostgresCanonicalRepository) ListDomains(ctx context.Context) ([]string, error) {
+	query := `SELECT DISTINCT primary_domain FROM canonical_manhuas WHERE primary_domain != '' ORDER BY primary_domain ASC;`
+	rows, err := r.db.QueryContext(ctx, query)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var domains []string
+	for rows.Next() {
+		var d string
+		if err := rows.Scan(&d); err != nil {
+			return nil, err
+		}
+		domains = append(domains, d)
+	}
+	return domains, rows.Err()
 }

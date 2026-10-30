@@ -3,10 +3,12 @@ name: CI & Quality — Backend Core (Go)
 on:
   push:
     branches:
+      - master
       - main
       - desenv
   pull_request:
     branches:
+      - master
       - main
       - desenv
 
@@ -30,7 +32,7 @@ jobs:
         run: go mod download
 
       - name: Run Tests with Coverage
-        run: go test -v -race -coverprofile=coverage.out ./internal/auth ./internal/handlers ./internal/providers ./internal/repository
+        run: go test -v -race -coverprofile=coverage.out ./internal/auth ./internal/handlers ./internal/providers ./internal/repository ./internal/service ./internal/proxy
 
       - name: Build Binary
         run: CGO_ENABLED=0 go build -v -o /tmp/manhua-api ./cmd/server

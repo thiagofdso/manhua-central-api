@@ -6,15 +6,23 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"os/signal"
+	"strconv"
+	"strings"
 	"syscall"
 	"time"
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/auth"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/handlers"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/middleware"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/providers"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/proxy"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/scheduler"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/migrations"
 )
 
@@ -77,13 +85,107 @@ func main() {
 	authMiddleware := middleware.NewAuthMiddleware(jwtService)
 	catalogHandler := handlers.NewCatalogHandler(canonicalRepo)
 
+	libraryRepo := repository.NewPostgresLibraryRepository(pgDB.DB)
+	libraryService := service.NewLibraryService(libraryRepo, canonicalRepo)
+	libraryHandler := handlers.NewLibraryHandler(libraryService)
+
+	scraperWorkerURL := getEnv("SCRAPER_WORKER_URL", "http://localhost:50051")
+	extractorService := service.NewExtractorService(scraperWorkerURL, nil)
+
+	ssrfGuard := proxy.NewSSRFGuard(proxy.DefaultAllowedDomains)
+	streamer := proxy.NewStreamer(ssrfGuard)
+	streamer.SetWorkerURL(scraperWorkerURL)
+	coverLimit, err := strconv.ParseInt(getEnv("COVERS_MAX_BYTES", "8388608"), 10, 64)
+	if err != nil || coverLimit < 1024 || coverLimit > 8<<20 {
+		log.Fatal("COVERS_MAX_BYTES must be between 1024 and 8388608")
+	}
+	coverStore, err := service.NewCoverStore(getEnv("COVERS_DIR", "/data/covers"), coverLimit, streamer)
+	if err != nil {
+		log.Fatalf("cover storage: %v", err)
+	}
+	coverWorkerURL := getEnv("CATALOG_COLLECTOR_URL", scraperWorkerURL)
+	if !strings.HasPrefix(coverWorkerURL, "http://") && !strings.HasPrefix(coverWorkerURL, "https://") {
+		coverWorkerURL = "http://" + coverWorkerURL
+	}
+	coverStore.SetWorkerURL(strings.TrimRight(coverWorkerURL, "/"))
+	collectorToken := os.Getenv("CATALOG_COLLECTOR_TOKEN")
+	coverStore.SetWorkerToken(collectorToken)
+	if collectorURL := os.Getenv("CATALOG_COLLECTOR_URL"); collectorURL != "" {
+		extractorService.SetHostCollector(collectorURL, collectorToken)
+		streamer.SetHostCollector(collectorURL, collectorToken)
+	}
+	readerHandler := handlers.NewReaderHandler(streamer, canonicalRepo, extractorService)
+
+	batchExtractor := func(ctx context.Context, m *domain.CanonicalManhua, chapter int) ([]domain.BatchChapterImage, error) {
+		urls, err := extractorService.ExtractChapterImages(ctx, m, chapter)
+		if err != nil {
+			log.Printf("[WARN] Batch extraction failed for %s ch %d: %v", m.Slug, chapter, err)
+			return nil, err
+		}
+		res := make([]domain.BatchChapterImage, len(urls))
+		for i, u := range urls {
+			res[i] = domain.BatchChapterImage{
+				Index:    i + 1,
+				URL:      u,
+				ProxyURL: "/api/reader/proxy-image?url=" + url.QueryEscape(u),
+			}
+		}
+		return res, nil
+	}
+	batchService := service.NewBatchService(canonicalRepo, 5, batchExtractor)
+	batchHandler := handlers.NewBatchHandler(batchService)
+
+	ratingRepo := repository.NewPostgresRatingRepository(pgDB.DB, redisClient)
+	rankingService := service.NewRankingService(ratingRepo, canonicalRepo, redisClient)
+	rankingHandler := handlers.NewRankingHandler(rankingService)
+
+	notifRepo := repository.NewPostgresNotificationRepository(pgDB.DB)
+	sched := scheduler.NewScheduler(pgDB.DB, canonicalRepo, notifRepo, func(ctx context.Context, m *domain.CanonicalManhua) (int, error) {
+		current := 0
+		if m.LastChapter != nil {
+			current = *m.LastChapter
+		}
+		return current + 1, nil
+	})
+	notifHandler := handlers.NewNotificationsHandler(notifRepo, sched.RunRoutineCheck)
+
+	providerReg := providers.NewDefaultProviderRegistry("")
+
+	importService := service.NewImportService(providerReg, redisClient, canonicalRepo, libraryService)
+	collection := service.NewCatalogCollection(pgDB.DB, providerReg, canonicalRepo, coverStore)
+	collectionCtx, stopCollection := context.WithCancel(context.Background())
+	defer func() { stopCollection(); collection.Wait() }()
+	collection.Start(collectionCtx)
+	importService.SetCollection(collection)
+	catalogHandler.SetCollection(collection)
+	importHandler := handlers.NewImportHandler(importService, jwtService)
+
+	if redisClient != nil {
+		if err := rankingService.WarmUp(context.Background()); err != nil {
+			log.Printf("[WARN] Failed to warm up ranking cache: %v", err)
+		}
+		rankingService.StartBackgroundSync(context.Background(), 15*time.Minute)
+	}
+
 	mux := http.NewServeMux()
+	mux.Handle("GET /api/media/covers/{key...}", coverStore)
 
 	// Health check
 	mux.HandleFunc("/healthz", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
 		_, _ = w.Write([]byte(`{"status":"ok","timestamp":"` + time.Now().UTC().Format(time.RFC3339) + `"}`))
+	})
+
+	// Root welcome / status
+	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path != "/" {
+			http.NotFound(w, r)
+			return
+		}
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write([]byte(`{"app":"Manhua Central API","status":"online","version":"1.0.0"}`))
 	})
 
 	// Auth Endpoints
@@ -94,6 +196,24 @@ func main() {
 
 	// Catalog Endpoints
 	catalogHandler.RegisterRoutes(mux)
+
+	// Library Endpoints (Protected)
+	libraryHandler.RegisterRoutes(mux, authMiddleware)
+
+	// Reader Endpoints
+	readerHandler.RegisterRoutes(mux)
+
+	// Batch Chapter Download Endpoints
+	batchHandler.RegisterRoutes(mux)
+
+	// Ranking & Ratings Endpoints
+	rankingHandler.RegisterRoutes(mux, authMiddleware)
+
+	// Notifications & Routine Endpoints
+	notifHandler.RegisterRoutes(mux, authMiddleware)
+
+	// Import Endpoints
+	importHandler.RegisterRoutes(mux, authMiddleware)
 
 	// User Endpoints (Protected)
 	mux.Handle("/api/users/me", authMiddleware.RequireAuth(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
@@ -112,9 +232,9 @@ func main() {
 	server := &http.Server{
 		Addr:         ":" + port,
 		Handler:      handlerWithCORS,
-		ReadTimeout:  15 * time.Second,
-		WriteTimeout: 30 * time.Second,
-		IdleTimeout:  60 * time.Second,
+		ReadTimeout:  60 * time.Second,
+		WriteTimeout: 120 * time.Second,
+		IdleTimeout:  120 * time.Second,
 	}
 
 	go func() {
@@ -128,6 +248,7 @@ func main() {
 	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
 	<-quit
 	log.Println("[INFO] Shutting down API Gateway gracefully...")
+	stopCollection()
 
 	shutdownCtx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()

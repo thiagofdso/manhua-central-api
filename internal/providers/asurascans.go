@@ -86,7 +86,8 @@ func (s *AsuraScansScraper) SearchOrBrowse(ctx context.Context, query string, pa
 		return nil, fmt.Errorf("failed to parse html: %w", err)
 	}
 
-	var items []domain.ScrapedItem
+	bySlug := make(map[string]*domain.ScrapedItem)
+	var orderedSlugs []string
 
 	doc.Find("div.series-card").Each(func(i int, s *goquery.Selection) {
 		link := s.Find("a[href*='/comics/']").First()
@@ -122,26 +123,48 @@ func (s *AsuraScansScraper) SearchOrBrowse(ctx context.Context, query string, pa
 
 		urlTemplate := fmt.Sprintf("https://asurascans.com/comics/%s/chapter/{chapter}", slug)
 
-		items = append(items, domain.ScrapedItem{
-			Title:         title,
-			Slug:          slug,
-			URLTemplate:   urlTemplate,
-			CoverURL:      coverURL,
-			LastChapter:   lastChapter,
-			PrimaryDomain: "asurascans.com",
-		})
+		if prev, exists := bySlug[slug]; exists {
+			if coverURL != "" && !strings.HasPrefix(coverURL, "/images/") && (prev.CoverURL == "" || strings.HasPrefix(prev.CoverURL, "/images/")) {
+				prev.CoverURL = coverURL
+			}
+			if lastChapter != nil && prev.LastChapter == nil {
+				prev.LastChapter = lastChapter
+			}
+		} else {
+			item := &domain.ScrapedItem{
+				Title:         title,
+				Slug:          slug,
+				URLTemplate:   urlTemplate,
+				CoverURL:      coverURL,
+				LastChapter:   lastChapter,
+				PrimaryDomain: "asurascans.com",
+			}
+			bySlug[slug] = item
+			orderedSlugs = append(orderedSlugs, slug)
+		}
 	})
+
+	var items []domain.ScrapedItem
+	for _, slug := range orderedSlugs {
+		items = append(items, *bySlug[slug])
+	}
 
 	// Pagination
 	totalPages := 1
-	doc.Find("nav a, .pagination a").Each(func(i int, s *goquery.Selection) {
+	doc.Find("a, button, nav *").Each(func(i int, s *goquery.Selection) {
+		aria, _ := s.Attr("aria-label")
+		if m := asuraPageRegex.FindStringSubmatch(aria); len(m) > 1 {
+			if p, err := strconv.Atoi(m[1]); err == nil && p > totalPages {
+				totalPages = p
+			}
+		}
 		href, _ := s.Attr("href")
 		if m := asuraPageRegex.FindStringSubmatch(href); len(m) > 1 {
 			if p, err := strconv.Atoi(m[1]); err == nil && p > totalPages {
 				totalPages = p
 			}
 		}
-		if textP, err := strconv.Atoi(strings.TrimSpace(s.Text())); err == nil && textP > totalPages {
+		if textP, err := strconv.Atoi(strings.TrimSpace(s.Text())); err == nil && textP > totalPages && textP < 200 {
 			totalPages = textP
 		}
 	})

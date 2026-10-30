@@ -1,0 +1,528 @@
+{
+  "timestamp": 1792720279.8962488,
+  "catalog": {
+    "": {
+      "1": [
+        {
+          "title": "Nano Machine",
+          "urlTemplate": "https://ravenscans.org/nano-machine-chapter-{chapter}/",
+          "lastChapter": 335
+        },
+        {
+          "title": "Watashi no Koto Suki ja Nakatta no ka yo!?",
+          "urlTemplate": "https://ravenscans.org/watashi-no-koto-suki-ja-nakatta-no-ka-yo-chapter-{chapter}/",
+          "lastChapter": 34
+        },
+        {
+          "title": "Hell Login",
+          "urlTemplate": "https://ravenscans.org/hell-login-chapter-{chapter}/",
+          "lastChapter": 16
+        },
+        {
+          "title": "Osananananajimi",
+          "urlTemplate": "https://ravenscans.org/osananananajimi-chapter-{chapter}/",
+          "lastChapter": 34
+        },
+        {
+          "title": "Devely’s Healing Time",
+          "urlTemplate": "https://ravenscans.org/develys-healing-time-chapter-{chapter}/",
+          "lastChapter": 33
+        },
+        {
+          "title": "I Am Being Mistaken for an S-Class Employee",
+          "urlTemplate": "https://ravenscans.org/i-am-being-mistaken-for-an-s-class-employee-chapter-{chapter}/",
+          "lastChapter": 5
+        },
+        {
+          "title": "All the Heroes Are My Enemies: The ‘Useless’ Class Dropout Overpowers Everyone With His Barrier Skill and Takes Revenge",
+          "urlTemplate": "https://ravenscans.org/all-the-heroes-are-my-enemies-the-useless-class-dropout-overpowers-everyone-with-his-barrier-skill-and-takes-revenge-chapter-{chapter}/",
+          "lastChapter": 25
+        },
+        {
+          "title": "My Slain Dragon Bride",
+          "urlTemplate": "https://ravenscans.org/my-slain-dragon-bride-chapter-{chapter}/",
+          "lastChapter": 20
+        },
+        {
+          "title": "The Rebel of the Apocalypse Academy",
+          "urlTemplate": "https://ravenscans.org/the-rebel-of-the-apocalypse-academy-chapter-{chapter}/",
+          "lastChapter": 16
+        },
+        {
+          "title": "The Wind Mage",
+          "urlTemplate": "https://ravenscans.org/the-wind-mage-chapter-{chapter}/",
+          "lastChapter": 31
+        },
+        {
+          "title": "Mairimashita! Iruma-Kun",
+          "urlTemplate": "https://ravenscans.org/mairimashita-iruma-kun-chapter-{chapter}/",
+          "lastChapter": 463
+        },
+        {
+          "title": "Mayonaka Heart Tune",
+          "urlTemplate": "https://ravenscans.org/mayonaka-heart-tune-chapter-{chapter}/",
+          "lastChapter": 134
+        },
+        {
+          "title": "Akane-Banashi",
+          "urlTemplate": "https://ravenscans.org/akane-banashi-chapter-{chapter}/",
+          "lastChapter": 226
+        },
+        {
+          "title": "Birdy the Mighty Evolution",
+          "urlTemplate": "https://ravenscans.org/birdy-the-mighty-evolution-chapter-{chapter}/",
+          "lastChapter": 130
+        },
+        {
+          "title": "Hadacamera",
+          "urlTemplate": "https://ravenscans.org/hadacamera-chapter-{chapter}/",
+          "lastChapter": 69
+        },
+        {
+          "title": "Mikoto-chan Doesn’t Want to Be Hated!",
+          "urlTemplate": "https://ravenscans.org/mikoto-chan-doesnt-want-to-be-hated-chapter-{chapter}/",
+          "lastChapter": 80
+        },
+        {
+          "title": "Marriagetoxin",
+          "urlTemplate": "https://ravenscans.org/marriagetoxin-chapter-{chapter}/",
+          "lastChapter": 183
+        },
+        {
+          "title": "The Fable: The Third Secret",
+          "urlTemplate": "https://ravenscans.org/the-fable-the-third-secret-chapter-{chapter}/",
+          "lastChapter": 60
+        },
+        {
+          "title": "Dare demo Dakeru Kimi ga Suki",
+          "urlTemplate": "https://ravenscans.org/dare-demo-dakeru-kimi-ga-suki-chapter-{chapter}/",
+          "lastChapter": 116
+        },
+        {
+          "title": "My Charms Are Wasted On Kuroiwa Medaka",
+          "urlTemplate": "https://ravenscans.org/my-charms-are-wasted-on-kuroiwa-medaka-chapter-{chapter}/",
+          "lastChapter": 242
+        },
+        {
+          "title": "Freaky Killer",
+          "urlTemplate": "https://ravenscans.org/freaky-killer-chapter-{chapter}/",
+          "lastChapter": 57
+        },
+        {
+          "title": "Call of the Spear",
+          "urlTemplate": "https://ravenscans.org/call-of-the-spear-chapter-{chapter}/",
+          "lastChapter": 261
+        },
+        {
+          "title": "The Newbie Civil Servant Hunts Villains Before Going Home",
+          "urlTemplate": "https://ravenscans.org/the-newbie-civil-servant-hunts-villains-before-going-home-chapter-{chapter}/",
+          "lastChapter": 5
+        },
+        {
+          "title": "Regressing as the Reincarnated Bastard of the Sword Clan",
+          "urlTemplate": "https://ravenscans.org/regressing-as-the-reincarnated-bastard-of-the-sword-clan-chapter-{chapter}/",
+          "lastChapter": 117
+        },
+        {
+          "title": "Return of the Apocalypse-Class Death Knight",
+          "urlTemplate": "https://ravenscans.org/return-of-the-apocalypse-class-death-knight-chapter-{chapter}/",
+          "lastChapter": 93
+        },
+        {
+          "title": "The Return of Namgung’s Granddaughter",
+          "urlTemplate": "https://ravenscans.org/the-return-of-namgungs-granddaughter-chapter-{chapter}/",
+          "lastChapter": 60
+        },
+        {
+          "title": "Relationship Reversal",
+          "urlTemplate": "https://ravenscans.org/relationship-reversal-chapter-{chapter}/",
+          "lastChapter": 128
+        },
+        {
+          "title": "Return of the Disaster-Class Hero",
+          "urlTemplate": "https://ravenscans.org/return-of-the-disaster-class-hero-chapter-{chapter}/",
+          "lastChapter": 193
+        },
+        {
+          "title": "The Genius Grandson of Namgung Clan",
+          "urlTemplate": "https://ravenscans.org/the-genius-grandson-of-namgung-clan-chapter-{chapter}/",
+          "lastChapter": 113
+        },
+        {
+          "title": "Heavenly Moon",
+          "urlTemplate": "https://ravenscans.org/heavenly-moon-chapter-{chapter}/",
+          "lastChapter": 282
+        },
+        {
+          "title": "The Flawed Swordsman Becomes a Conqueror",
+          "urlTemplate": "https://ravenscans.org/the-flawed-swordsman-becomes-a-conqueror-chapter-{chapter}/",
+          "lastChapter": 10
+        },
+        {
+          "title": "Monster’s Streamer Star",
+          "urlTemplate": "https://ravenscans.org/monsters-streamer-star-chapter-{chapter}/",
+          "lastChapter": 8
+        },
+        {
+          "title": "Moby Dick",
+          "urlTemplate": "https://ravenscans.org/moby-dick-chapter-{chapter}/",
+          "lastChapter": 107
+        },
+        {
+          "title": "I Was Mistaken for the Villain",
+          "urlTemplate": "https://ravenscans.org/i-was-mistaken-for-the-villain-chapter-{chapter}/",
+          "lastChapter": 82
+        },
+        {
+          "title": "I May Be a Beginner, but I’m Actually a Level 99 Overpowered Player",
+          "urlTemplate": "https://ravenscans.org/i-may-be-a-beginner-but-im-actually-a-level-99-overpowered-player-chapter-{chapter}/",
+          "lastChapter": 32
+        },
+        {
+          "title": "I Won 4 Billion in a Lottery But I Went to Another World",
+          "urlTemplate": "https://ravenscans.org/i-won-4-billion-in-a-lottery-but-i-went-to-another-world-chapter-{chapter}/",
+          "lastChapter": 97
+        },
+        {
+          "title": "Burnt to Ashes",
+          "urlTemplate": "https://ravenscans.org/burnt-to-ashes-chapter-{chapter}/",
+          "lastChapter": 5
+        },
+        {
+          "title": "Yugo Skill de Buki Musou! Goblin Sword kara Densetsu e",
+          "urlTemplate": "https://ravenscans.org/yugo-skill-de-buki-musou-goblin-sword-kara-densetsu-e-chapter-{chapter}/",
+          "lastChapter": 1
+        },
+        {
+          "title": "World’s Greatest Senior Disciple",
+          "urlTemplate": "https://ravenscans.org/worlds-greatest-senior-disciple-chapter-{chapter}/",
+          "lastChapter": 204
+        },
+        {
+          "title": "Doctor’s Orders (Alice Crazy)",
+          "urlTemplate": "https://ravenscans.org/doctors-orders-alice-crazy-chapter-{chapter}/",
+          "lastChapter": 8
+        },
+        {
+          "title": "Shadow Slave",
+          "urlTemplate": "https://ravenscans.org/shadow-slave-chapter-{chapter}/",
+          "lastChapter": 14
+        },
+        {
+          "title": "Chronicles of the Taoist Masters",
+          "urlTemplate": "https://ravenscans.org/chronicles-of-the-taoist-masters-chapter-{chapter}/",
+          "lastChapter": 17
+        },
+        {
+          "title": "Gokufuri Kyohi Shite Tesaguri Start! Tokka Shinai Healer, Nakama to Wakarete Tabi ni Deru",
+          "urlTemplate": "https://ravenscans.org/gokufuri-kyohi-shite-tesaguri-start-tokka-shinai-healer-nakama-to-wakarete-tabi-ni-deru-chapter-{chapter}/",
+          "lastChapter": 61
+        },
+        {
+          "title": "World Destruction War",
+          "urlTemplate": "https://ravenscans.org/world-destruction-war-chapter-{chapter}/",
+          "lastChapter": 14
+        },
+        {
+          "title": "Mark of the Fool",
+          "urlTemplate": "https://ravenscans.org/mark-of-the-fool-chapter-{chapter}/",
+          "lastChapter": 32
+        },
+        {
+          "title": "Legend of the Pinnacle of Online Games",
+          "urlTemplate": "https://ravenscans.org/legend-of-the-pinnacle-of-online-games-chapter-{chapter}/",
+          "lastChapter": 4
+        },
+        {
+          "title": "Our Strange Surrogate",
+          "urlTemplate": "https://ravenscans.org/our-strange-surrogate-chapter-{chapter}/",
+          "lastChapter": 7
+        },
+        {
+          "title": "Lumberjack",
+          "urlTemplate": "https://ravenscans.org/lumberjack-chapter-{chapter}/",
+          "lastChapter": 6
+        },
+        {
+          "title": "Moral Panic (Uncensored)",
+          "urlTemplate": "https://ravenscans.org/moral-panic-uncensored-chapter-{chapter}/",
+          "lastChapter": 6
+        },
+        {
+          "title": "Learning to Obey",
+          "urlTemplate": "https://ravenscans.org/learning-to-obey-chapter-{chapter}/",
+          "lastChapter": 4
+        },
+        {
+          "title": "What If I Want More?",
+          "urlTemplate": "https://ravenscans.org/what-if-i-want-more-chapter-{chapter}/",
+          "lastChapter": 1
+        },
+        {
+          "title": "My Exclusive Tower Guide",
+          "urlTemplate": "https://ravenscans.org/my-exclusive-tower-guide-chapter-{chapter}/",
+          "lastChapter": 142
+        },
+        {
+          "title": "The Legendary Eye Master! I Create the Heavens and Earth with My Own Eyes",
+          "urlTemplate": "https://ravenscans.org/the-legendary-eye-master-i-create-the-heavens-and-earth-with-my-own-eyes-chapter-{chapter}/",
+          "lastChapter": 1
+        },
+        {
+          "title": "The Uniform Freak",
+          "urlTemplate": "https://ravenscans.org/the-uniform-freak-chapter-{chapter}/",
+          "lastChapter": 8
+        },
+        {
+          "title": "Feasting Lord in Another world",
+          "urlTemplate": "https://ravenscans.org/feasting-lord-in-another-world-chapter-{chapter}/",
+          "lastChapter": 39
+        },
+        {
+          "title": "Nine Star Hegemon Body Arts",
+          "urlTemplate": "https://ravenscans.org/nine-star-hegemon-body-arts-chapter-{chapter}/",
+          "lastChapter": null
+        },
+        {
+          "title": "Under My Spell",
+          "urlTemplate": "https://ravenscans.org/under-my-spell-chapter-{chapter}/",
+          "lastChapter": 5
+        },
+        {
+          "title": "Return of the Adopted Child in a World of Bloodline Supremacy",
+          "urlTemplate": "https://ravenscans.org/return-of-the-adopted-child-in-a-world-of-bloodline-supremacy-chapter-{chapter}/",
+          "lastChapter": 59
+        },
+        {
+          "title": "I Became a Wizard in a Medieval Fantasy World",
+          "urlTemplate": "https://ravenscans.org/i-became-a-wizard-in-a-medieval-fantasy-world-chapter-{chapter}/",
+          "lastChapter": 45
+        },
+        {
+          "title": "hin no Jitsuryoku o Kakushite Iru Sekai Saikyou no Ossan, Shinyuu ga Boukensha Patii kara Tsuihousareta node Jibun mo Nukeru Koto ni Shita",
+          "urlTemplate": "https://ravenscans.org/hin-no-jitsuryoku-o-kakushite-iru-sekai-saikyou-no-ossan-shinyuu-ga-boukensha-patii-kara-tsuihousareta-node-jibun-mo-nukeru-koto-ni-shita-chapter-{chapter}/",
+          "lastChapter": 2
+        },
+        {
+          "title": "Moto Saikyou Ansatsusha wa Inaka de Hissori Shinpu ni Naru ~Dai-shusse Shita Oshiego-tachi ni Shitawareu Ossan ga An’yakusuru Hanashi~",
+          "urlTemplate": "https://ravenscans.org/moto-saikyou-ansatsusha-wa-inaka-de-hissori-shinpu-ni-naru-dai-shusse-shita-oshiego-tachi-ni-shitawareu-ossan-ga-anyakusuru-hanashi-chapter-{chapter}/",
+          "lastChapter": null
+        },
+        {
+          "title": "A Grimoire Changed My Fate",
+          "urlTemplate": "https://ravenscans.org/a-grimoire-changed-my-fate-chapter-{chapter}/",
+          "lastChapter": 8
+        },
+        {
+          "title": "Till Death Do Us Part",
+          "urlTemplate": "https://ravenscans.org/till-death-do-us-part-chapter-{chapter}/",
+          "lastChapter": 6
+        },
+        {
+          "title": "I, the Demon Lord Am Being Targeted by My Female Disciples!",
+          "urlTemplate": "https://ravenscans.org/i-the-demon-lord-am-being-targeted-by-my-female-disciples-chapter-{chapter}/",
+          "lastChapter": 146
+        },
+        {
+          "title": "Light of Arad: Forerunner",
+          "urlTemplate": "https://ravenscans.org/light-of-arad-forerunner-chapter-{chapter}/",
+          "lastChapter": 119
+        },
+        {
+          "title": "We Beat The Demon Lord So Let’s go Home",
+          "urlTemplate": "https://ravenscans.org/we-beat-the-demon-lord-so-lets-go-home-chapter-{chapter}/",
+          "lastChapter": 3
+        },
+        {
+          "title": "The Delinquent Girl",
+          "urlTemplate": "https://ravenscans.org/the-delinquent-girl-chapter-{chapter}/",
+          "lastChapter": 58
+        },
+        {
+          "title": "My Enemies Became My Companions",
+          "urlTemplate": "https://ravenscans.org/my-enemies-became-my-companions-chapter-{chapter}/",
+          "lastChapter": 70
+        },
+        {
+          "title": "Invasion of the Myriad Races: Starting by Taming a Legendary Beast",
+          "urlTemplate": "https://ravenscans.org/invasion-of-the-myriad-races-starting-by-taming-a-legendary-beast-chapter-{chapter}/",
+          "lastChapter": 102
+        },
+        {
+          "title": "The Strongest Female Masters, Who Are Trying to Raise Me Up, Are in Shambles Over Their Training Policy",
+          "urlTemplate": "https://ravenscans.org/the-strongest-female-masters-who-are-trying-to-raise-me-up-are-in-shambles-over-their-training-policy-chapter-{chapter}/",
+          "lastChapter": 92
+        },
+        {
+          "title": "I’ll Be Spoiled by My Big Sis Cousin?",
+          "urlTemplate": "https://ravenscans.org/ill-be-spoiled-by-my-big-sis-cousin-chapter-{chapter}/",
+          "lastChapter": 46
+        },
+        {
+          "title": "Reality Quest",
+          "urlTemplate": "https://ravenscans.org/reality-quest-chapter-{chapter}/",
+          "lastChapter": 227
+        },
+        {
+          "title": "Cataclysm Hunter: I Have an Experience Point System",
+          "urlTemplate": "https://ravenscans.org/cataclysm-hunter-i-have-an-experience-point-system-chapter-{chapter}/",
+          "lastChapter": 25
+        },
+        {
+          "title": "When a Genius Office Worker Goes Too Far",
+          "urlTemplate": "https://ravenscans.org/when-a-genius-office-worker-goes-too-far-chapter-{chapter}/",
+          "lastChapter": 62
+        },
+        {
+          "title": "The Return of the Scorned Genius",
+          "urlTemplate": "https://ravenscans.org/the-return-of-the-scorned-genius-chapter-{chapter}/",
+          "lastChapter": 28
+        },
+        {
+          "title": "Darwin’s Deadly Sins",
+          "urlTemplate": "https://ravenscans.org/darwins-deadly-sins-chapter-{chapter}/",
+          "lastChapter": 37
+        },
+        {
+          "title": "Soul Land V",
+          "urlTemplate": "https://ravenscans.org/soul-land-v-chapter-{chapter}/",
+          "lastChapter": 283
+        },
+        {
+          "title": "The Strongest Priest: There’s Nothing Wrong with Wielding a Hammer, Right?",
+          "urlTemplate": "https://ravenscans.org/the-strongest-priest-theres-nothing-wrong-with-wielding-a-hammer-right-chapter-{chapter}/",
+          "lastChapter": 9
+        },
+        {
+          "title": "Fantasy Enlistment Squad",
+          "urlTemplate": "https://ravenscans.org/fantasy-enlistment-squad-chapter-{chapter}/",
+          "lastChapter": 42
+        },
+        {
+          "title": "Villain to Kill",
+          "urlTemplate": "https://ravenscans.org/villain-to-kill-chapter-{chapter}/",
+          "lastChapter": 257
+        },
+        {
+          "title": "Clever Cleaning Life of the Returned Genius Hunter",
+          "urlTemplate": "https://ravenscans.org/clever-cleaning-life-of-the-returned-genius-hunter-chapter-{chapter}/",
+          "lastChapter": 164
+        },
+        {
+          "title": "I’m Stuck on the Same Day for a Thousand Years",
+          "urlTemplate": "https://ravenscans.org/im-stuck-on-the-same-day-for-a-thousand-years-chapter-{chapter}/",
+          "lastChapter": 293
+        },
+        {
+          "title": "Necromancer Academy and the Genius Summoner",
+          "urlTemplate": "https://ravenscans.org/necromancer-academy-and-the-genius-summoner-chapter-{chapter}/",
+          "lastChapter": 221
+        },
+        {
+          "title": "Reincarnation of the Heavenly Demon",
+          "urlTemplate": "https://ravenscans.org/reincarnation-of-the-heavenly-demon-chapter-{chapter}/",
+          "lastChapter": 144
+        },
+        {
+          "title": "The Heavenly Demon Wants a Quiet Life",
+          "urlTemplate": "https://ravenscans.org/the-heavenly-demon-wants-a-quiet-life-chapter-{chapter}/",
+          "lastChapter": 102
+        },
+        {
+          "title": "A Blank Slate Regression for the Idol That Lost His Original Mindset",
+          "urlTemplate": "https://ravenscans.org/a-blank-slate-regression-for-the-idol-that-lost-his-original-mindset-chapter-{chapter}/",
+          "lastChapter": 104
+        },
+        {
+          "title": "It Turns out That I Have Been Invincible for a Long Time",
+          "urlTemplate": "https://ravenscans.org/it-turns-out-that-i-have-been-invincible-for-a-long-time-chapter-{chapter}/",
+          "lastChapter": 253
+        },
+        {
+          "title": "I Will Raise This Family Up",
+          "urlTemplate": "https://ravenscans.org/i-will-raise-this-family-up-chapter-{chapter}/",
+          "lastChapter": 88
+        },
+        {
+          "title": "The Trainer Lives Surrounded by Monsters: Abandoned by the Hero Party, He Became the Strongest after Meeting with a Legendary Monster",
+          "urlTemplate": "https://ravenscans.org/the-trainer-lives-surrounded-by-monsters-abandoned-by-the-hero-party-he-became-the-strongest-after-meeting-with-a-legendary-monster-chapter-{chapter}/",
+          "lastChapter": 44
+        },
+        {
+          "title": "Ministry of Strategy and Finance",
+          "urlTemplate": "https://ravenscans.org/ministry-of-strategy-and-finance-chapter-{chapter}/",
+          "lastChapter": 76
+        },
+        {
+          "title": "Nine Star Jinx",
+          "urlTemplate": "https://ravenscans.org/nine-star-jinx-chapter-{chapter}/",
+          "lastChapter": 38
+        },
+        {
+          "title": "A-Rank Boukensha no Slow Life",
+          "urlTemplate": "https://ravenscans.org/a-rank-boukensha-no-slow-life-chapter-{chapter}/",
+          "lastChapter": 59
+        },
+        {
+          "title": "Virus King",
+          "urlTemplate": "https://ravenscans.org/virus-king-chapter-{chapter}/",
+          "lastChapter": 137
+        },
+        {
+          "title": "Gatekeeper Of The Boundless World",
+          "urlTemplate": "https://ravenscans.org/gatekeeper-of-the-boundless-world-chapter-{chapter}/",
+          "lastChapter": 205
+        },
+        {
+          "title": "MookHyang – Dark Lady",
+          "urlTemplate": "https://ravenscans.org/mookhyang-dark-lady-chapter-{chapter}/",
+          "lastChapter": 301
+        }
+      ]
+    },
+    "nano machine": {
+      "1": [
+        {
+          "title": "Nano Machine",
+          "urlTemplate": "https://ravenscans.org/nano-machine-chapter-{chapter}/",
+          "lastChapter": 335
+        }
+      ]
+    },
+    "pig": {
+      "1": [
+        {
+          "title": "My Sister Refused, So I Married the Pig-Like Heir Count",
+          "urlTemplate": "https://ravenscans.org/my-sister-refused-so-i-married-the-pig-like-heir-count-chapter-{chapter}/",
+          "lastChapter": 4
+        },
+        {
+          "title": "Heat the Pig Liver",
+          "urlTemplate": "https://ravenscans.org/heat-the-pig-liver-chapter-{chapter}/",
+          "lastChapter": 45
+        },
+        {
+          "title": "A Pig-Slaughtering Knife Cutting Through All Realms – Makes Sense, Right?",
+          "urlTemplate": "https://ravenscans.org/a-pig-slaughtering-knife-cutting-through-all-realms-makes-sense-right-chapter-{chapter}/",
+          "lastChapter": 44
+        },
+        {
+          "title": "Almighty Pig Slaughtering Knife",
+          "urlTemplate": "https://ravenscans.org/almighty-pig-slaughtering-knife-chapter-{chapter}/",
+          "lastChapter": 66
+        }
+      ]
+    }
+  },
+  "totalPages": {
+    "": {
+      "1": 137
+    },
+    "nano machine": {
+      "1": 1
+    },
+    "pig": {
+      "1": 1
+    }
+  }
+}

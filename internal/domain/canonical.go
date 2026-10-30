@@ -47,6 +47,7 @@ type CatalogSearchResult struct {
 
 // ScrapedItem represents an item extracted from a provider.
 type ScrapedItem struct {
+	CoverState    string `json:"coverState,omitempty"`
 	Title         string `json:"title"`
 	Slug          string `json:"slug"`
 	URLTemplate   string `json:"urlTemplate"`

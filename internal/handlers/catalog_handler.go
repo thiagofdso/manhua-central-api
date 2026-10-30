@@ -8,10 +8,16 @@ import (
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/repository"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 )
 
 type CatalogHandler struct {
-	repo repository.CanonicalRepository
+	collection *service.CatalogCollection
+	repo       repository.CanonicalRepository
+}
+
+func (h *CatalogHandler) SetCollection(collection *service.CatalogCollection) {
+	h.collection = collection
 }
 
 func NewCatalogHandler(repo repository.CanonicalRepository) *CatalogHandler {
@@ -20,7 +26,55 @@ func NewCatalogHandler(repo repository.CanonicalRepository) *CatalogHandler {
 
 func (h *CatalogHandler) RegisterRoutes(mux *http.ServeMux) {
 	mux.HandleFunc("GET /api/catalog", h.List)
+	mux.HandleFunc("GET /api/catalog/domains", h.GetDomains)
 	mux.HandleFunc("GET /api/catalog/{slug}", h.GetBySlug)
+}
+
+type CatalogDomainOption struct {
+	Domain string `json:"domain"`
+	Name   string `json:"name"`
+}
+
+var knownDomainNames = map[string]string{
+	"arenascan.com":        "ArenaScan",
+	"asurascans.com":       "Asura Scans",
+	"comix.to":             "Comix",
+	"levelingwithgods.com": "Leveling with Gods",
+	"magicemperor.online":  "Magic Emperor",
+	"mangafire.to":         "MangaFire",
+	"mangak.io":            "MangaK",
+	"manhuatop.org":        "ManhuaTop",
+	"manhuaus.com":         "ManhuaUS",
+	"mgeko.cc":             "MGeko",
+	"pickmeupgacha.com":    "Pick Me Up Gacha",
+	"ravenscans.org":       "RavenScans",
+}
+
+func (h *CatalogHandler) GetDomains(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	domains, err := h.repo.ListDomains(r.Context())
+	if err != nil {
+		sendJSONError(w, http.StatusInternalServerError, "failed to list catalog domains: "+err.Error())
+		return
+	}
+
+	var result []CatalogDomainOption
+	for _, d := range domains {
+		clean := strings.ToLower(strings.TrimSpace(d))
+		name, ok := knownDomainNames[clean]
+		if !ok {
+			name = clean
+		}
+		result = append(result, CatalogDomainOption{
+			Domain: clean,
+			Name:   name,
+		})
+	}
+	sendJSON(w, http.StatusOK, result)
 }
 
 func (h *CatalogHandler) List(w http.ResponseWriter, r *http.Request) {
@@ -70,6 +124,9 @@ func (h *CatalogHandler) List(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	if h.collection != nil {
+		h.collection.PrioritizeCovers(r.Context(), res.Items)
+	}
 	sendJSON(w, http.StatusOK, res)
 }
 

@@ -1,0 +1,744 @@
+{
+  "timestamp": 1792726829.5748272,
+  "catalog": {
+    "": {
+      "1": [
+        {
+          "title": "I Don't Mind Being Hugged So Extremely!",
+          "urlTemplate": "https://mangafire.to/title/5xmvq-i-dont-mind-being-hugged-so-extremely/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/9d5b/i/c/00/55339751ead5369ae63814feaf86cbb5@280.jpg",
+          "lastChapter": 10
+        },
+        {
+          "title": "Goddess of Fortune",
+          "urlTemplate": "https://mangafire.to/title/lnyx3-goddess-of-fortune/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e58f/i/1/2f/2073097128a2ebb6a84567a6072f151c@280.jpg",
+          "lastChapter": 31
+        },
+        {
+          "title": "Urusai Rise wo Nugisutete",
+          "urlTemplate": "https://mangafire.to/title/61oo9-urusai-rise-wo-nugisutete/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/9af8/i/7/bb/c217b86753d960e34f0f3076a4ff8c88@280.jpg",
+          "lastChapter": 12
+        },
+        {
+          "title": "Perfect Life System: Double Cash for Her Favor",
+          "urlTemplate": "https://mangafire.to/title/703y6-perfect-life-system-double-cash-for-her-favor/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/79cd/i/c/b6/adfbc6c41fdb0610b09f67ffc9293b67@280.jpg",
+          "lastChapter": 126
+        },
+        {
+          "title": "Perfect Life System: Double Cash for Her Favor",
+          "urlTemplate": "https://mangafire.to/title/qzxqj-perfect-life-system-double-cash-for-her-favor/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/958e/i/e/04/1603fde43f04408ce8186ff729f1fd4c@280.jpg",
+          "lastChapter": 126
+        },
+        {
+          "title": "My Daughter Was an Unsold Elf Slave",
+          "urlTemplate": "https://mangafire.to/title/jpmp8-my-daughter-was-an-unsold-elf-slave/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/40dd/i/e/ea/84f479e05d40a797fe17d1163787ef4c@280.jpg",
+          "lastChapter": 30.1
+        },
+        {
+          "title": "Kichiku Eiyuu",
+          "urlTemplate": "https://mangafire.to/title/kk49v-kichiku-eiyuu/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/5a15/i/b/b8/b84e28cb37163a4d229fbcbe8b9614d3@280.jpg",
+          "lastChapter": 108
+        },
+        {
+          "title": "I Reincarnated as the Villainous Noble Doomed by the Scumbag Hero's Party, but I'll Crush Them Completely with My Knowledge of the Original Work and Hard Work",
+          "urlTemplate": "https://mangafire.to/title/qq92v-i-reincarnated-as-the-villainous-noble-doomed-by-the-scumbag-heros-party-but-ill-crush-them-completely-with-my-knowledge-of-the-original-work-and-hard-work/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/384a/i/8/2d/6a7730b6be226eab9110a861445214a7@280.jpg",
+          "lastChapter": 6
+        },
+        {
+          "title": "The Otherworldly Heroic Tale of the Only One Who Can See Levels",
+          "urlTemplate": "https://mangafire.to/title/5x7j9-the-otherworldly-heroic-tale-of-the-only-one-who-can-see-levels/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/53b8/i/2/b3/003e4bb2dc43070f84a01b83607b4ad5@280.jpg",
+          "lastChapter": 15
+        },
+        {
+          "title": "Tsuki no Joou no Nekashitsukekata",
+          "urlTemplate": "https://mangafire.to/title/y2m3z-tsuki-no-joou-no-nekashitsukekata/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/3fda/i/f/78/08afd9482021a0452ec7f24eb178d7c2@280.jpg",
+          "lastChapter": 6.2
+        },
+        {
+          "title": "Goth Boy & The Jock",
+          "urlTemplate": "https://mangafire.to/title/ywy70-goth-boy-the-jock/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/2204/i/7/cd/26b730c0bd83797d39aa14ed3ad7b344@280.jpg",
+          "lastChapter": 12
+        },
+        {
+          "title": "Kouhai Kyuuka ~ Juuninpu no Honki no Hatsujou ga Tomaranai",
+          "urlTemplate": "https://mangafire.to/title/v7ko7-kouhai-kyuuka-juuninpu-no-honki-no-hatsujou-ga-tomaranai/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/ec24/i/6/65/fa7fb6b3a1d18ecc1fc8b8ea4294025c@280.jpg",
+          "lastChapter": 14
+        },
+        {
+          "title": "Cinderelle",
+          "urlTemplate": "https://mangafire.to/title/71638-cinderelle/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7a31/i/7/14/c3ebf71edc2bacfe79d91ad9c885c630@280.jpg",
+          "lastChapter": 58
+        },
+        {
+          "title": "Suitor Armor",
+          "urlTemplate": "https://mangafire.to/title/k9nzw-suitor-armor/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/fc1b/i/0/13/57deb250b75ea154221c29bd14c96615@280.jpg",
+          "lastChapter": 170
+        },
+        {
+          "title": "Nuclear Explosion Swordsmanship One Slash, One Kill",
+          "urlTemplate": "https://mangafire.to/title/k91or-nuclear-explosion-swordsmanship-one-slash-one-kill/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/6234/i/c/e1/f10b7cb754fe793458980639dbc9ea6b@280.jpg",
+          "lastChapter": 63
+        },
+        {
+          "title": "Yarashikute Kawaii Ore no Rin-chan. ~Rinjin Kouhai-kun no Iki Sugita Shuuchaku ni Hameta to Sareru~",
+          "urlTemplate": "https://mangafire.to/title/olnp8-yarashikute-kawaii-ore-no-rin-chan-rinjin-kouhai-kun-no-iki-sugita-shuuchaku-ni-hameta-to-sareru/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/694e/i/2/cb/b1198cf966f54a18b421d66c430fd9f8@280.jpg",
+          "lastChapter": 24
+        },
+        {
+          "title": "#MyFirstLove",
+          "urlTemplate": "https://mangafire.to/title/5w79m-myfirstlove/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/bb11/i/b/e0/02122a4e6eee81be97d50fffb89b3132@280.jpg",
+          "lastChapter": 51
+        },
+        {
+          "title": "Too Many Heroes for the Demon Lord",
+          "urlTemplate": "https://mangafire.to/title/20jx4-too-many-heroes-for-the-demon-lord/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/8ba8/i/2/58/cb86ed97e098621e0acc9d7082c9e176@280.jpg",
+          "lastChapter": 53
+        },
+        {
+          "title": "The Tale of a Fox's Love",
+          "urlTemplate": "https://mangafire.to/title/kx09v-the-tale-of-a-foxs-love/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7914/i/b/9c/59417c33a48e8f16d4ee13e3dc3f2413@280.jpg",
+          "lastChapter": 56
+        },
+        {
+          "title": "There Are No Demons",
+          "urlTemplate": "https://mangafire.to/title/30yv6-there-are-no-demons/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/c379/i/a/6d/ffefb0ab079be291bf5d3366624323bc@280.jpg",
+          "lastChapter": 163
+        },
+        {
+          "title": "Jinsei Gyakuten Dungeon",
+          "urlTemplate": "https://mangafire.to/title/5wzxq-jinsei-gyakuten-dungeon/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/b8db/i/3/0a/8803616023ceb4002aff4a0bdc110b33@280.jpg",
+          "lastChapter": 12
+        },
+        {
+          "title": "A Regressor's Tale of Cultivation",
+          "urlTemplate": "https://mangafire.to/title/x1op8-a-regressors-tale-of-cultivation/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/0d66/i/b/4e/d1f54d2245259c6071567a20c21871d7@280.jpg",
+          "lastChapter": 35
+        },
+        {
+          "title": "The Otherworldly Harem Hero Chronicles: The Beautiful Warrior Girls Can't Refuse Their Reckless Master Strategist's Outrageous Requests",
+          "urlTemplate": "https://mangafire.to/title/0m027-the-otherworldly-harem-hero-chronicles-the-beautiful-warrior-girls-cant-refuse-their-reckless-master-strategists-outrageous-requests/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7969/i/9/37/58c0254ee292e2c38733c24fcdfa0828@280.jpg",
+          "lastChapter": 17
+        },
+        {
+          "title": "Ore ni Dake Koakuma na Kouhai wa Genjitsu demo Kawaii ga, Yume no Naka de wa Motto Kawaii",
+          "urlTemplate": "https://mangafire.to/title/ollv8-ore-ni-dake-koakuma-na-kouhai-wa-genjitsu-demo-kawaii-ga-yume-no-naka-de-wa-motto-kawaii/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/1181/i/9/84/8ead910d29cfaa68beab0f3f376b7165@280.jpg",
+          "lastChapter": 15
+        },
+        {
+          "title": "CMYK: Sameda Kazuou wa Chuunibyou ga Naosenai",
+          "urlTemplate": "https://mangafire.to/title/zkxjw-cmyk-sameda-kazuou-wa-chuunibyou-ga-naosenai/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/a338/i/3/b9/c11961de0bf01fed0f44828566d1cecb@280.jpg",
+          "lastChapter": 30
+        },
+        {
+          "title": "Day of Disaster",
+          "urlTemplate": "https://mangafire.to/title/zx03w-day-of-disaster/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e0d8/i/a/e4/80ee54de423b14a5388c0efb60b55095@280.jpg",
+          "lastChapter": 102
+        },
+        {
+          "title": "The Merman Trapped in My Lake",
+          "urlTemplate": "https://mangafire.to/title/3pj4y-the-merman-trapped-in-my-lake/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/5393/i/a/0f/dcf0275a0757ad88d2e6afa280c38177@280.jpg",
+          "lastChapter": 54
+        },
+        {
+          "title": "Tsutte Tabetai Gal Sawa-san",
+          "urlTemplate": "https://mangafire.to/title/xv71w-tsutte-tabetai-gal-sawa-san/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/3b9a/i/e/e7/073eb1c7edefb0ba8fefe38907c4ec08@280.jpg",
+          "lastChapter": 23
+        },
+        {
+          "title": "Harem Ou no Isekai Press Manyuuki - Saikyou Musou no Oji-san wa Arayuru Shuzoku wo Yome ni suru",
+          "urlTemplate": "https://mangafire.to/title/mvwq7-harem-ou-no-isekai-press-manyuuki-saikyou-musou-no-oji-san-wa-arayuru-shuzoku-wo-yome-ni-suru/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/85eb/i/a/a6/a275fc22631efe4735f06cc8ba3258c4@280.jpg",
+          "lastChapter": 22.3
+        },
+        {
+          "title": "Itoko no Onee-chan ni Amaechau?",
+          "urlTemplate": "https://mangafire.to/title/9062q-itoko-no-onee-chan-ni-amaechau/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/1675/i/f/fd/055b22ae47086ea98acc1749e518eee4@280.jpg",
+          "lastChapter": 46
+        },
+        {
+          "title": "Bakunyuu-tachi ni Tsuihou Sareta ga Modore to Iwaretemo, Mou Oso…… Modorimashuuu! THE COMIC",
+          "urlTemplate": "https://mangafire.to/title/pp7l6-bakunyuu-tachi-ni-tsuihou-sareta-ga-modore-to-iwaretemo-mou-oso-modorimashuuu-the-comic/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/d61c/i/7/72/47e9a8439b17fe48d7aac6bde7001aff@280.jpg",
+          "lastChapter": 19.2
+        },
+        {
+          "title": "Code Name: Tarantula",
+          "urlTemplate": "https://mangafire.to/title/1qx7v-code-name-tarantula/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/5f82/i/5/58/6cc8fa08cb21048b015f753687f91448@280.jpg",
+          "lastChapter": 50
+        },
+        {
+          "title": "Mr. Zombie",
+          "urlTemplate": "https://mangafire.to/title/qk4ov-jiang-si-xianshengg/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/fe75/i/5/58/587eb915f17ef200d63996a645fff910@280.jpg",
+          "lastChapter": 196.3
+        },
+        {
+          "title": "Warrior Executioner",
+          "urlTemplate": "https://mangafire.to/title/ykn3j-warrior-executionerr/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/1bb8/i/e/e0/e0f29a9565add67ed611c571ee23c5fe@280.jpg",
+          "lastChapter": 211
+        },
+        {
+          "title": "The Tale of a Fox's Love",
+          "urlTemplate": "https://mangafire.to/title/5kwx0-the-tale-of-a-foxs-love/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/bbf7/i/6/6d/6daec0b66c6978d6cceeb8410fece5a7@280.jpg",
+          "lastChapter": 56
+        },
+        {
+          "title": "The Revenge of the Regressed S-Class Hero",
+          "urlTemplate": "https://mangafire.to/title/p4o7q-the-revenge-of-the-regressed-s-class-hero/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/5da5/i/e/aa/ceff880e4481c7acdf04153f49a739df@280.jpg",
+          "lastChapter": 24
+        },
+        {
+          "title": "Hakkou Shounen no Shiawase na Majutsu Kakumei",
+          "urlTemplate": "https://mangafire.to/title/ln8qq-hakkou-shounen-no-shiawase-na-majutsu-kakumei/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/2153/i/f/b3/1fddfca9a51772bf12efb80e565b2403@280.jpg",
+          "lastChapter": 10
+        },
+        {
+          "title": "The Poor Noble Lady Wants to Marry the Cursed Earl",
+          "urlTemplate": "https://mangafire.to/title/km95v-the-poor-noble-lady-wants-to-marry-the-cursed-earl/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/6f22/i/4/f6/096b0e1d1a9680f66325cfa2d3cc5feb@280.jpg",
+          "lastChapter": 9.1
+        },
+        {
+          "title": "Not Over",
+          "urlTemplate": "https://mangafire.to/title/4w67m-not-over/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/64d1/i/1/da/33bf10bb3e13829804a59dbf339aabeb@280.jpg",
+          "lastChapter": 63
+        },
+        {
+          "title": "Reverse Tower Dungeon",
+          "urlTemplate": "https://mangafire.to/title/00485-reverse-tower-dungeon/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/882a/i/e/8e/b1c85af9271ccaed6e1ad7d9d2eaa296@280.jpg",
+          "lastChapter": 106
+        }
+      ],
+      "2": [
+        {
+          "title": "Bad Born Blood",
+          "urlTemplate": "https://mangafire.to/title/lx826-bad-born-blood2/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/cf38/i/6/c7/ad6d3e45c08864d008569a44410585ab@280.jpg",
+          "lastChapter": 105
+        },
+        {
+          "title": "I Tried To Debut My Kid, But Ended Up Debuting Myself",
+          "urlTemplate": "https://mangafire.to/title/kx999-i-tried-to-debut-my-kid-but-ended-up-debuting-myself/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/72c1/i/2/33/fd1dd49f41205c6af67e35d5ee0c05fc@280.jpg",
+          "lastChapter": 81
+        },
+        {
+          "title": "Battle of the Martial Masters",
+          "urlTemplate": "https://mangafire.to/title/2prl5-battle-of-the-martial-masters/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/8e6d/i/c/7c/c59947332d830a1db0fdb1795055931e@280.jpg",
+          "lastChapter": 49
+        },
+        {
+          "title": "Bad Born Blood",
+          "urlTemplate": "https://mangafire.to/title/lrzpn-bad-born-blood/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/10e4/i/7/7b/bdc712d58567e4618bf7d7de66f4a87d@280.jpg",
+          "lastChapter": 105
+        },
+        {
+          "title": "Monster Eater",
+          "urlTemplate": "https://mangafire.to/title/k3plv-monster-eater/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/43eb/i/4/49/c5197f1cac31163e384bcc8f517ac17f@280.jpg",
+          "lastChapter": 124
+        },
+        {
+          "title": "The Price Is Your Everything",
+          "urlTemplate": "https://mangafire.to/title/w54rl-the-price-is-your-everythingg/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/88fe/i/2/24/61807df61bca6efc3a9b62f26415900b@280.jpg",
+          "lastChapter": 132
+        },
+        {
+          "title": "+99 Reinforced Wooden Stick",
+          "urlTemplate": "https://mangafire.to/title/n39zl-99-reinforced-wooden-stickk/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/05bd/i/3/30/3027266b25b1a658b7589e7dc5766dad@280.jpg",
+          "lastChapter": 231
+        },
+        {
+          "title": "Yuusha ni Zenbu Ubawareta Ore wa Yuusha no Hahaoya to Party o Kumimashita!",
+          "urlTemplate": "https://mangafire.to/title/0qmp3-yuusha-ni-zenbu-ubawareta-ore-wa-yuusha-no-hahaoya-to-party-o-kumimashita/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/4dfc/i/b/be/be1dbde4fa283c80529ab0ae54b486bd@280.jpg",
+          "lastChapter": 40
+        },
+        {
+          "title": "Sewayaki Danshi to Guutara Osananajimi",
+          "urlTemplate": "https://mangafire.to/title/pm7kx-sewayaki-danshi-to-guutara-osananajimi/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/354b/i/5/84/1fb50ab086719f2ceea99604ecac4446@280.jpg",
+          "lastChapter": 19
+        },
+        {
+          "title": "Kakushite Kisetsu wa Ao wo Shiru",
+          "urlTemplate": "https://mangafire.to/title/y26rz-kakushite-kisetsu-wa-ao-wo-shiru/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/03f8/i/b/38/3ddae05855bbbe157b64c81d9da500f7@280.jpg",
+          "lastChapter": 9
+        },
+        {
+          "title": "Recoil",
+          "urlTemplate": "https://mangafire.to/title/km12w-recoil/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/112d/i/e/96/d2a71f117bba531516373789b4e53436@280.jpg",
+          "lastChapter": 16
+        },
+        {
+          "title": "The Unknown Plague",
+          "urlTemplate": "https://mangafire.to/title/y2p3z-the-unknown-plague/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/5cde/i/4/67/6b050e34457152af828810329250f86b@280.jpg",
+          "lastChapter": 17
+        },
+        {
+          "title": "While You Weren't Watching",
+          "urlTemplate": "https://mangafire.to/title/617z7-while-you-werent-watching/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/c5e4/i/c/25/5f53de78af7f0ed3c90f34b9f39036cd@280.jpg",
+          "lastChapter": 77
+        },
+        {
+          "title": "Eighteen's Bed",
+          "urlTemplate": "https://mangafire.to/title/82zyo-eighteens-bed/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e435/i/0/4e/ec47a6398c06cc34eda98465f59d3f30@280.jpg",
+          "lastChapter": 65
+        },
+        {
+          "title": "Sugar Trap",
+          "urlTemplate": "https://mangafire.to/title/20wr4-sugar-trap/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/67e0/i/1/57/7b99a43bb29016752d5f0101fef90049@280.jpg",
+          "lastChapter": 71
+        },
+        {
+          "title": "Cash or Credit",
+          "urlTemplate": "https://mangafire.to/title/3pn56-cash-or-creditt/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7b71/i/d/db/9fdce9dd718547f3f0eecc390650c3fe@280.jpg",
+          "lastChapter": 80.3
+        },
+        {
+          "title": "Numasugite Mohaya Koi",
+          "urlTemplate": "https://mangafire.to/title/mvj17-numasugite-mohaya-koi/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e91f/i/6/6e/6e478988280562ca2108aa06690fd3f7@280.jpg",
+          "lastChapter": 37
+        },
+        {
+          "title": "There Must Be Happy Endings",
+          "urlTemplate": "https://mangafire.to/title/1q2kw-there-must-be-happy-endings/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/01d6/i/6/69/696901489d0cfdd3f62c563a21db125e@280.jpg",
+          "lastChapter": 113
+        },
+        {
+          "title": "Eternal Loop: A Thousand-Year Grind",
+          "urlTemplate": "https://mangafire.to/title/4jk87-eternal-loop-a-thousand-year-grind/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/9e26/i/c/cf/cf0fae810cce6510fd97f9729f342430@280.jpg",
+          "lastChapter": 293
+        },
+        {
+          "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+          "urlTemplate": "https://mangafire.to/title/7wv21-goukon-ni-ittara-onna-ga-inakatta-hanashi/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/b266/i/9/93/93ae910b7c8d8dc546105da66bcb16b3@280.jpg",
+          "lastChapter": 80
+        },
+        {
+          "title": "True Beauty",
+          "urlTemplate": "https://mangafire.to/title/jjz53-true-beautyy/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/3564/i/f/f8/f8e5b7ed4ebf6e36b20d2f220774adc6@280.jpg",
+          "lastChapter": 257
+        },
+        {
+          "title": "Our Secret Alliance",
+          "urlTemplate": "https://mangafire.to/title/8nypn-our-secret-alliancee/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/396f/i/d/dd/ddab871f828698cfc2a49b76694a9067@280.jpg",
+          "lastChapter": 76
+        },
+        {
+          "title": "Assassin & Cinderella",
+          "urlTemplate": "https://mangafire.to/title/oj145-assassin-cinderellaa/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/db9d/i/7/7d/7dbc4365eddc825770b6a85766f601c4@280.jpg",
+          "lastChapter": 25
+        },
+        {
+          "title": "Watashi no Shiawase na Kekkon",
+          "urlTemplate": "https://mangafire.to/title/xr7j3-watashi-no-shiawase-na-kekkonn/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/3cd3/i/3/33/33a828b1d4520fc8005ef79078890be9@280.jpg",
+          "lastChapter": 40.1
+        },
+        {
+          "title": "Surviving Romance",
+          "urlTemplate": "https://mangafire.to/title/kw1mv-surviving-romance/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/bd66/i/f/f9/f9b07ca95159874715ea80a495cb04cf@280.jpg",
+          "lastChapter": 102
+        },
+        {
+          "title": "I Get Stronger the More I Eat",
+          "urlTemplate": "https://mangafire.to/title/m2z8z-i-get-stronger-the-more-i-eat/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7533/i/f/f5/f5c750255423b97df8afee2fb57263b6@280.jpg",
+          "lastChapter": 101
+        },
+        {
+          "title": "Glasses with a Chance of Delinquent",
+          "urlTemplate": "https://mangafire.to/title/rl3xp-glasses-with-a-chance-of-delinquent/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/27b3/i/4/43/43e900e72587be9108076417b7a3d1cf@280.jpg",
+          "lastChapter": 48
+        },
+        {
+          "title": "Rewriting the Villainess",
+          "urlTemplate": "https://mangafire.to/title/qw65-rewriting-the-villainesss/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7da9/i/1/1b/1b7b940bc093baf06db68c0950d7c7db@280.jpg",
+          "lastChapter": 63
+        },
+        {
+          "title": "Where Did All the Men Go?",
+          "urlTemplate": "https://mangafire.to/title/7x817-where-did-all-the-men-go/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/1d45/i/b/73/c657eefb7e7e219cf903e7a95178ecf4@280.jpg",
+          "lastChapter": 28
+        },
+        {
+          "title": "The Demon Queen Forced Me to Make a Wish",
+          "urlTemplate": "https://mangafire.to/title/7xy16-the-demon-queen-forced-me-to-make-a-wish/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/be96/i/e/c3/d0bbe2a3f81dc1fbf008e0f2b2ebf5e9@280.jpg",
+          "lastChapter": 18
+        },
+        {
+          "title": "Someone Stop Her!",
+          "urlTemplate": "https://mangafire.to/title/yj5kj-someone-stop-her/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/02d4/i/6/5a/a3452a8b27c1eb5a4cb17efdb77a70da@280.jpg",
+          "lastChapter": 116
+        },
+        {
+          "title": "Akuyaku Reijou ni Nanka Narimasen. Watashi wa \"Futsu\" no Koushaku Reijou desu! ~New Route!~",
+          "urlTemplate": "https://mangafire.to/title/mjj17-akuyaku-reijou-ni-nanka-narimasen-watashi-wa-futsu-no-koushaku-reijou-desu-new-route/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/f05f/i/9/e9/28c1af3531ed178df040112c9a756a5e@280.jpg",
+          "lastChapter": 15.2
+        },
+        {
+          "title": "Dr. Frost",
+          "urlTemplate": "https://mangafire.to/title/6wp-dr-frostt/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e133/i/d/dc/dc1a41d0534997038ef9da415444abfb@280.jpg",
+          "lastChapter": 265
+        },
+        {
+          "title": "I Became the Chef of the Dragon King",
+          "urlTemplate": "https://mangafire.to/title/1no2v-i-became-the-chef-of-the-dragon-king/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/0e87/i/f/f4/f442175e1b4ab4b66ddd85efe10049a6@280.jpg",
+          "lastChapter": 121
+        },
+        {
+          "title": "The Villainess Gets Her Sponsorship",
+          "urlTemplate": "https://mangafire.to/title/4xlox-the-villainess-gets-her-sponsorship/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/a83d/i/0/a0/e6ea259587028f4335d2c2dc8311a7ff@280.jpg",
+          "lastChapter": 32
+        },
+        {
+          "title": "Spooky in Love",
+          "urlTemplate": "https://mangafire.to/title/qq3p3-spooky-in-love/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/ecd7/i/d/15/b3d3c17658de0545904b8554f5d6a38e@280.jpg",
+          "lastChapter": 19
+        },
+        {
+          "title": "Basic Attacks Infinitely Stack Health, I Blow Up Kings With a Single Arrow",
+          "urlTemplate": "https://mangafire.to/title/2xz82-basic-attacks-infinitely-stack-health-i-blow-up-kings-with-a-single-arrow/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/ce91/i/5/30/15ca7764e095475b6484946bc214b10e@280.jpg",
+          "lastChapter": 20
+        },
+        {
+          "title": "Pretty Scumbag",
+          "urlTemplate": "https://mangafire.to/title/w6n2o-pretty-scumbag/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e05f/i/7/e5/cd6f6426c7f273fe699b5615aed68472@280.jpg",
+          "lastChapter": 28
+        },
+        {
+          "title": "Rockstar Never Die",
+          "urlTemplate": "https://mangafire.to/title/2xqql-rockstar-never-die/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e25c/i/6/94/692a7fbc67c597bb528c08cc71b22cc7@280.jpg",
+          "lastChapter": 43
+        },
+        {
+          "title": "Saisoku Shinka no Slime Musou ~Cheat Skill \"Slime\" ni Yori 100-baisoku de Level Up shite Sekai Saikyou ni~",
+          "urlTemplate": "https://mangafire.to/title/4xzrm-saisoku-shinka-no-slime-musou-cheat-skill-slime-ni-yori-100-baisoku-de-level-up-shite-sekai-saikyou-ni/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/a8fc/i/1/40/73b04f4933956a9b1901cc0a234a7889@280.jpg",
+          "lastChapter": 11.1
+        }
+      ]
+    },
+    "necromancer": {
+      "1": [
+        {
+          "title": "Necromancer",
+          "urlTemplate": "https://mangafire.to/title/8093-necromancerr/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7842/i/a/a0/a0e469ebf72cf8e8834aa70b7c75a4c9@280.jpg",
+          "lastChapter": 61
+        },
+        {
+          "title": "Damn Necromancer",
+          "urlTemplate": "https://mangafire.to/title/8y89y-damn-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/d62c/i/5/19/f4e7cc1bce11eb4b7b0b32d7708d2f2b@280.jpg",
+          "lastChapter": 20
+        },
+        {
+          "title": "Assa Jjintta Necromancer",
+          "urlTemplate": "https://mangafire.to/title/w6yqk-assa-jjintta-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/2a13/i/1/ac/b846c948af55293175e15df6069e63d9@280.jpg",
+          "lastChapter": 39
+        },
+        {
+          "title": "Necromancer, the Ultimate Scourge!",
+          "urlTemplate": "https://mangafire.to/title/nk6zl-necromancer-the-ultimate-scourge/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/9b87/i/3/27/84a4d743bfb9d609d27f51bbc88f5e88@280.jpg",
+          "lastChapter": 315
+        },
+        {
+          "title": "Necromancer, the Ultimate Scourge!",
+          "urlTemplate": "https://mangafire.to/title/3p969-necromancer-the-ultimate-scourge/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/ae56/i/b/b0/b0a5cd75d80a361bca98568cbd6f67b9@280.jpg",
+          "lastChapter": 315
+        },
+        {
+          "title": "Necromancer (Hongjacga)",
+          "urlTemplate": "https://mangafire.to/title/xvxyv-necromancer-hongjacgaa/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/1ec3/i/a/af/af03e63f831322efb0a69010449ca12f@280.jpg",
+          "lastChapter": 61
+        },
+        {
+          "title": "The Strongest Evolutionary Necromancer",
+          "urlTemplate": "https://mangafire.to/title/901pn-the-strongest-evolutionary-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/3304/i/3/35/35fbfbfc588f6bce8b3eb7ef8c99805c@280.jpg",
+          "lastChapter": 120
+        },
+        {
+          "title": "All-Master Necromancer",
+          "urlTemplate": "https://mangafire.to/title/npwyl-all-master-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/4019/i/f/f1/f186160e389ad6df989b0b36ffc6a5f6@280.jpg",
+          "lastChapter": 96
+        },
+        {
+          "title": "Necromancer Survival",
+          "urlTemplate": "https://mangafire.to/title/wol0o-necromancer-survivall/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/db16/i/8/8d/8d4c684355abbd882984ab487f43006b@280.jpg",
+          "lastChapter": 79
+        },
+        {
+          "title": "Boundless Ascension",
+          "urlTemplate": "https://mangafire.to/title/4j3yk-boundless-ascension/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/6782/i/3/39/39274416bfaf3df3adb6acce3d60e83f@280.jpg",
+          "lastChapter": 177
+        },
+        {
+          "title": "Shiro no Necromancer ~Shiryou Ou e no Michi~",
+          "urlTemplate": "https://mangafire.to/title/qn465-shiro-no-necromancer-shiryou-ou-e-no-michi/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/4438/i/a/64/813179e2cf44637f739c379684712938@280.jpg",
+          "lastChapter": 38
+        },
+        {
+          "title": "Li Liang Dian Man? Wo Keshi Wangling Fashi A!",
+          "urlTemplate": "https://mangafire.to/title/9042n-li-liang-dian-man-wo-keshi-wangling-fashi-aa/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/b821/i/5/52/528bed5f3817e364d86a96b80f02196d@280.jpg",
+          "lastChapter": 149
+        },
+        {
+          "title": "The Holy Emperor's Grandson Is a Necromancer",
+          "urlTemplate": "https://mangafire.to/title/0q3w5-the-holy-emperors-grandson-is-a-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/b846/i/f/fc/fcd1e89f5f2fae506cd6ef16e5159b9a@280.jpg",
+          "lastChapter": 130
+        },
+        {
+          "title": "Seoul Station Necromancer",
+          "urlTemplate": "https://mangafire.to/title/xvmpq-seoul-station-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/882a/i/a/ac/16e6029c2ece412c027e993d3e67b9df@280.jpg",
+          "lastChapter": 150
+        },
+        {
+          "title": "Necromancer Academy and the Genius Summoner",
+          "urlTemplate": "https://mangafire.to/title/k34yr-necromancer-academy-and-the-genius-summonerr/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/a84b/i/6/60/60ea4c14e5f912cbf6ed3471b114e55a@280.jpg",
+          "lastChapter": 221
+        },
+        {
+          "title": "The Necromancer's Daughter",
+          "urlTemplate": "https://mangafire.to/title/0rvm9-the-necromancers-daughterr/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/d3cb/i/c/cb/cbaf7f96a16c8f8eb0c4ecd754b680e5@280.jpg",
+          "lastChapter": 0
+        },
+        {
+          "title": "Shiryou Jutsushi no Otetsudai",
+          "urlTemplate": "https://mangafire.to/title/4qkrk-shiryou-jutsushi-no-otetsudai/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/dc09/i/3/37/373f6929d89549cf57ad97d539e38fe4@280.jpg",
+          "lastChapter": 28
+        },
+        {
+          "title": "The Lone Necromancer",
+          "urlTemplate": "https://mangafire.to/title/m2y07-the-lone-necromancerr/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/e2bf/i/d/dc/dcb44806cf58773a82f28dbe9166d31d@280.jpg",
+          "lastChapter": 223.5
+        },
+        {
+          "title": "Unlimited Bacteria Magician",
+          "urlTemplate": "https://mangafire.to/title/9y490-unlimited-bacteria-magician/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7bf0/i/d/ba/33c1596ce3f00650f62e012a41b0c155@280.jpg",
+          "lastChapter": 16
+        },
+        {
+          "title": "Monarch of Death",
+          "urlTemplate": "https://mangafire.to/title/ppvn6-monarch-of-deathh/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/715f/i/b/b9/b383daf66966f9674a544c3e172900d2@280.jpg",
+          "lastChapter": 40
+        },
+        {
+          "title": "Shiryoujutsushi Weltz no Heiwa-ron",
+          "urlTemplate": "https://mangafire.to/title/5wky9-shiryoujutsushi-weltz-no-heiwa-ron/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/d22d/i/1/02/6adecf30fc46cd6237edbf43007db84e@280.jpg",
+          "lastChapter": 5
+        },
+        {
+          "title": "The Necromancer Family's Young Heir",
+          "urlTemplate": "https://mangafire.to/title/olzr4-the-necromancer-familys-young-heir/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/fc02/i/b/9c/aa3a26b20f932477278d6e0d05821825@280.jpg",
+          "lastChapter": 91
+        },
+        {
+          "title": "Rise of the Limitless Necromancer",
+          "urlTemplate": "https://mangafire.to/title/9jn60-rise-of-the-limitless-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/244a/i/0/53/3ffd81179d05592ae146ee1c298d0e1a@280.jpg",
+          "lastChapter": 47
+        },
+        {
+          "title": "How to Retire as the Disaster-Class Necromancer",
+          "urlTemplate": "https://mangafire.to/title/rojxo-how-to-retire-as-the-disaster-class-necromancer/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/24c6/i/4/fc/bef4053376c703648e17e238ae62b232@280.jpg",
+          "lastChapter": 50
+        },
+        {
+          "title": "The Necromancer Family's Young Heir",
+          "urlTemplate": "https://mangafire.to/title/70j0j-the-necromancer-familys-young-heir/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/dace/i/e/1e/65d976bf4d6a298f388f268bef859c20@280.jpg",
+          "lastChapter": 64
+        },
+        {
+          "title": "The Journey of the Necromancer",
+          "urlTemplate": "https://mangafire.to/title/np32m-the-journey-of-the-necromancerr/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/955c/i/a/a2/a2b5bec1e0c56498cf8a86ea275c6199@280.jpg",
+          "lastChapter": 16
+        },
+        {
+          "title": "Millennium Spinning",
+          "urlTemplate": "https://mangafire.to/title/mvmxv-millennium-spinning/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/d86c/i/2/27/279ba40149855f1616cc281341cb63a1@280.jpg",
+          "lastChapter": 100
+        },
+        {
+          "title": "Millennium Spinning",
+          "urlTemplate": "https://mangafire.to/title/pr52j-millennium-spinning/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7461/i/3/3f/3f7f69830d4320d1fc85328122accb19@280.jpg",
+          "lastChapter": 100
+        },
+        {
+          "title": "Chief of the Novice Village",
+          "urlTemplate": "https://mangafire.to/title/prq74-chief-of-the-novice-villagee/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/463f/i/d/d3/d386cf3284138a9ce128940d8719b3a3@280.jpg",
+          "lastChapter": 84
+        },
+        {
+          "title": "The Iron-Blooded Necromancer Has Returned",
+          "urlTemplate": "https://mangafire.to/title/m30v8-the-iron-blooded-necromancer-has-returned/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/50ee/i/1/ed/63b8ed6cae2c5708f2ecd0b25ab4b838@280.jpg",
+          "lastChapter": 45
+        },
+        {
+          "title": "Necromancer of a Prestigious Swordsmanship Family",
+          "urlTemplate": "https://mangafire.to/title/5wn60-necromancer-of-a-prestigious-swordsmanship-family/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/40a0/i/3/95/7fc8e65d052fe614e40c70f5c63b76e4@280.jpg",
+          "lastChapter": 31
+        },
+        {
+          "title": "Shinmai Necromancer, Maou wo Sosei suru",
+          "urlTemplate": "https://mangafire.to/title/x1x9w-shinmai-necromancer-maou-wo-sosei-suru/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/acb9/i/f/3e/84d934bdd8dd10fcd9756d92aa6944e5@280.jpg",
+          "lastChapter": 13
+        },
+        {
+          "title": "Shinmai Necromancer, Maou wo Sosei suru",
+          "urlTemplate": "https://mangafire.to/title/lrv0z-shinmai-necromancer-maou-wo-sosei-suru/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/a48a/i/0/9c/a59c02a495543bd29037e1ab07906df1@280.jpg",
+          "lastChapter": 8.2
+        },
+        {
+          "title": "The Iron-Blooded Necromancer Has Returned",
+          "urlTemplate": "https://mangafire.to/title/0q907-the-iron-blooded-necromancer-has-returnedd/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/f278/i/7/73/7365d88700278238a1c27ea13ab7e2dd@280.jpg",
+          "lastChapter": 45
+        },
+        {
+          "title": "Record of Lodoss: Queen of Death",
+          "urlTemplate": "https://mangafire.to/title/4x72m-record-of-lodoss-queen-of-death/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/de4e/i/f/f4/5975eac00eebbbea3ba835e95e2c750c@280.jpg",
+          "lastChapter": 15
+        },
+        {
+          "title": "Extracted Into the God of Necromancy",
+          "urlTemplate": "https://mangafire.to/title/jl048-extracted-into-the-god-of-necromancy/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/f2f4/i/d/c1/8a00813d09f762396afa3806fe73f1e5@280.jpg",
+          "lastChapter": 20
+        },
+        {
+          "title": "Necromancer Doesn't Let me Rest In Peace",
+          "urlTemplate": "https://mangafire.to/title/xxjpq-necromancer-doesnt-let-me-rest-in-peace/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/7723/i/3/e9/1c9858cf84c82c2af9857a8c2db043b3@280.jpg",
+          "lastChapter": 3.5
+        },
+        {
+          "title": "Becoming Necromancer God Through a Skeleton Clone",
+          "urlTemplate": "https://mangafire.to/title/0mw09-becoming-necromancer-god-through-a-skeleton-clone/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/fa23/i/d/57/84d26f417416ae21200390395ce5a1ff@280.jpg",
+          "lastChapter": 24
+        },
+        {
+          "title": "Kaiki Shita Moto Kensei, Shiryouka no Hangyakusha ni Naru",
+          "urlTemplate": "https://mangafire.to/title/wq4rl-kaiki-shita-moto-kensei-shiryouka-no-hangyakusha-ni-naru/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/26ac/i/3/81/94bf3fbaafd5dfa52a22fb93a540046b@280.jpg",
+          "lastChapter": 34
+        },
+        {
+          "title": "Global Job Change: Starting With the Hidden Class Necromancer Lord",
+          "urlTemplate": "https://mangafire.to/title/09yj9-global-job-change-starting-with-the-hidden-class-necromancer-lord/chapter/{chapter}",
+          "coverUrl": "https://static.mfcdn.nl/1435/i/e/63/c4a300c27ae68c0d463dd4f0b770fb17@280.jpg",
+          "lastChapter": 15
+        }
+      ]
+    }
+  },
+  "totalPages": {
+    "": {
+      "1": 250,
+      "2": 250
+    },
+    "necromancer": {
+      "1": 2
+    }
+  }
+}
