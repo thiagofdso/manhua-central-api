@@ -25,11 +25,12 @@ import (
 )
 
 type CatalogCollection struct {
-	db       *sql.DB
-	registry *providers.ProviderRegistry
-	repo     repository.CanonicalRepository
-	store    *CoverStore
-	workers  sync.WaitGroup
+	db              *sql.DB
+	registry        *providers.ProviderRegistry
+	repo            repository.CanonicalRepository
+	store           *CoverStore
+	workers         sync.WaitGroup
+	lastCoverDomain string
 }
 
 func NewCatalogCollection(db *sql.DB, registry *providers.ProviderRegistry, repo repository.CanonicalRepository, store *CoverStore) *CatalogCollection {
@@ -46,6 +47,11 @@ func (collection *CatalogCollection) Browse(ctx context.Context, source, query s
 	_, err := collection.db.ExecContext(ctx, `INSERT INTO catalog_discovery_queries(domain, query, page) VALUES($1,$2,$3)
 	ON CONFLICT(domain, query, page) DO UPDATE SET state='pending', next_attempt_at=NOW()
 	WHERE catalog_discovery_queries.state='ready' AND catalog_discovery_queries.refreshed_at < NOW()-INTERVAL '1 day'`, source, query, page)
+	if err != nil {
+		return nil, false, err
+	}
+	_, err = collection.db.ExecContext(ctx, `UPDATE catalog_discovery_queries SET last_requested_at=NOW()
+	WHERE domain=$1 AND query=$2 AND page=$3 AND state IN ('pending','failed') AND last_requested_at<NOW()-INTERVAL '10 seconds'`, source, query, page)
 	if err != nil {
 		return nil, false, err
 	}
@@ -121,6 +127,9 @@ func (collection *CatalogCollection) Browse(ctx context.Context, source, query s
 	}
 	if state == "failed" {
 		result.Warning = "Não foi possível atualizar a fonte. Os dados disponíveis foram preservados; uma nova tentativa será feita automaticamente."
+		if strings.Contains(lastError.String, "Source requires manual verification") {
+			result.Warning = "A fonte exige validação no navegador do coletor local. Conclua a verificação para retomar a coleta; uma nova tentativa será feita automaticamente."
+		}
 	}
 	return result, collecting || state == "pending" || state == "processing", nil
 }
@@ -206,7 +215,7 @@ func (collection *CatalogCollection) discover(parent context.Context) bool {
 	var source, query string
 	var page, attempts int
 	err := collection.db.QueryRowContext(ctx, `UPDATE catalog_discovery_queries SET state='processing',next_attempt_at=NOW()+INTERVAL '3 minutes',attempts=attempts+1
-	WHERE (domain,query,page)=(SELECT domain,query,page FROM catalog_discovery_queries WHERE state<>'ready' AND next_attempt_at<=NOW() ORDER BY next_attempt_at FOR UPDATE SKIP LOCKED LIMIT 1)
+	WHERE (domain,query,page)=(SELECT domain,query,page FROM catalog_discovery_queries WHERE state<>'ready' AND next_attempt_at<=NOW() ORDER BY last_requested_at DESC,next_attempt_at FOR UPDATE SKIP LOCKED LIMIT 1)
 	RETURNING domain,query,page,attempts`).Scan(&source, &query, &page, &attempts)
 	if err == sql.ErrNoRows {
 		return false
@@ -337,8 +346,8 @@ func (collection *CatalogCollection) download(parent context.Context) bool {
 	var original, source, sourceURL string
 	var attempts int
 	err := collection.db.QueryRowContext(ctx, `UPDATE catalog_sources SET state='processing',attempts=attempts+1,next_attempt_at=NOW()+INTERVAL '2 minutes'
-	WHERE id=(SELECT id FROM catalog_sources WHERE state<>'ready' AND next_attempt_at<=NOW() ORDER BY last_requested_at DESC,next_attempt_at FOR UPDATE SKIP LOCKED LIMIT 1)
-	RETURNING id,canonical_id,original_cover_url,domain,source_url,attempts`).Scan(&id, &canonicalID, &original, &source, &sourceURL, &attempts)
+	WHERE id=(SELECT id FROM catalog_sources WHERE domain IN ('manhuaus.com','ravenscans.org') AND state<>'ready' AND next_attempt_at<=NOW() ORDER BY (state='processing') DESC,(domain<>$1) DESC,last_requested_at DESC,next_attempt_at FOR UPDATE SKIP LOCKED LIMIT 1)
+	RETURNING id,canonical_id,original_cover_url,domain,source_url,attempts`, collection.lastCoverDomain).Scan(&id, &canonicalID, &original, &source, &sourceURL, &attempts)
 	if err == sql.ErrNoRows {
 		return false
 	}
@@ -346,6 +355,10 @@ func (collection *CatalogCollection) download(parent context.Context) bool {
 		log.Printf("cover claim: %v", err)
 		return false
 	}
+	if collection.store == nil {
+		return false
+	}
+	collection.lastCoverDomain = source
 	if original == "" {
 		item := domain.ScrapedItem{PrimaryDomain: source, URLTemplate: sourceURL}
 		original = providers.ResolveCover(ctx, item)

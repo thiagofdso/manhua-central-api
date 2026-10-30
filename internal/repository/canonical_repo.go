@@ -24,6 +24,7 @@ type CanonicalRepository interface {
 	Update(ctx context.Context, m *domain.CanonicalManhua) error
 	List(ctx context.Context, filter domain.CatalogFilter) (*domain.CatalogSearchResult, error)
 	UpsertBatch(ctx context.Context, items []*domain.CanonicalManhua) error
+	ListDomains(ctx context.Context) ([]string, error)
 }
 
 type PostgresCanonicalRepository struct {
@@ -473,4 +474,23 @@ func scanCanonical(s scannable) (*domain.CanonicalManhua, error) {
 
 func scanCanonicalRows(rows *sql.Rows) (*domain.CanonicalManhua, error) {
 	return scanCanonical(rows)
+}
+
+func (r *PostgresCanonicalRepository) ListDomains(ctx context.Context) ([]string, error) {
+	query := `SELECT DISTINCT primary_domain FROM canonical_manhuas WHERE primary_domain != '' ORDER BY primary_domain ASC;`
+	rows, err := r.db.QueryContext(ctx, query)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var domains []string
+	for rows.Next() {
+		var d string
+		if err := rows.Scan(&d); err != nil {
+			return nil, err
+		}
+		domains = append(domains, d)
+	}
+	return domains, rows.Err()
 }

@@ -63,8 +63,10 @@ var DefaultAllowedDomains = []string{
 	"*.abyssrift.com",
 	"magicemperor.online",
 	"*.magicemperor.online",
-	"images.unsplash.com",
-	"*.unsplash.com",
+	"black-clover.org",
+	"*.black-clover.org",
+	"googleusercontent.com",
+	"*.googleusercontent.com",
 }
 
 type SSRFGuard struct {

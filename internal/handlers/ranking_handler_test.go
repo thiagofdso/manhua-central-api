@@ -64,6 +64,7 @@ func (m *mockCanonicalRepoForHandler) List(ctx context.Context, filter domain.Ca
 	}, nil
 }
 func (m *mockCanonicalRepoForHandler) UpsertBatch(ctx context.Context, items []*domain.CanonicalManhua) error { return nil }
+func (m *mockCanonicalRepoForHandler) ListDomains(ctx context.Context) ([]string, error) { return nil, nil }
 
 func setupRankingHandlerTest() (*handlers.RankingHandler, *auth.JWTService, *middleware.AuthMiddleware) {
 	jwtService := auth.NewJWTService("super_secret_test_key_minimum_32_bytes_long", "super_secret_test_key_minimum_32_bytes_long", 15*time.Minute, 7*24*time.Hour)

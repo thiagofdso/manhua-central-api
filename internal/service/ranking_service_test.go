@@ -71,6 +71,7 @@ func (m *mockCanonicalRepoForRanking) List(ctx context.Context, filter domain.Ca
 	return &domain.CatalogSearchResult{}, nil
 }
 func (m *mockCanonicalRepoForRanking) UpsertBatch(ctx context.Context, items []*domain.CanonicalManhua) error { return nil }
+func (m *mockCanonicalRepoForRanking) ListDomains(ctx context.Context) ([]string, error) { return nil, nil }
 
 func TestRankingService(t *testing.T) {
 	ctx := context.Background()

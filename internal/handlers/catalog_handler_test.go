@@ -87,6 +87,18 @@ func (m *mockCanonicalRepo) UpsertBatch(ctx context.Context, items []*domain.Can
 	return nil
 }
 
+func (m *mockCanonicalRepo) ListDomains(ctx context.Context) ([]string, error) {
+	seen := make(map[string]bool)
+	var domains []string
+	for _, it := range m.items {
+		if it.PrimaryDomain != "" && !seen[it.PrimaryDomain] {
+			seen[it.PrimaryDomain] = true
+			domains = append(domains, it.PrimaryDomain)
+		}
+	}
+	return domains, nil
+}
+
 func TestCatalogHandler_List(t *testing.T) {
 	sampleManhua := &domain.CanonicalManhua{
 		ID:            101,
@@ -153,4 +165,31 @@ func TestCatalogHandler_GetBySlug(t *testing.T) {
 	mux.ServeHTTP(rr404, req404)
 
 	assert.Equal(t, http.StatusNotFound, rr404.Code)
+}
+
+func TestCatalogHandler_GetDomains(t *testing.T) {
+	repo := &mockCanonicalRepo{
+		items: []*domain.CanonicalManhua{
+			{Slug: "overgeared", PrimaryDomain: "asurascans.com"},
+			{Slug: "pick-me-up", PrimaryDomain: "pickmeupgacha.com"},
+		},
+	}
+
+	handler := handlers.NewCatalogHandler(repo)
+	mux := http.NewServeMux()
+	handler.RegisterRoutes(mux)
+
+	req := httptest.NewRequest(http.MethodGet, "/api/catalog/domains", nil)
+	rr := httptest.NewRecorder()
+	mux.ServeHTTP(rr, req)
+
+	assert.Equal(t, http.StatusOK, rr.Code)
+	var domains []handlers.CatalogDomainOption
+	err := json.Unmarshal(rr.Body.Bytes(), &domains)
+	require.NoError(t, err)
+	assert.Len(t, domains, 2)
+	assert.Equal(t, "asurascans.com", domains[0].Domain)
+	assert.Equal(t, "Asura Scans", domains[0].Name)
+	assert.Equal(t, "pickmeupgacha.com", domains[1].Domain)
+	assert.Equal(t, "Pick Me Up Gacha", domains[1].Name)
 }

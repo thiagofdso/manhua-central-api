@@ -261,7 +261,7 @@ func (s *Streamer) applyDomainHeaders(req *http.Request, hostname string) {
 		req.Header.Set("Referer", "https://levelingwithgods.com/")
 	} else if strings.Contains(host, "pickmeupgacha") || strings.Contains(host, "abyssrift") {
 		req.Header.Set("Referer", "https://pickmeupgacha.com/")
-	} else if strings.Contains(host, "magicemperor") {
+	} else if strings.Contains(host, "magicemperor") || strings.Contains(host, "black-clover") {
 		req.Header.Set("Referer", "https://magicemperor.online/")
 	} else if strings.Contains(host, "manhuaus.com") {
 		req.Header.Set("Referer", "https://manhuaus.com/")

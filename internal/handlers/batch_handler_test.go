@@ -42,6 +42,12 @@ func (m *mockCanonicalRepoForBatchHandler) List(ctx context.Context, filter doma
 func (m *mockCanonicalRepoForBatchHandler) UpsertBatch(ctx context.Context, items []*domain.CanonicalManhua) error {
 	return nil
 }
+func (m *mockCanonicalRepoForBatchHandler) ListDomains(ctx context.Context) ([]string, error) {
+	if m.manhua != nil && m.manhua.PrimaryDomain != "" {
+		return []string{m.manhua.PrimaryDomain}, nil
+	}
+	return nil, nil
+}
 
 func TestBatchHandler(t *testing.T) {
 	lastCh := 50

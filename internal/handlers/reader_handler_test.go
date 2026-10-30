@@ -10,6 +10,7 @@ import (
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/proxy"
+	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/service"
 )
 
 type mockCanonicalReaderRepo struct {
@@ -53,7 +54,21 @@ func (m *mockCanonicalReaderRepo) UpsertBatch(ctx context.Context, items []*doma
 	return nil
 }
 
+func (m *mockCanonicalReaderRepo) ListDomains(ctx context.Context) ([]string, error) {
+	if m.manhua != nil && m.manhua.PrimaryDomain != "" {
+		return []string{m.manhua.PrimaryDomain}, nil
+	}
+	return nil, nil
+}
+
 func TestReaderHandler_ChapterImages_Success(t *testing.T) {
+	mockHTML := `<html><body><div>https://cdn.asurascans.com/asura-images/chapters/solo-leveling/10/p1.webp</div></body></html>`
+	mockServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/html")
+		_, _ = w.Write([]byte(mockHTML))
+	}))
+	defer mockServer.Close()
+
 	lastCh := 50
 	repo := &mockCanonicalReaderRepo{
 		manhua: &domain.CanonicalManhua{
@@ -61,14 +76,15 @@ func TestReaderHandler_ChapterImages_Success(t *testing.T) {
 			Slug:          "solo-leveling",
 			Title:         "Solo Leveling",
 			LastChapter:   &lastCh,
-			URLTemplate:   "https://asurascans.com/comics/solo-leveling/chapter/{chapter}",
+			URLTemplate:   mockServer.URL + "/chapter/{chapter}",
 			PrimaryDomain: "asurascans.com",
 		},
 	}
 
-	guard := proxy.NewSSRFGuard([]string{"asurascans.com", "images.unsplash.com"})
+	guard := proxy.NewSSRFGuard([]string{"asurascans.com", "cdn.asurascans.com"})
 	streamer := proxy.NewStreamer(guard)
-	handler := NewReaderHandler(streamer, repo)
+	extractor := service.NewExtractorService("", mockServer.Client())
+	handler := NewReaderHandler(streamer, repo, extractor)
 
 	req := httptest.NewRequest(http.MethodGet, "/api/reader/chapter-images?slug=solo-leveling&chapter=10", nil)
 	rec := httptest.NewRecorder()
@@ -76,7 +92,7 @@ func TestReaderHandler_ChapterImages_Success(t *testing.T) {
 	handler.GetChapterImages(rec, req)
 
 	if rec.Code != http.StatusOK {
-		t.Fatalf("expected status 200, got %d", rec.Code)
+		t.Fatalf("expected status 200, got %d (body: %s)", rec.Code, rec.Body.String())
 	}
 
 	var resp ChapterImagesResponse
@@ -88,8 +104,8 @@ func TestReaderHandler_ChapterImages_Success(t *testing.T) {
 		t.Errorf("expected slug 'solo-leveling' and chapter 10, got %s / %d", resp.Slug, resp.Chapter)
 	}
 
-	if len(resp.Images) == 0 {
-		t.Errorf("expected at least 1 image panel, got %d", len(resp.Images))
+	if len(resp.Images) != 1 {
+		t.Errorf("expected 1 image panel, got %d", len(resp.Images))
 	}
 
 	if resp.Images[0].ProxyURL == "" {

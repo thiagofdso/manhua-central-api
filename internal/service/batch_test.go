@@ -52,6 +52,13 @@ func (m *mockCanonicalRepoForBatch) UpsertBatch(ctx context.Context, items []*do
 	return nil
 }
 
+func (m *mockCanonicalRepoForBatch) ListDomains(ctx context.Context) ([]string, error) {
+	if m.manhua != nil && m.manhua.PrimaryDomain != "" {
+		return []string{m.manhua.PrimaryDomain}, nil
+	}
+	return nil, nil
+}
+
 func TestBatchService_Validation(t *testing.T) {
 	lastCh := 40
 	manhua := &domain.CanonicalManhua{
@@ -61,7 +68,12 @@ func TestBatchService_Validation(t *testing.T) {
 		LastChapter: &lastCh,
 	}
 	repo := &mockCanonicalRepoForBatch{manhua: manhua}
-	svc := service.NewBatchService(repo, 5, nil)
+	mockExtractor := func(ctx context.Context, m *domain.CanonicalManhua, chapter int) ([]domain.BatchChapterImage, error) {
+		return []domain.BatchChapterImage{
+			{Index: 1, URL: "https://asurascans.com/p1.webp", ProxyURL: "/api/reader/proxy-image?url=p1"},
+		}, nil
+	}
+	svc := service.NewBatchService(repo, 5, mockExtractor)
 	ctx := context.Background()
 
 	t.Run("Rejects start < 1", func(t *testing.T) {
@@ -99,7 +111,12 @@ func TestBatchService_ConcurrentExtraction(t *testing.T) {
 		LastChapter: &lastCh,
 	}
 	repo := &mockCanonicalRepoForBatch{manhua: manhua}
-	svc := service.NewBatchService(repo, 5, nil)
+	mockExtractor := func(ctx context.Context, m *domain.CanonicalManhua, chapter int) ([]domain.BatchChapterImage, error) {
+		return []domain.BatchChapterImage{
+			{Index: 1, URL: "https://asurascans.com/p1.webp", ProxyURL: "/api/reader/proxy-image?url=p1"},
+		}, nil
+	}
+	svc := service.NewBatchService(repo, 5, mockExtractor)
 	ctx := context.Background()
 
 	res, err := svc.ExtractBatchChapters(ctx, 10, 1, 5)

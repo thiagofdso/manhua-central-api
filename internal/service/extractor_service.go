@@ -77,20 +77,24 @@ func (s *ExtractorService) ExtractChapterImages(ctx context.Context, m *domain.C
 	targetURL := strings.ReplaceAll(m.URLTemplate, "{chapter}", strconv.Itoa(chapter))
 	primaryLower := strings.ToLower(m.PrimaryDomain)
 	domainLower := primaryLower
+	var isLocalTarget bool
 	if parsedURL, err := url.Parse(targetURL); err == nil && parsedURL.Hostname() != "" {
 		host := strings.ToLower(parsedURL.Hostname())
-		if strings.HasPrefix(host, "www.") {
-			host = host[4:]
-		}
-		if host != "localhost" && host != "127.0.0.1" {
+		if host == "localhost" || host == "127.0.0.1" {
+			isLocalTarget = true
+		} else {
+			if strings.HasPrefix(host, "www.") {
+				host = host[4:]
+			}
 			domainLower = host
 		}
 	}
 
-	// Headless-only domains that require Puppeteer / Turnstile bypass
-	if strings.Contains(domainLower, "mangafire.to") || strings.Contains(primaryLower, "mangafire.to") ||
-		strings.Contains(domainLower, "comix.to") || strings.Contains(primaryLower, "comix.to") ||
-		strings.Contains(domainLower, "manhuaus.com") || strings.Contains(primaryLower, "manhuaus.com") {
+	// Headless-only domains that require Puppeteer / Turnstile bypass (unless targeting local mock server in unit tests)
+	if !isLocalTarget && (strings.Contains(domainLower, "mangafire.to") ||
+		strings.Contains(domainLower, "comix.to") ||
+		strings.Contains(domainLower, "manhuaus.com") ||
+		strings.Contains(domainLower, "ravenscans.org")) {
 		return s.extractViaScraperWorker(ctx, targetURL, domainLower, chapter)
 	}
 
@@ -484,6 +488,19 @@ func (s *ExtractorService) parsePickMeUpGachaHTML(html string) ([]string, error)
 			}
 		}
 	})
+	if len(images) == 0 {
+		doc.Find("img").Each(func(_ int, sel *goquery.Selection) {
+			src := sel.AttrOr("data-src", sel.AttrOr("src", ""))
+			src = strings.TrimSpace(src)
+			if src != "" && !strings.HasPrefix(src, "data:") {
+				lower := strings.ToLower(src)
+				if (strings.HasSuffix(lower, ".webp") || strings.HasSuffix(lower, ".jpg") || strings.HasSuffix(lower, ".png") || strings.HasSuffix(lower, ".jpeg")) &&
+					!strings.Contains(lower, "lazy") && !strings.Contains(lower, "logo") && !strings.Contains(lower, "avatar") && !strings.Contains(lower, "icon") {
+					images = append(images, src)
+				}
+			}
+		})
+	}
 	if len(images) > 0 {
 		return dedupPreserveOrder(images), nil
 	}
@@ -513,7 +530,7 @@ func (s *ExtractorService) parseMagicEmperorHTML(html string) ([]string, error) 
 }
 
 func (s *ExtractorService) extractViaScraperWorker(ctx context.Context, targetURL, domain string, chapter int) ([]string, error) {
-	if (strings.Contains(domain, "manhuaus.com") || strings.Contains(domain, "ravenscans.org")) && s.hostCollectorURL != "" {
+	if (strings.Contains(domain, "manhuaus.com") || strings.Contains(domain, "ravenscans.org")) && s.hostCollectorURL != "" && s.hostCollectorURL != s.scraperWorkerURL {
 		images, err := s.extractViaWorkerEndpoint(ctx, s.hostCollectorURL, s.hostCollectorToken, targetURL, domain, chapter)
 		if err == nil && len(images) > 0 {
 			return images, nil

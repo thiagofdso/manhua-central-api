@@ -4,7 +4,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"net/url"
 	"sync"
 
 	"github.com/thiagofdso/manhua-manager-pro/apps/api-gateway/internal/domain"
@@ -128,29 +127,7 @@ func (s *BatchService) ExtractBatchChapters(
 	}, nil
 }
 
-// defaultChapterExtractor produces panels via the allowlisted proxy endpoint.
+// defaultChapterExtractor returns an error when no custom extractor is configured.
 func defaultChapterExtractor(ctx context.Context, m *domain.CanonicalManhua, chapter int) ([]domain.BatchChapterImage, error) {
-	panelTemplates := []string{
-		"https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
-		"https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?auto=format&fit=crop&w=1200&q=80",
-	}
-
-	panelCount := 6
-	images := make([]domain.BatchChapterImage, 0, panelCount)
-
-	for i := 1; i <= panelCount; i++ {
-		imgURL := panelTemplates[(i-1)%len(panelTemplates)]
-		proxyURL := "/api/reader/proxy-image?url=" + url.QueryEscape(imgURL)
-		images = append(images, domain.BatchChapterImage{
-			Index:    i,
-			URL:      imgURL,
-			ProxyURL: proxyURL,
-		})
-	}
-
-	return images, nil
+	return nil, fmt.Errorf("no chapter extractor configured for %s", m.Slug)
 }

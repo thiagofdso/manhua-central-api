@@ -86,7 +86,7 @@ func TestSSRFGuard_DomainAllowlist(t *testing.T) {
 		"magicemperor.online",
 		"manhuaus.com",
 		"comix.to",
-		"images.unsplash.com",
+		"black-clover.org",
 	}
 
 	for _, d := range allowedDomains {
